@@ -85,7 +85,7 @@ h1 {
   text-align:center;
 }
 h2 {
-  font-size:1.6em;
+  font-size:1.7em;
   text-align:center;
 }
 h3 {
@@ -104,22 +104,24 @@ h3 {
    align-items: center;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
 /*Maybe the important can be quit in the future, for now, this works*/
 .navbar-nav > .active > a{color: var(--colorbarB)!important; background-color: var(--colorbarA);}
 .navbar-nav > li > a:hover{color: var(--colorbarB)!important; background-color: var(--colorbarA);font-style:normal;font-variant:normal;}
 .navbar-nav > li > a{color:var(--colorbarA)!important; font-size: 1.3em;}
 
+.navbar-nav > li > .dropdown-menu {background-color: var(--colorbarB);color: var(--colorbarA);}
 
-
-.navbar-nav > li > .dropdown-menu {background-color: var(--colorB);color: var(--colorA);}
-
-.navbar-nav > li > .dropdown-menu a{color: var(--colorA);}
+.navbar-nav > li > .dropdown-menu a{color: var(--colorbarA);}
 
 .navbar-nav > li > .dropdown-menu a:hover{
   font-variant:inherit;
   font-style:inherit;
-  background-color: var(--colorA);
-  color: var(--colorB);}
+  background-color: var(--colorbarA);
+  color: var(--colorbarB);}
 
 .btn-colora, .btn-colora:active{
 	background-color: var(--colorbarB);
