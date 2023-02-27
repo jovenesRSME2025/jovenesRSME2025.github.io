@@ -135,7 +135,7 @@
   <div class="container">
       <h1 class="display-4">RSME's</h1>
       <h1 class="display-4">7th Congress</h1>
-      <h1 class="display-4" style="font-size:1.3em;">of</h1>
+      <p class="display-4" style="font-size:1.3em;text-align:center;margin:0;">of</p>
       <h1 class="display-4">Young Researchers</h1>
       <h2><!--<img itemprop="image" src="imgs/logocongreso.png" align="centre" width="20%" height="18%"/>--></h2>
       <h2 style="font-style:italic;">Bilbao, 2025</h2>
@@ -250,10 +250,10 @@
 </div>
 
 <footer style="margin-top:1em;padding-top:1em;padding-bottom:1em;">
-<p style="text-align:left;margin-bottom:0;padding-bottom:0;">&emsp;&emsp;&copy;RSME & UPV/EHU
+<p id="finalpar" style="text-align:left;margin-bottom:0;padding-bottom:0;">&emsp;&emsp;&copy;RSME & UPV/EHU
 <span id="finalsentence" style="float:right;"> Code of the webpage created through the art of copying, pasting, editing and crossing fingers&emsp;&emsp;</span></p>
-<p style="text-align:left;margin-bottom:0;padding-bottom:0;">&emsp;&emsp;<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/themuddler/28295003742/in/photolist-K7khQ7-4RAwTw-JQzUj9-4RwkpB-84aHKC-4RwjhZ-4RAGrL-Jk4Fq1-4Rwauz-Jk4DtL-4RAf31-847Dge-4Rwwb2-Jk4HyE-KgAwwp-Jk4GAs-84avQU-84aHoU-KgAx7n-Jka59X-84avvC-84aHGs-84aw8E-84aw45-84avso-847qNa-847DkK-2CJhQA-847qTP-847ra8-7bREzX-cgHd35-cgHgKh-LcnPfw-cgHezE-HkpmrW-KNgwv2-4RAt2S-7FCnpz-6Q8Pep-6Q8D1z-7FGjzY-6QcXq3-6NTTvn-LvUjcn-6AwgA9-6AwfG3-6As9Ek-rMXE5-7FCoHH">Image by
-Eric Titcombe (CC BY 2.0)</a><span style="float:right;font-style:italic;">(Web-Design by Josué Tonelli-Cueto)&emsp;</span></p>
+<p id="finalpar2" style="text-align:left;margin-bottom:0;padding-bottom:0;">&emsp;&emsp;<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/themuddler/28295003742/in/photolist-K7khQ7-4RAwTw-JQzUj9-4RwkpB-84aHKC-4RwjhZ-4RAGrL-Jk4Fq1-4Rwauz-Jk4DtL-4RAf31-847Dge-4Rwwb2-Jk4HyE-KgAwwp-Jk4GAs-84avQU-84aHoU-KgAx7n-Jka59X-84avvC-84aHGs-84aw8E-84aw45-84avso-847qNa-847DkK-2CJhQA-847qTP-847ra8-7bREzX-cgHd35-cgHgKh-LcnPfw-cgHezE-HkpmrW-KNgwv2-4RAt2S-7FCnpz-6Q8Pep-6Q8D1z-7FGjzY-6QcXq3-6NTTvn-LvUjcn-6AwgA9-6AwfG3-6As9Ek-rMXE5-7FCoHH">Image by
+Eric Titcombe (CC BY 2.0)</a><!--<span id="finalsentence2" style="float:right;font-style:italic;">(Web-Design by Josué Tonelli-Cueto)&emsp;&emsp;</span>--></p>
 </footer> <!--  /container  -->
 
     <!-- Bootstrap core JavaScript
@@ -273,7 +273,7 @@ Eric Titcombe (CC BY 2.0)</a><span style="float:right;font-style:italic;">(Web-D
       x = document.getElementsByTagName("H1");
       var i;
         for (i = 0; i < x.length; i++) {
-         x[i].style="font-size:2.5em;font-weight:bold;";
+         x[i].style="font-size:2.7em;font-weight:bold;";
         }
       x = document.getElementsByTagName("H2");
         for (i = 0; i < x.length; i++) {
@@ -281,7 +281,7 @@ Eric Titcombe (CC BY 2.0)</a><span style="float:right;font-style:italic;">(Web-D
       }
       x = document.getElementsByTagName("H3");
         for (i = 0; i < x.length; i++) {
-         x[i].style="font-size:1em;font-weight:bold;";
+         x[i].style="font-size:1.3em;font-weight:bold;";
       }
       document.getElementById("comprow1").style="display:none;";
       document.getElementById("comprow2").style="display:none;";
@@ -295,7 +295,12 @@ Eric Titcombe (CC BY 2.0)</a><span style="float:right;font-style:italic;">(Web-D
       document.getElementById("mobilebtn4").style="display:block;";
       document.getElementById("mobilebtn5").style="display:block;";
       document.getElementById("mobilebtn6").style="display:block;";
-      document.getElementById("finalsentence").innerHTML="";
+      document.getElementById("finalpar").style="text-align:center;margin-bottom:0;padding-bottom:0;";
+      document.getElementById("finalpar").innerHTML="&copy;RSME & UPV/EHU";
+      document.getElementById("finalpar2").style="text-align:center;margin-bottom:0;padding-bottom:0em;";
+      document.getElementById("finalpar2").innerHTML=document.getElementById("finalpar2").innerHTML.slice(2);
+      document.getElementById("finalsentence2").style="font-style:italic;";
+      document.getElementById("finalsentence2").innerHTML="<br/>Web-Design by Josué Tonelli-Cueto";
     }
     //-->
     </script>
