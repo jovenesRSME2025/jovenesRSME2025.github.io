@@ -154,6 +154,28 @@ h4 {
   width:80%;
 }
 
+h2 > span > .btn-colora, .btn-colora:active{
+	background-color: var(--colorbarB);
+	border-color : var(--colorbarA);
+	color: var(--colorbarA);
+  width:22%;
+  font-size:0.6em;
+  font-variant:inherit;
+  font-style:inherit;
+  float:right;
+}
+
+h2 > span > .btn-colora:hover, .btn-colora:focus{
+  background-color: var(--colorbarA);
+	border-color: var(--colorbarB);
+	color: var(--colorbarB);
+  font-size:0.6em;
+  font-variant:inherit;
+  font-style:inherit;
+  width:22%;
+  float:right;
+}
+
 .btn-colorb, .btn-colorb:active{
 	background-color: #ee2523;
 	border-color : white;
