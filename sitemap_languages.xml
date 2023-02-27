@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+   <loc>https://jovenesrsme2025.xyz/index.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/index_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/index_eu.html"/>
+  </url>
+
+  <url>
+   <loc>https://jovenesrsme2025.xyz/index_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/index.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/index_en.html"/>
+  </url>
+
+  <url>
+   <loc>https://jovenesrsme2025.xyz/index_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/index.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/index_eu.html"/>
+  </url>
+
+</urlset>

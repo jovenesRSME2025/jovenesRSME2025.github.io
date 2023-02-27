@@ -81,16 +81,21 @@ footer {
 }
 
 h1 {
-  font-size:2em;
+  font-size:3em;
+}
+.jumbotron > .container > h1 {
+  font-size:4em;
   text-align:center;
 }
 h2 {
-  font-size:1.7em;
-  text-align:center;
+  font-size:2em;
 }
 h3 {
-  font-size:1.3em;
-  text-align:center;
+  font-size:1.5em;
+}
+
+h4 {
+  font-size:1em;
 }
 
 .center_image {
@@ -123,11 +128,17 @@ h3 {
   background-color: var(--colorbarA);
   color: var(--colorbarB);}
 
+.navbar-nav > li > .dropdown-menu > .active{
+  font-variant:inherit;
+  font-style:inherit;
+  background-color: var(--colorbarA);
+  color: var(--colorbarB);}
+
 .btn-colora, .btn-colora:active{
 	background-color: var(--colorbarB);
 	border-color : var(--colorbarA);
 	color: var(--colorbarA);
-  width:60%;
+  width:80%;
   font-size:inherit;
   font-variant:inherit;
   font-style:inherit;
@@ -140,7 +151,7 @@ h3 {
   font-size:inherit;
   font-variant:inherit;
   font-style:inherit;
-  width:60%;
+  width:80%;
 }
 
 .btn-colorb, .btn-colorb:active{
