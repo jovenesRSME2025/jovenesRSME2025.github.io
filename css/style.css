@@ -1,4 +1,4 @@
-/* Color Variables*/
+/* Color EHU*/
 :root {
   --colorA: #FFFFFF;
   --colorB: #000000;
@@ -6,6 +6,15 @@
   --colorbarB: #FFFFFF;
   --colorlink: #ee2523;
 }
+
+/* Color ZTF1*/
+/*:root {
+  --colorA: #FFFFFF;
+  --colorB: #2c5273;
+  --colorbarA: #2c5273;
+  --colorbarB: #FFFFFF;
+  --colorlink: #ee2523;
+}*/
 
 /* Fonts EHU*/
 @font-face {
