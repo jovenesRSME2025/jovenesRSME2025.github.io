@@ -3,6 +3,7 @@
 :root {
   --colorA: #FFFFFF;
   --colorB: #000000;
+  --colorbackground: #121212;
   --colorbarA: #000000;
   --colorbarB: #FFFFFF;
   --colorlink: #ee2523;
@@ -49,7 +50,7 @@
 
 html body{
   font-family: EHUes;
-  background-color : var(--colorB);
+  background-color : var(--colorbackground);
   color: var(--colorA);
 }
 
