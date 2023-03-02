@@ -77,12 +77,19 @@
             <a class="nav-link" href="horario.html">Horario</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="sede.html">Sede</a>
+          <li id="menuphoneSede" class="nav-item" style="display:none;">
+            <a class="nav-link" href="sedeinflocal.html">Sede &amp; Información Local</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="alojamiento.html">Alojamiento</a>
+          <li id="menucompSede" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="sedeinflocal.html" id="dropdown03" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Sede &amp; Información Local</a>
+              <div id="compmenu3" class="dropdown-menu" aria-labelledby="dropdown03">
+                  <a class="dropdown-item" href="sede.html">Sede</a>
+                  <a class="dropdown-item" href="transporte.html">Transporte</a>
+                  <a class="dropdown-item" href="bilbao.html">Bilbao</a>
+                  <a class="dropdown-item" href="alojamiento.html">Alojamiento</a>
+                  <a class="dropdown-item" href="viaje.html">Viaje</a>
+              </div>
           </li>
 
           <li class="nav-item">
@@ -114,9 +121,75 @@
 </div>
 
 <div class="container">
-  <p>
-    El VII Congreso de Investigadores Jóvenes de la RSME tiene las siguientes fechas importantes:
-  </p>
+  <hr/>
+  <h2>
+    Propuesta de Sesiones Paralelas<a class="btn btn-sesion" href="sesiones_propuesta.html">Propuesta de Sesiones</a>
+  </h2>
+  <h3 style="text-indent: 8%;">
+    Apertura del Plazo de Propuesta de Sesiones Especiales: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Fecha Límite para Propuesta de Sesiones Especiales: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Notificación de Aceptación de Sesiones Paralelas: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Fecha Límite para el Envío de Resúmenes y Horarios: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <hr/>
+  <h2>
+    Envío de Pósteres<a class="btn btn-sesion" href="posteres_propuesta.html">Envío de Pósteres</a>
+  </h2>
+  <h3 style="text-indent: 8%;">
+    Apertura del Plazo de Envío de Pósteres: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Fecha Límite para Envío de Pósteres: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Notificación de Aceptación de Pósteres: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <hr/>
+  <h2>
+    Inscripción al Congreso
+    <a class="btn btn-sesion" href="incripcion.html">Inscripción</a>
+  </h2>
+  <h3 style="text-indent: 8%;">
+    Apertura del Plazo de Inscripción: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Fecha Límite para la Inscripción Reducida: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Fecha Límite para el Alojamiento Reducido: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Fecha Límite para la Inscripción: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <hr/>
+  <h2>
+    Publicación del Programa
+    <a class="btn btn-sesion" href="programa.html">Programa</a>
+  </h2>
+  <h3 style="text-indent: 8%;">
+    Publicación del Programa Provisional: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Fecha Límite para Correcciones del Programa: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <h3 style="text-indent: 8%;">
+    Publicación del Programa Definitivo: <span style="font-style: italic;text-align:left;color:#ee2523;">DD/mes/2024</span>
+  </h3>
+  <hr/>
+  <h2>
+    Celebración del Congreso
+  </h2>
+  <h3 style="font-style: italic;text-align:center;color:#ee2523;">
+    dd—DD/mes/2025
+  </h3>
+  <hr/>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="index.html" style="width:100%;">Volver a la Página Principal</a></div></div>
   <hr/>
 </div>
 
@@ -138,15 +211,37 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    if (screen.width <= 699) {
-      x = document.getElementsByClassName("btn btn-colora");
+    window.onresize = function(event) { if ( screen.width >= 991 && window.innerWidth <= 1101) {
+      document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
+    } else {
+      document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
+    } }
+    if (screen.width <= 990) {
+      var x;
+      x = document.getElementsByTagName("H1");
+      var i;
+        for (i = 0; i < x.length; i++) {
+         x[i].style="font-size:2.7em;font-weight:bold;";
+        }
+      x = document.getElementsByTagName("H2");
+        for (i = 0; i < x.length; i++) {
+         x[i].style="font-size:1.8em;font-weight:bold;";
+      }
+      x = document.getElementsByTagName("H3");
+        for (i = 0; i < x.length-1; i++) {
+         x[i].style="font-size:1.3em;font-weight:bold;";
+      }
+         x[x.length-1].style="font-size:1.3em;font-weight:bold;font-style: italic;text-align:center;color:#ee2523;";
+      x = document.getElementsByClassName("btn btn-sesion");
       for (i = 0; i < x.length; i++) {
-       x[i].style="width:100%;";
+       x[i].style="width:100%;font-size:0.6em;margin-bottom:0.3em;";
       }
       document.getElementById("menucompProg").style="display:none;";
       document.getElementById("menucompEvent").style="display:none;";
+      document.getElementById("menucompSede").style="display:none;";
       document.getElementById("menuphoneProg").style="display:block;";
       document.getElementById("menuphoneEvent").style="display:block;";
+      document.getElementById("menuphoneSede").style="display:block;";
       document.getElementById("finalpar").style="text-align:center;margin-bottom:0;padding-bottom:0;";
       document.getElementById("finalpar").innerHTML="&copy;RSME & UPV/EHU";
       document.getElementById("finalpar2").style="text-align:center;margin-bottom:0;padding-bottom:0em;";

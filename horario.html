@@ -77,12 +77,19 @@
             <a class="nav-link" href="horario.html">Horario</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="sede.html">Sede</a>
+          <li id="menuphoneSede" class="nav-item" style="display:none;">
+            <a class="nav-link" href="sedeinflocal.html">Sede &amp; Información Local</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="alojamiento.html">Alojamiento</a>
+          <li id="menucompSede" class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="sedeinflocal.html" id="dropdown03" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Sede &amp; Información Local</a>
+              <div id="compmenu3" class="dropdown-menu" aria-labelledby="dropdown03">
+                  <a class="dropdown-item" href="sede.html">Sede</a>
+                  <a class="dropdown-item" href="transporte.html">Transporte</a>
+                  <a class="dropdown-item" href="bilbao.html">Bilbao</a>
+                  <a class="dropdown-item" href="alojamiento.html">Alojamiento</a>
+                  <a class="dropdown-item" href="viaje.html">Viaje</a>
+              </div>
           </li>
 
           <li class="nav-item">
@@ -138,11 +145,32 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    if (screen.width <= 699) {
+    window.onresize = function(event) { if ( screen.width >= 991 && window.innerWidth <= 1101) {
+      document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
+    } else {
+      document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
+    } }
+    if (screen.width <= 990) {
+      var x;
+      x = document.getElementsByTagName("H1");
+      var i;
+        for (i = 0; i < x.length; i++) {
+         x[i].style="font-size:2.7em;font-weight:bold;";
+        }
+      x = document.getElementsByTagName("H2");
+        for (i = 0; i < x.length; i++) {
+         x[i].style="font-size:1.8em;font-weight:bold;";
+      }
+      x = document.getElementsByTagName("H3");
+        for (i = 0; i < x.length; i++) {
+         x[i].style="font-size:1.3em;font-weight:bold;";
+      }
       document.getElementById("menucompProg").style="display:none;";
       document.getElementById("menucompEvent").style="display:none;";
+      document.getElementById("menucompSede").style="display:none;";
       document.getElementById("menuphoneProg").style="display:block;";
       document.getElementById("menuphoneEvent").style="display:block;";
+      document.getElementById("menuphoneSede").style="display:block;";
       document.getElementById("finalpar").style="text-align:center;margin-bottom:0;padding-bottom:0;";
       document.getElementById("finalpar").innerHTML="&copy;RSME & UPV/EHU";
       document.getElementById("finalpar2").style="text-align:center;margin-bottom:0;padding-bottom:0em;";

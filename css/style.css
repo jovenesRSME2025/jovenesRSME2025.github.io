@@ -1,4 +1,5 @@
 /* Color EHU*/
+/* */
 :root {
   --colorA: #FFFFFF;
   --colorB: #000000;
@@ -6,15 +7,18 @@
   --colorbarB: #FFFFFF;
   --colorlink: #ee2523;
 }
+/* */
 
 /* Color ZTF1*/
-/*:root {
+/*
+:root {
   --colorA: #FFFFFF;
-  --colorB: #2c5273;
+  --colorB: #0f1e2b;
   --colorbarA: #2c5273;
   --colorbarB: #FFFFFF;
   --colorlink: #ee2523;
-}*/
+}
+*/
 
 /* Fonts EHU*/
 @font-face {
@@ -163,7 +167,7 @@ h4 {
   width:80%;
 }
 
-h2 > span > .btn-colora, .btn-colora:active{
+.btn-sesion, .btn-sesion:active{
 	background-color: var(--colorbarB);
 	border-color : var(--colorbarA);
 	color: var(--colorbarA);
@@ -174,7 +178,7 @@ h2 > span > .btn-colora, .btn-colora:active{
   float:right;
 }
 
-h2 > span > .btn-colora:hover, .btn-colora:focus{
+.btn-sesion:hover, .btn-sesion:focus{
   background-color: var(--colorbarA);
 	border-color: var(--colorbarB);
 	color: var(--colorbarB);
