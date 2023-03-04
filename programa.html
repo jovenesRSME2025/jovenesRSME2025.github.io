@@ -44,7 +44,7 @@
             <a class="nav-link" href="index.html">Inicio</a>
           </li>
 
-          <li id="menuphoneProg" class="nav-item active" style="display:none;">
+          <li id="menuphoneProg" class="nav-item active" >
             <a class="nav-link" href="programa.html">Programa</a>
           </li>
 
@@ -60,7 +60,7 @@
               </div>
           </li>
 
-          <li id="menuphoneEvent" class="nav-item" style="display:none;">
+          <li id="menuphoneEvent" class="nav-item" >
             <a class="nav-link" href="eventos.html">Eventos</a>
           </li>
 
@@ -77,7 +77,7 @@
             <a class="nav-link" href="horario.html">Horario</a>
           </li>
 
-          <li id="menuphoneSede" class="nav-item" style="display:none;">
+          <li id="menuphoneSede" class="nav-item" >
             <a class="nav-link" href="sedeinflocal.html">Sede &amp; Información Local</a>
           </li>
 
@@ -156,9 +156,16 @@
 </div>
 
 <footer style="margin-top:1em;padding-top:1em;padding-bottom:1em;">
-<p id="finalpar" style="text-align:left;margin-bottom:0;padding-bottom:0;">&emsp;&emsp;&copy;RSME & UPV/EHU
-<!--<span id="finalsentence" style="float:right;"> Code of the webpage created through the art of copying, pasting, editing and crossing fingers&emsp;&emsp;</span>--></p>
-<p id="finalpar2" style="text-align:left;margin-bottom:0;padding-bottom:0;">&emsp;&emsp;Picture by Josué Tonelli-Cueto<!--<span id="finalsentence2" style="float:right;font-style:italic;">(Web-Design by Josué Tonelli-Cueto)&emsp;&emsp;</span>--></p>
+<div class="row">
+<div class="col-lg-4">
+  <p id="finalpar" style="margin-bottom:0;padding-bottom:0;">&copy;RSME & UPV/EHU</p>
+  <p id="finalpar2" style="margin-bottom:0;padding-bottom:0;">Header Image by Josué Tonelli-Cueto</p>
+</div>
+<!--<div class="col-lg-8">
+  <p id="finalsentence" style="margin-bottom:0;padding-bottom:0;"> Code of the webpage created through the art of copying, pasting, editing and crossing fingers</p>
+  <p id="finalsentence2" style="font-style:italic;">(Web-Design by Josué Tonelli-Cueto)</p>
+</div>-->
+</div>
 </footer> <!--  /container  -->
 
     <!-- Bootstrap core JavaScript
@@ -179,28 +186,6 @@
       document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
     } }
     if (screen.width <= 990) {
-      var x;
-      x = document.getElementsByTagName("H1");
-      var i;
-        for (i = 0; i < x.length; i++) {
-         x[i].style="font-size:2.7em;font-weight:bold;";
-        }
-      x = document.getElementsByClassName("btn btn-colora");
-      for (i = 0; i < x.length; i++) {
-       x[i].style="width:100%;";
-      }
-      document.getElementById("menucompProg").style="display:none;";
-      document.getElementById("menucompEvent").style="display:none;";
-      document.getElementById("menucompSede").style="display:none;";
-      document.getElementById("menuphoneProg").style="display:block;";
-      document.getElementById("menuphoneEvent").style="display:block;";
-      document.getElementById("menuphoneSede").style="display:block;";
-      document.getElementById("finalpar").style="text-align:center;margin-bottom:0;padding-bottom:0;";
-      document.getElementById("finalpar").innerHTML="&copy;RSME & UPV/EHU";
-      document.getElementById("finalpar2").style="text-align:center;margin-bottom:0;padding-bottom:0em;";
-      document.getElementById("finalpar2").innerHTML=document.getElementById("finalpar2").innerHTML.slice(2);
-      document.getElementById("finalsentence2").style="font-style:italic;";
-      document.getElementById("finalsentence2").innerHTML="<br/>Web-Design by Josué Tonelli-Cueto";
     }
     //-->
     </script>
