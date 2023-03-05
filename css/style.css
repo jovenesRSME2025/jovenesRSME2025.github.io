@@ -392,13 +392,15 @@ p {
   #breakfooter{display:none;}
 }
 
-/*footer phone*/
+/*images and info phone*/
 @media only screen and (max-width:990px){
   img {
     max-height:300px;
   }
+  #infocomp1{display:none;}
+  #infocomp2{display:none;}
 }
-/*Footer Screen*/
+/*images and info Screen*/
 @media only screen and (min-width:991px){
   img {
     width: 80%;
