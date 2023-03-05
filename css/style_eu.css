@@ -265,6 +265,8 @@ h4 {
   #mobilebtn4{display:block;}
   #mobilebtn5{display:block;}
   #mobilebtn6{display:block;}
+  #sepcomp1{display:none;}
+  #sepcomp2{display:none;}
 }
 /*Buttons Screen*/
 @media only screen and (min-width:991px){
@@ -374,4 +376,5 @@ p {
   #finalsentence{text-align:right;margin-right:2em;}
   #finalpar2{text-align:left;margin-left:2em;}
   #finalsentence2{text-align:right;margin-right:2em;}
+  #breakfooter{display:none;}
 }
