@@ -378,3 +378,18 @@ p {
   #finalsentence2{text-align:right;margin-right:2em;}
   #breakfooter{display:none;}
 }
+
+/*images and info phone*/
+@media only screen and (max-width:990px){
+  img {
+    max-height:300px;
+  }
+  #infocomp1{display:none;}
+  #infocomp2{display:none;}
+}
+/*images and info Screen*/
+@media only screen and (min-width:991px){
+  img {
+    width: 80%;
+  }
+}
