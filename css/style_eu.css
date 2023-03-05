@@ -376,13 +376,18 @@ p {
   #finalsentence{text-align:right;margin-right:2em;}
   #finalpar2{text-align:left;margin-left:2em;}
   #finalsentence2{text-align:right;margin-right:2em;}
-  #breakfooter{display:none;}
+  .breakfooter{display:none;}
 }
 
 /*images and info phone*/
 @media only screen and (max-width:990px){
-  img {
+  .intext {
+    display: inline-block;
+    width: 100%;
+  }
+  .intext img {
     max-height:300px;
+    width:auto;
   }
   #infocomp1{display:none;}
   #infocomp2{display:none;}
