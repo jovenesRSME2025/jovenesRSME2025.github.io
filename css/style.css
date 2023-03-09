@@ -7,6 +7,8 @@
   --colorbarA: #000000;
   --colorbarB: #FFFFFF;
   --colorlink: #ee2523;
+  --colorBizkaibus: #67b32c;
+  --colorbarZTF: #2c5273;
 }
 /* */
 
@@ -15,11 +17,12 @@
 :root {
   --colorA: #FFFFFF;
   --colorB: #0f1e2b;
+  --colorbackground: #0f1e2b;
   --colorbarA: #2c5273;
   --colorbarB: #FFFFFF;
   --colorlink: #ee2523;
 }
-*/
+ */
 
 /* Fonts EHU*/
 @font-face {
