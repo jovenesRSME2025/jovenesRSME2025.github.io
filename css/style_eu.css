@@ -1,4 +1,5 @@
-/* Color Variables*/
+/* Color EHU*/
+/* */
 :root {
   --colorA: #FFFFFF;
   --colorB: #000000;
@@ -6,7 +7,10 @@
   --colorbarA: #000000;
   --colorbarB: #FFFFFF;
   --colorlink: #ee2523;
+  --colorBizkaibus: #67b32c;
+  --colorbarZTF: #2c5273;
 }
+/* */
 
 /* Fonts EHU*/
 @font-face {
