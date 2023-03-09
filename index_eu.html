@@ -62,7 +62,7 @@
       <div class="collapse navbar-collapse " id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Sarrera</a>
+            <a class="nav-link" href="index.html">Hasiera</a>
           </li>
 
           <li id="menuphoneProg" class="nav-item" style="display:none;">
@@ -72,54 +72,54 @@
           <li id="menucompProg" class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="programa.html" id="dropdown01" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Programa</a>
               <div id="compmenu1" class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="plenarias.html">Charlas Plenarias</a>
-                  <a class="dropdown-item" href="sesiones.html">Sesiones Paralelas</a>
-                  <a class="dropdown-item" href="posteres.html">Pósteres</a>
-                  <a class="dropdown-item" href="mesasredondas.html">Mesas Redondas</a>
-                  <a class="dropdown-item" href="divulgacion.html">Actividades de Divulgación</a>
-                  <a class="dropdown-item" href="social.html">Programa Social</a>
+                  <a class="dropdown-item" href="plenarias.html">Hitzaldi Nagusiak</a>
+                  <a class="dropdown-item" href="sesiones.html">Saio Paraleloak</a>
+                  <a class="dropdown-item" href="posteres.html">Posterrak</a>
+                  <a class="dropdown-item" href="mesasredondas.html">Mahai-Inguruak</a>
+                  <a class="dropdown-item" href="divulgacion.html">Dibulgazio-Jarduerak</a>
+                  <a class="dropdown-item" href="social.html">Gizarte-Programa</a>
               </div>
           </li>
 
           <li id="menuphoneEvent" class="nav-item" style="display:none;">
-            <a class="nav-link" href="eventos.html">Eventos</a>
+            <a class="nav-link" href="eventos.html">Ekitaldiak</a>
           </li>
 
           <li id="menucompEvent" class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="eventos.html" id="dropdown02" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Eventos</a>
               <div id="compmenu2" class="dropdown-menu" aria-labelledby="dropdown02">
-                  <a class="dropdown-item" href="mesasredondas.html">Mesas Redondas</a>
-                  <a class="dropdown-item" href="divulgacion.html">Actividades de Divulgación</a>
-                  <a class="dropdown-item" href="social.html">Programa Social</a>
+                  <a class="dropdown-item" href="mesasredondas.html">Mahai-Inguruak</a>
+                  <a class="dropdown-item" href="divulgacion.html">Dibulgazio-Jarduerak</a>
+                  <a class="dropdown-item" href="social.html">Gizarte-Programa</a>
               </div>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="horario.html">Horario</a>
+            <a class="nav-link" href="horario.html">Ordutegia</a>
           </li>
 
           <li id="menuphoneSede" class="nav-item" style="display:none;">
-            <a class="nav-link" href="sedeinflocal.html">Sede &amp; Información Local</a>
+            <a class="nav-link" href="sedeinflocal.html">Egoitza &amp; Tokiko Informazioa</a>
           </li>
 
           <li id="menucompSede" class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="sedeinflocal.html" id="dropdown03" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Sede &amp; Información Local</a>
+            <a class="nav-link dropdown-toggle" href="sedeinflocal.html" id="dropdown03" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Egoitza &amp; Tokiko Informazioa</a>
               <div id="compmenu3" class="dropdown-menu" aria-labelledby="dropdown03">
-                  <a class="dropdown-item" href="sede.html">Sede</a>
-                  <a class="dropdown-item" href="transporte.html">Transporte Público</a>
-                  <a class="dropdown-item" href="bilbao.html">Bilbao</a>
-                  <a class="dropdown-item" href="alojamiento.html">Alojamiento</a>
-                  <a class="dropdown-item" href="viaje.html">Viaje</a>
+                  <a class="dropdown-item" href="sede.html">Egoitza</a>
+                  <a class="dropdown-item" href="transporte.html">Garraio Publikoa</a>
+                  <a class="dropdown-item" href="bilbao.html">Bilbo</a>
+                  <a class="dropdown-item" href="alojamiento.html">Ostatua</a>
+                  <a class="dropdown-item" href="viaje.html">Bidaia</a>
               </div>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="inscripcion.html">Inscripción</a>
+            <a class="nav-link" href="inscripcion.html">Inskripzioa</a>
           </li>
 
-          <li class="nav-item">
+          <!--<li class="nav-item">
             <a class="nav-link" style="font-style:italic;margin:0;">(gaztelaniaz)</a>
-          </li>
+          </li>-->
 
         </ul>
 
@@ -282,10 +282,13 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    window.onresize = function(event) { if ( screen.width >= 991 && window.innerWidth <= 1101) {
-      document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
-    } else {
-      document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
+    window.onresize = function(event) { if ( screen.width >= 991 && window.innerWidth <= 1150 && window.innerWidth >= 1055 ) {
+      document.getElementById("dropdown03").innerHTML="Egoitza &amp; Tokiko Inf.";
+    } else if ( screen.width >= 991 && window.innerWidth <= 1054 ) {
+      document.getElementById("dropdown03").innerHTML="Eg. &amp; Tok. Inf.";
+    }
+    else {
+      document.getElementById("dropdown03").innerHTML="Egoitza &amp; Tokiko Informazioa";
     } }
     if (screen.width <= 990) {
     }
