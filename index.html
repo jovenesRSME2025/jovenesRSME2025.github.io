@@ -211,7 +211,7 @@
       <p>
         El congreso cuenta con el apoyo del BCAM y la UPV/EHU. <!--... y la financiación de...-->
       </p>
-      <p id="mobilebtn6"><a class="btn btn-colora" href="organizacion.html" role="button" style="width:100%;">Más información sobre la organización</a></p>
+      <p id="mobilebtn6"><a class="btn btn-colora" href="organizacion.html" role="button" style="width:100%;">Más sobre la organización</a></p>
     </div>
   </div>
   <div id="comprow2" class="row">
@@ -222,7 +222,7 @@
       <p><a class="btn btn-colora" href="sede.html" role="button" style="width:100%;">Más acerca de la sede</a></p>
     </div>
     <div class="col-lg-4">
-      <p><a class="btn btn-colora" href="organizacion.html" role="button" style="width:100%;">Más información sobre la organización</a></p>
+      <p><a class="btn btn-colora" href="organizacion.html" role="button" style="width:100%;">Más sobre la organización</a></p>
     </div>
   </div>
 </div>
@@ -252,11 +252,13 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    window.onresize = function(event) { if ( screen.width >= 991 && window.innerWidth <= 1101) {
+    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1101) {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
     } else {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
-    } }
+    } };
+    varyscreen();
+    window.addEventListener('resize', varyscreen);
     if (screen.width <= 990) {
     }
     //-->

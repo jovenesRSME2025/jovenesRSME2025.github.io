@@ -277,7 +277,7 @@
     <em>Metro Bilbao</em> es el servicio de metro bilbaíno. Aparte de su arquitectura icónica creada por el arquitecto Norman Foster, Metro Bilbao permite moverse rápidamente a ambos lados de la ría de Bilbao con sus tres líneas de metro.
   </p>
   <p>
-    
+
   </p>
   <hr/>
   <div class="row"><div class="col-md-12"><a class="btn btn-colorb" href="https://www.metrobilbao.eus/" style="width:100%;">Más sobre Metro Bilbao</a></div></div>
@@ -318,11 +318,13 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    window.onresize = function(event) { if ( screen.width >= 991 && window.innerWidth <= 1101) {
+    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1101) {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
     } else {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
-    } }
+    } };
+    varyscreen();
+    window.addEventListener('resize', varyscreen);
     if (screen.width <= 990) {
     }
     //-->

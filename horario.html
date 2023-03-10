@@ -127,6 +127,8 @@
   <hr/>
   <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="programa.html" style="width:100%;">Ver Programa del Congreso</a></div></div>
   <hr/>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="index.html" style="width:100%;">Volver al Inicio</a></div></div>
+  <hr/>
 </div>
 
 <footer style="margin-top:1em;padding-top:1em;padding-bottom:1em;">
@@ -154,11 +156,13 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    window.onresize = function(event) { if ( screen.width >= 991 && window.innerWidth <= 1101) {
+    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1101) {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
     } else {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
-    } }
+    } };
+    varyscreen();
+    window.addEventListener('resize', varyscreen);
     if (screen.width <= 990) {
     }
     //-->
