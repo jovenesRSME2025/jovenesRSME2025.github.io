@@ -51,13 +51,49 @@
    </url>
 
    <url>
-    <loc>https://jovenesrsme2025.xyz/fechasimportantes.html</loc>
+    <loc>https://jovenesrsme2025.xyz/eventos_eu.html</loc>
     <lastmod>2023-04-15</lastmod>
     <priority>0.3</priority>
    </url>
 
    <url>
+    <loc>https://jovenesrsme2025.xyz/eventos_en.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/fechasimportantes.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/fechasimportantes_eu.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/fechasimportantes_en.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
     <loc>https://jovenesrsme2025.xyz/horario.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/horario_eu.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/horario_en.html</loc>
     <lastmod>2023-04-15</lastmod>
     <priority>0.7</priority>
    </url>
@@ -69,9 +105,21 @@
    </url>
 
    <url>
-    <loc>https://jovenesrsme2025.xyz/logoyposter.html</loc>
+    <loc>https://jovenesrsme2025.xyz/inscripcion_eu.html</loc>
     <lastmod>2023-04-15</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/inscripcion_en.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/logoyposter.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.4</priority>
    </url>
 
    <url>
@@ -123,9 +171,39 @@
    </url>
 
    <url>
+    <loc>https://jovenesrsme2025.xyz/programa_en.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/programa_eu.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
     <loc>https://jovenesrsme2025.xyz/sede.html</loc>
     <lastmod>2023-04-15</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/sedeinflocal.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/sedeinflocal_en.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/sedeinflocal_eu.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
    </url>
 
    <url>
@@ -145,6 +223,18 @@
     <loc>https://jovenesrsme2025.xyz/social.html</loc>
     <lastmod>2023-04-15</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/transporte.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/viaje.html</loc>
+    <lastmod>2023-04-15</lastmod>
+    <priority>0.3</priority>
    </url>
 
 

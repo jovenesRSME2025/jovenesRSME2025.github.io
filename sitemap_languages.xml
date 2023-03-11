@@ -13,6 +13,75 @@
               hreflang="eu"
               href="https://jovenesrsme2025.xyz/index_eu.html"/>
   </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/eventos.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/eventos_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/eventos_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/fechasimportantes.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/fechasimportantes_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/fechasimportantes_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/horario.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/horario_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/horario_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/inscripcion.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/inscripcion_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/inscripcion_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/programa.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/programa_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/programa_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/sedeinflocal.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/sedeinflocal_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/sedeinflocal_eu.html"/>
+  </url>
+
+
+
 
   <url>
    <loc>https://jovenesrsme2025.xyz/index_eu.html</loc>
@@ -25,6 +94,74 @@
               hreflang="en"
               href="https://jovenesrsme2025.xyz/index_en.html"/>
   </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/eventos_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/eventos_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/eventos.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/fechasimportantes_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/fechasimportantes_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/fechasimportantes.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/horario_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/horario_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/horario.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/inscripcion_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/inscripcion_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/inscripcion.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/programa_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/programa_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/programa.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/sedeinflocal_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/sedeinflocal_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/sedeinflocal.html"/>
+  </url>
+
+
 
   <url>
    <loc>https://jovenesrsme2025.xyz/index_en.html</loc>
@@ -36,6 +173,72 @@
               rel="alternate"
               hreflang="eu"
               href="https://jovenesrsme2025.xyz/index_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/eventos_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/eventos.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/eventos_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/fechasimportantes_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/fechasimportantes.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/fechasimportantes_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/horario_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/horario.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/horario_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/inscripcion_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/inscripcion.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/inscripcion_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/programa_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/programa.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/programa_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/sedeinflocal_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/sedeinflocal.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenesrsme2025.xyz/sedeinflocal_eu.html"/>
   </url>
 
 </urlset>

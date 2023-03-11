@@ -405,10 +405,12 @@ p {
   }
   #infocomp1{display:none;}
   #infocomp2{display:none;}
+  .redinfo{font-style: italic;text-align:right;float:right;color:var(--colorlink);}
 }
 /*images and info Screen*/
 @media only screen and (min-width:991px){
   img {
     width: 80%;
   }
+  .redinfo{font-style: italic;text-align:left;color:var(--colorlink);}
 }
