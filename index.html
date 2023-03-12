@@ -30,6 +30,18 @@
 
     <!--  Custom styles for this template  -->
     <link href="css/style.css" rel="stylesheet"/>
+    <style>
+    @media print, screen and (min-width:991px){
+    .jumbotron{
+          background-image: url(imgs/bg_index.jpg);
+          background-position: 50% 42%;
+    }}
+    @media print, screen and (max-width:990px){
+    .jumbotron{
+          background-image: url(imgs/bgphone_index.jpg);
+          background-position: 50% 42%;
+    }}
+    </style>
 </head>
 
   <body>
@@ -115,8 +127,7 @@
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
-<div class="jumbotron" style="background-position: 50% 42%;background-image: url(imgs/background.jpg);
-background-image: image-set(url(imgs/background1x.jpg) 1x, url(imgs/background2x.jpg) 2x, url(imgs/background3x.jpg) 3x, url(imgs/background.jpg) 4x);">
+<div class="jumbotron">
   <div class="container">
       <h1 class="display-4">VII Congreso</h1>
       <p class="display-4" style="font-size:1.3em;text-align:center;margin:0;">de</p>

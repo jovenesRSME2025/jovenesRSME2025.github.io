@@ -46,10 +46,13 @@ html body{
 }
 }
 @media only print{
+  .navbar {display:none;}
+  .btn {display:none;}
   html body{
     font-family: EHUeu;
     background-color : white;
     color: black;
+    font-size:11pt;
   }
 }
 
@@ -401,4 +404,11 @@ p {
     width: 80%;
   }
   .redinfo{font-style: italic;text-align:left;color:var(--colorlink);}
+}
+@media only print {
+  img {
+    max-height:6cm;
+    max-width:80%;
+    width:auto;
+  }
 }

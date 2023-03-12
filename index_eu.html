@@ -31,24 +31,16 @@
     <!--  Custom styles for this template  -->
     <link href="css/style_eu.css" rel="stylesheet"/>
     <style>
-    h1 {
-      font-size:2em;
-      text-align:center;
-    }
-    h2 {
-      font-size:1.7em;
-      text-align:center;
-    }
-    h3 {
-      font-size:1.3em;
-      text-align:center;
-      font-weight:bold;
-    }
-
-    h4 {
-      font-size:1.3em;
-      text-align:center;
-    }
+    @media print, screen and (min-width:991px){
+    .jumbotron{
+          background-image: url(imgs/bg_index.jpg);
+          background-position: 50% 44%;
+    }}
+    @media print, screen and (max-width:990px){
+    .jumbotron{
+          background-image: url(imgs/bgphone_index.jpg);
+          background-position: 50% 44%;
+    }}
     </style>
 </head>
 
@@ -139,7 +131,7 @@
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
-<div class="jumbotron" style="background-position: 50% 43%;">
+<div class="jumbotron">
   <div class="container">
       <h1 class="display-4">RSMEren</h1>
       <h1 class="display-4">Ikertzaile Gazteen</h1>
