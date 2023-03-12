@@ -30,6 +30,16 @@
 
     <!--  Custom styles for this template  -->
     <link href="css/style.css" rel="stylesheet"/>
+    <style>
+    @media print, screen and (min-width:991px){
+    .jumbotron{
+          background-image: url(imgs/bg_horario.jpg);
+    }}
+    @media print, screen and (max-width:990px){
+    .jumbotron{
+          background-image: url(imgs/bgphone_horario.jpg);
+    }}
+    </style>
 
 </head>
 
@@ -116,7 +126,7 @@
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
-<div class="jumbotron" style="background-image: url(imgs/bg_horario.jpg);">
+<div class="jumbotron">
   <div class="container">
       <h1 class="display-4">Horario</h1>
   </div>

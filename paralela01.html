@@ -28,6 +28,16 @@
 
     <!--  Custom styles for this template  -->
     <link href="css/style.css" rel="stylesheet"/>
+    <style>
+    @media print, screen and (min-width:991px){
+    .jumbotron{
+          background-image: url(imgs/bg_sesiones.jpg);
+    }}
+    @media print, screen and (max-width:990px){
+    .jumbotron{
+          background-image: url(imgs/bgphone_sesiones.jpg);
+    }}
+    </style>
 
 </head>
 
@@ -114,7 +124,7 @@
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
-<div class="jumbotron" style="background-image: url(imgs/bg_sesiones.jpg);">
+<div class="jumbotron">
   <div class="container">
       <h1 class="display-4" style="font-style: italic;">Sesión Paralela 01</h1>
       <h1 class="display-4">Título de la Sesión Paralela 01</h1>

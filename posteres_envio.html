@@ -28,6 +28,16 @@
 
     <!--  Custom styles for this template  -->
     <link href="css/style.css" rel="stylesheet"/>
+    <style>
+    @media print, screen and (min-width:991px){
+    .jumbotron{
+          background-position:50% 40%;background-image: url(imgs/bg_posteres.JPG);
+    }}
+    @media print, screen and (max-width:990px){
+    .jumbotron{
+          background-position:50% 40%;background-image: url(imgs/bgphone_posteres.JPG);
+    }}
+    </style>
 
 </head>
 
@@ -114,7 +124,7 @@
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
-<div class="jumbotron" style="background-position:50% 40%;background-image: url(imgs/bg_posteres.JPG);">
+<div class="jumbotron">
   <div class="container">
       <h1 class="display-4">Envío</h1>
       <p class="display-4" style="font-size:1.3em;text-align:center;margin:0;">de</p>

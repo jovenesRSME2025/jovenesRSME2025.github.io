@@ -30,7 +30,16 @@
 
     <!--  Custom styles for this template  -->
     <link href="css/style_eu.css" rel="stylesheet"/>
-
+    <style>
+    @media print, screen and (min-width:991px){
+    .jumbotron{
+          background-position:50% 80%;background-image: url(imgs/bg_eventos.jpg);
+    }}
+    @media print, screen and (max-width:990px){
+    .jumbotron{
+          background-position:50% 80%;background-image: url(imgs/bgphone_eventos.jpg);
+    }}
+    </style>
 </head>
 
   <body>
@@ -120,7 +129,7 @@
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
-<div class="jumbotron" style="background-position:50% 80%;background-image: url(imgs/bg_eventos.jpg);">
+<div class="jumbotron">
   <div class="container">
       <h1 class="display-4">Ekitaldiak</h1>
   </div>
