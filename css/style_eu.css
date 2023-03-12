@@ -63,8 +63,6 @@ body {
 
 .jumbotron {
     margin-bottom: 50px;
-    background-image: url(../imgs/background.jpg);
-    background-position: 50% 25%;
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--colorA);
