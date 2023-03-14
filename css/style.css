@@ -50,6 +50,41 @@
 }
 
 
+/* Fonts EHU Basque*/
+@font-face {
+  font-family: EHUeu;
+  src: url(../fontEU/EHUSerif-Regular.otf);
+}
+
+@font-face {
+  font-family: EHUeu;
+  src: url(../fontEU/EHUSerif-Italic.otf);
+  font-style:italic;
+}
+
+@font-face {
+  font-family: EHUeu;
+  src: url(../fontEU/EHUSerif-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: EHUeu;
+  src: url(../fontEU/EHUSerif-BoldItalic.otf);
+  font-weight: bold;
+  font-style:italic;
+}
+
+.basque{
+  font-family: EHUeu;
+}
+
+.english{
+  font-family: EHUes;
+  font-style:italic;
+}
+
+
 @media only screen{
 html body{
   font-family: EHUes;
