@@ -311,6 +311,8 @@ h4 {
 
   #comprow1{display:none;}
   #comprow2{display:none;}
+  #comprow3{display:none;}
+  #comprow4{display:none;}
   #mobilebtn1{display:block;}
   #mobilebtn2{display:block;}
   #mobilebtn3{display:block;}
@@ -390,6 +392,10 @@ h4 {
   #mobilebtn4{display:none;}
   #mobilebtn5{display:none;}
   #mobilebtn6{display:none;}
+  #mobileorg{display:none;}
+  #mobilehost{display:none;}
+  #mobilesup{display:none;}
+  #mobilepatrocina{display:none;}
 }
 
 
@@ -434,10 +440,16 @@ p {
 
 /*images and info phone*/
 @media only screen and (max-width:990px){
-  img {
+  img:not(.rsme):not(.bcam){
     max-height:500px;
     max-width:100%;
     width:auto;
+  }
+  .rsme{
+    width:40%;
+  }
+  .bcam {
+    width: 80%;
   }
   #infocomp1{display:none;}
   #infocomp2{display:none;}
@@ -445,8 +457,14 @@ p {
 }
 /*images and info Screen*/
 @media only screen and (min-width:991px){
-  img {
+  img:not(.rsme):not(.bcam){
     width: 80%;
+  }
+  .rsme {
+    width: 90%;
+  }
+  .bcam {
+    width: 85%;
   }
   .redinfo{font-style: italic;text-align:left;color:var(--colorlink);}
 }
@@ -456,4 +474,15 @@ p {
     max-width:80%;
     width:auto;
   }
+  .bcam{display:none;}
+  .rsme{display:none;}
+  .upvehu{display:none;}
+  #comprow1{display:none;}
+  #comprow2{display:none;}
+  #comprow3{display:none;}
+  #comprow4{display:none;}
+  #mobilehost{display:none;}
+  #mobileorg{display:none;}
+  #mobilesup{display:none;}
+  #mobilepatrocina{display:none;}
 }
