@@ -38,11 +38,14 @@
     }}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/barranavegacion.css" rel="stylesheet"/>
+
 
 </head>
 
-  <body>
-   <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-custom">
+  <body data-spy="scroll" data-target="#barranavegacion" data-offset="105">
+   <div class="fixed-top" data-toggle="affix">
+   <nav class="navbar navbar-toggleable-md navbar-inverse navbar-custom">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background-color: var(--colorbarA);color: var(--colorbarB);">
         Menu <span class="navbar-toggler-icon" style="background-color: var(--colorbarA);color: var(--colorbarB);"></span>
       </button>
@@ -121,6 +124,19 @@
         </ul>
       </div>
     </nav>
+    <nav id="barranavegacion" class="navbar-toggleable-md navbar-inverse navbar-navegacion">
+      <ul class="nav nav-pills">
+ 	        <!--<li class="nav-item" style="background-color: var(--colorbarB);color: var(--colorbarB);"><a class="nav-link" href="#" style="background-color: var(--colorbarB)!important;color: var(--colorbarB)!important;">O</a></li>-->
+ 	        <li class="nav-item"><a class="nav-link" href="#corganizador">Comité Organizador</a></li>
+            <!--<li class="nav-item"><a class="nav-link" href="#topics">Topics of interest</a></li>-->
+          <li class="nav-item"><a class="nav-link" href="#ccientifico">Comité Científico</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rsme">Entidad Organizadora</a></li>
+          <li class="nav-item"><a class="nav-link" href="#upvehu">Institución Anfitriona</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bcam">Institución Co-Anfitriona</a></li>
+          <li class="nav-item"><a class="nav-link" href="#patrocinadores">Patrocinadores</a></li>
+      </ul>
+     </nav>
+   </div>
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
@@ -170,8 +186,8 @@
     Especialista en ecuaciones en derivadas parciales, con especial atención a problemas de continuación única.
   </p>
   <p>
-    Profesor ayudante doctor en la UPV/EHU desde 2017;
-    IdEx Postdoctoral Researcher en la Universtité de Bordeaux (Francia), 2016-2017;
+    Profesor ayudante doctor en la UPV/EHU, desde 2017.
+    IdEx Postdoctoral Researcher en la Universtité de Bordeaux (Francia), 2016-2017.
     Doctor por la UPV/EHU, 2015;
     y Licenciatura en Matemáticas por la UPV/EHU, 2011.
   </p>
@@ -180,9 +196,9 @@
   <p>Especialista en teoría de grupos y álgebra homológica; más en concreto, en cohomología de grupos (pro)finitos y sucesiones espectrales.
   </p>
   <p>
-    Profesora ayudante doctora en la UPV/EHU, desde 2019 (febrero). Postdoctoral Fellow del
-    grupo Algebra and Number Theory en la Universität Düsseldorf (Alemania), 2017 (enero)-2018 (diciembre).
-    Doctora por la UPV/EHU, octubre, 2016;
+    Profesora ayudante doctora en la UPV/EHU, desde 2019 (febrero).
+    Postdoctoral Fellow del grupo Algebra and Number Theory en la Universität Düsseldorf (Alemania), 2017 [enero]-2018 [diciembre].
+    Doctora por la UPV/EHU, 2016 [octubre];
     Máster en Mathematical Sciences por la Universiteit Utrecht (Países Bajos), 2011;
     y Licenciatura en Matemáticas por la UPV/EHU, 2010.
   </p>
@@ -204,7 +220,7 @@
   </p>
   <p>
     Profesor ayudante doctor en la UPV/EHU, desde 2019.
-    Doctor por la UPV/EHU, 2017, con premio extraordinario;
+    Doctor por la UPV/EHU, 2017, con Premio Extraordinario;
     Máster en Investigación Biomédica por la UPV/EHU, 2013;
     y Licenciatura en Matemáticas por la UPV/EHU, 2012.
   </p>
@@ -214,9 +230,9 @@
     Especialista métodos de discretización para ecuaciones en derivadas parciales transitorias.
   </p>
   <p>
-    Postdoctoral Fellow en el BCAM y desde 2021 investigadora visitante en el Oden Institute for Computational Engineering and Sciences, UT Austin (Texas, Estados Unidos).
-    PI de una beca Marie-Sladowska Curie individual fellowship.
-    Premio Vicent Caselles 2020 y candidata española for el SeMA para el ``ECCOMAS awards for the best PhD thesis in 2019''.
+    Marie Skłodowska-Curie Postdoctoral Fellow (MSCA-IF-2019) en el BCAM, desde 2020 [febrero]; investigadora visitante en el Oden Institute for Computational Engineering and Sciences, UT Austin (Texas, Estados Unidos), desde 2021 [febrero].
+    Investigadora Postdoctoral en el BCAM, 2019-2020 [enero].
+    Premio Vicent Caselles 2020; y candidata española for el SeMA para el &ldquo;ECCOMAS awards for the best PhD thesis in 2019&rdquo;.
     Doctora por la UPV/EHU, 2019;
     y Máster y Licenciatura en Matemáticas por la UPV/EHU, 2015 y 2014.
   </p>
@@ -228,9 +244,9 @@
  </p>
  <p>
    <!--Rufus Isaacs Postdoctoral Fellow en John Hopkins University, desde 2023.-->
-   Research Fellow en UT San Antonio (Texas, Estados Unidos) desde 2022.<!--, 2022-2023.-->
-   FSMP Postdoctoral Fellow en Inria Paris y el IMJ-PRG (Francia), 2020 (enero)-2022.
-   Doctor por la Technische Universität Berlin y la Berlin Mathematical School (Alemania), 2019 (noviembre), con un premio de disertación MATH+2020 de la escuela doctoral y el 3.º Premio en los Tirburtius-Preis 2020 de las Universidades de Berlín;
+   Research Fellow en UT San Antonio (Texas, Estados Unidos), 2022-2023.
+   FSMP Postdoctoral Fellow en Inria Paris y el IMJ-PRG (Francia), 2020 [enero]-2022.
+   Doctor por la Technische Universität Berlin y la Berlin Mathematical School (Alemania), 2019 [noviembre], con un premio de disertación MATH+2020 de la escuela doctoral y el 3.º Premio en los Tirburtius-Preis 2020 de las Universidades de Berlín;
    M.Sc. Mathematik por la Technische Universität Berlin (Alemania), 2017;
    y Licenciatura en Matemáticas por la UPV/EHU, 2014.
  </p>
@@ -241,29 +257,42 @@
   </p>
   <p>
     Profesora ayudante doctora en la UPV/EHU, desde 2021.
-    Postdoctoral Fellow del grupo Mathematical, Computational and Experimental Neuroscience en el BCAM, 2018-2020.
+    Postdoctoral Fellow del grupo <em>Mathematical, Computational and Experimental Neuroscience</em> en el BCAM, 2018-2020.
     Doctora por la UPV/EHU, 2017;
     Máster en Matematicas y Aplicaciones por la Universidad Autónoma de Madrid, 2014;
     y Licenciatura en Matemáticas por la UPV/EHU, 2013.
   </p>
 
   <hr/>
-  <h2>Comité Científico</h2>
-  <p>El comité científico consta de <!--nueve personas vinculadas a la comunidad matemática del País Vasco. El comité está formado por las siguientes personas (listadas en orden alfabético).--></p>
+  <h2 id="ccientifico">Comité Científico</h2>
+  <p>El comité científico se actualizará una vez esté seleccionado. <!--nueve personas vinculadas a la comunidad matemática del País Vasco. El comité está formado por las siguientes personas (listadas en orden alfabético).--></p>
 
-  <h2>Instituciones</h2>
+  <hr/>
+  <h2 id="rsme"><em>Entidad Organizadora</em>:<br/>Real Sociedad Matemática Española (RSME)</h2>
   <p>
-    Las siguientes instituciones han prestado su apoyo o financiación al VII Congreso de Jóvenes Investigadores de la RSME.
+    La <a href="">Real Sociedad Matemática Española (RSME)</a> es la principal asociación de la comunidad matemática española.
   <p>
 
-  <h3 style="font-style: italic;"><a href="https://www.ehu.eus/">Universidad del País Vasco/Euskal Herriko Unibertsitatea (UPV/EHU)</a></h3>
-
+  <hr/>
+  <h2 id="upvehu" ><em>Institución Anfitriona</em>:</h2>
+  <h3 style="text-align:center;margin-bottom:0;">Universidad del País Vasco/Euskal Herriko Unibertsitatea (UPV/EHU)</h3>
+  <div class="row"><div class="col-md-12" style="text-align:center;"><a href="imgs/logoEHU.png"><img id="portrait" src="imgs/logoEHUweb.png" alt="Logo de la UPV/EHU" style="float:center;width:40%;margin-bottom:0.7em;"/></a></div></div>
+    <p>
+      Fundada el 25 de febrero de 1980, tras la incorporación a la Universidad de Bilbao de los centros universitarios de Gipuzkoa y Araba, la <a href="https://www.ehu.eus/">Universidad del País Vasco/Euskal Herriko Unibertsitatea (UPV/EHU)</a> es la principal universidad del País Vasco, lo cual se manifiesta tanto en su extensión como en su calidad académica. on campuses en las tres provincias vascas: en Bizkaia, distribuido entre Bilbao, Leioa, Barakaldo y Portugalete; en Gipuzkoa, distribuido entre Donostia y Eibar; y en Álava, localizado en Vitoria-Gasteiz. Fundada el , tras
+    <p>
+    <p>
+      La <a href="https://www.ehu.eus/es/web/zientzia-teknologia-fakultatea">Facultad de Ciencia y Tecnología (ZTF-FCT)</a>, donde el <a href="Departamento de Matemáticas"></a> se encuentro, se situa (principalmente) en el llamado <a href="https://www.ehu.eus/es/web/bizkaia/leioa-erandioko-guneak">campus de Leioa—formalmente <em>Ciudad Universitaria de Leioa-Erandio</em></a>.
+    </p>
+  <hr/>
+  <h2 id="bcam"><em>Institución Co-Anfitriona</em>:<br/>Basque Center for Applied Mathematics (BCAM)</h2>
   <p>
-  </p>
-
-  <h3 style="font-style: italic;"><a href="http://www.bcamath.org/">Basque Center for Applied Mathematics (BCAM)</a></h3>
-
+    El <a href="http://www.bcamath.org/">Basque Center for Applied Mathematics (BCAM)</a> es uno de los principales centros de investigación en matemática aplicada tanto a nivel nacional como internacional.
   <p>
+
+  <hr/>
+  <h2 id="patrocinadores">Patrocinadores</h2>
+  <p>
+    Si eres una entidad, institución o empresa, puedes colaborar financieramente con el VII Congreso de Jóvenes Investigadores de la RSME a cambio de exposición. Contacte con el comité organizador si ese es el caso para discutir las diferentes posibilidades.
   </p>
   <hr/>
   <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="index.html" style="width:100%;">Volver al Inicio</a></div></div>

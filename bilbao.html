@@ -38,11 +38,13 @@
     }}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/barranavegacion.css" rel="stylesheet"/>
 
 </head>
 
-  <body>
-   <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-custom">
+<body data-spy="scroll" data-target="#barranavegacion" data-offset="330">
+ <div class="fixed-top" data-toggle="affix">
+   <nav class="navbar navbar-toggleable-md navbar-inverse navbar-custom">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background-color: var(--colorbarA);color: var(--colorbarB);">
         Menu <span class="navbar-toggler-icon" style="background-color: var(--colorbarA);color: var(--colorbarB);"></span>
       </button>
@@ -121,6 +123,13 @@
         </ul>
       </div>
     </nav>
+    <nav id="barranavegacion" class="navbar-toggleable-md navbar-inverse navbar-bilbao">
+      <ul class="nav nav-pills">
+ 	        <li class="nav-item bilbao"><a class="nav-link" href="#gastronomia">Atractivos Gastronómicos</a></li>
+          <li class="nav-item bilbao"><a class="nav-link" href="#cultura">Atractivos Culturales y de Ocio</a></li>
+      </ul>
+     </nav>
+  </div>
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
@@ -134,7 +143,7 @@
   <p>
     En parte del imaginario colectivo, Bilbao sigue siendo sinónimo de ciudad industrial. Sin embargo, los altos hornos y las grúas de construcción naval son hoy símbolos del pasado para la villa. Tras un proceso ejemplar de reconversión urbanística, nuevos símbolos arquitectónicos—como el Museo Guggenheim—muestran cómo Bilbao se ha convertido en una ciudad vanguardista centrada en la cultura, los negocios y el turismo.
   </p>
-  <h2>Atractivos Gastronómicos</h2>
+  <h2 id="gastronomia">Atractivos Gastronómicos</h2>
   <p>
     La gastronomía es uno de los principales atractivos de Bilbao. La villa es actualmente uno los mejores destinos gastronómicos de nuestro país, con una <em>oferta variada, económica y de categoría</em>.
   </p>
@@ -154,7 +163,7 @@
   <p>
     Es más, Bilbao es la sede de varios de los mejores restaurantes del mundo, ya que, a 2022, contaba con seis restaurantes premiados con estrella Michelin. Sin embargo, no hace falta ir a uno de estos restaurantes premiados para disfrutar de una gran experiencia gastronómica en la villa, ofreciendo los restaurantes más económicos una excelente relación calidad-precio.
   </p>
-  <h2>Atractivos Culturales y de Ocio</h2>
+  <h2 id="cultura">Atractivos Culturales y de Ocio</h2>
   <p>
     Entre los lugares más emblemáticos de la Bilbao postindustrial, el <a href="https://www.guggenheim-bilbao.eus/"><em>Museo Guggenheim</em></a> se ha erigido como nuevo icono de la ciudad con características láminas curvadas de titanio. Este museo de arte contemporáneo, construido en 1997, es un referente a nivel mundial y destaca por su arquitectura, del arquitecto Frank O. Gehry, y las grandes esculturas que hay tanto en el interior como en el exterior: el <em>Puppy</em>, del escultor Jeff Koons; <em>Maman</em>, de la escultora Louise Bourgeois; y <em>The Matter of Time</em> del escultor Richard Serra.
   </p>

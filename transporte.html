@@ -39,11 +39,13 @@
     #llegarLeioa {scroll-margin-top: 100px;}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/barranavegacion.css" rel="stylesheet"/>
 
 </head>
 
-  <body>
-   <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-custom">
+<body data-spy="scroll" data-target="#barranavegacion" data-offset="330">
+ <div class="fixed-top" data-toggle="affix">
+   <nav class="navbar navbar-toggleable-md navbar-inverse navbar-custom">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background-color: var(--colorbarA);color: var(--colorbarB);">
         Menu <span class="navbar-toggler-icon" style="background-color: var(--colorbarA);color: var(--colorbarB);"></span>
       </button>
@@ -122,6 +124,18 @@
         </ul>
       </div>
     </nav>
+    <nav id="barranavegacion" class="navbar-toggleable-md navbar-inverse navbar-navegacion">
+      <ul class="nav nav-pills">
+ 	        <li class="nav-item"><a class="nav-link" href="#barik">Barik</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bizkaibus">Bizkaibus</a></li>
+          <li class="nav-item"><a class="nav-link" href="#llegarLeioa">Bizkaibus: Bilbao$\leftrightarrow$campus de Leioa</a></li>
+          <li class="nav-item"><a class="nav-link" href="#bilbobus">Bilbobus</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tranbia">E. Tranbia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#metro">Metro Bilbao</a></li>
+          <li class="nav-item"><a class="nav-link" href="#taxi">Taxi</a></li>
+      </ul>
+     </nav>
+   </div>
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
@@ -140,7 +154,7 @@
   <p>
     Sin embargo, para no saturar el transporte público y facilitar la asistencia a les particpantes, se organizará un servicio de autobuses entre la villa de Bilbao y el campus de Leioa de la UPV/EHU. <a href="sede.html#busLeioa">Más información al respecto se puede encontrar en la página de sede</a>.
   </p>
-  <h2>Tarjeta Barik<a class="btn btn-sesion" href="https://www.ctb.eus/es/como-funciona-barik">Más sobre la Barik</a></h2>
+  <h2 id="barik">Tarjeta Barik<a class="btn btn-sesion" href="https://www.ctb.eus/es/como-funciona-barik">Más sobre la Barik</a></h2>
   <p>
     La tarjeta <em>Barik</em> es una tarjeta monedero con pago sin contacto que permite usar cualquier medio de transporte del <a href="https://www.ctb.eus/">Consorcio de Transportes de Bizkaia</a>, el cual incluye a todos los medios de transporte públicos de Bilbao. Esta tarjeta cuesta 3 &euro; y requiere una carga mínima de 5 &euro;. Sin embargo, la Barik permite beneficiarse de los descuentos por transbordo entre los diferentes medios de transporte y puede ser usada a la vez por hasta 10 personas (en el caso de la Barik no personalizada).
   </p>
@@ -156,7 +170,7 @@
   <hr/>
   <div class="row"><div class="col-md-12"><a class="btn btn-colorb" href="https://www.ctb.eus/es/como-funciona-barik" style="width:100%;">Más sobre Barik</a></div></div>
   <hr/>
-  <h2>Bizkaibus<a class="btn btn-sesion" href="https://web.bizkaia.eus/es/web/bizkaibus/">Más sobre Bizkaibus</a></h2>
+  <h2 id="bizkaibus">Bizkaibus<a class="btn btn-sesion" href="https://web.bizkaia.eus/es/web/bizkaibus/">Más sobre Bizkaibus</a></h2>
   <p>
     <em>Bizkaibus</em> es la red provincial de autobuses de la provincia de Bizkaia. Esta red de transporte público permite desplazarse rápida y cómodamente entre Bilbao y el resto de municipios bizkainos, incluyendo el campus de Leioa donde la sede principal del congreso, la Facultad de Ciencia y Tecnología de la UPV/EHU, se encuentra. Estos autobuses se caracterizan por un color verde claro.
   </p>
@@ -279,7 +293,7 @@
   <hr/>
   <div class="row"><div class="col-md-12"><a class="btn btn-colorb" href="https://web.bizkaia.eus/es/web/bizkaibus/" style="width:100%;">Más sobre Bizkaibus</a></div></div>
   <hr/>
-  <h2>Bilbobus<a class="btn btn-sesion" href="https://www.bilbao.eus/cs/Satellite/bilbobus/es/inicio">Más sobre Bilbobus</a></h2>
+  <h2 id="bilbobus" >Bilbobus<a class="btn btn-sesion" href="https://www.bilbao.eus/cs/Satellite/bilbobus/es/inicio">Más sobre Bilbobus</a></h2>
   <p>
     <em>Bilbobus</em> es la red municipal de autobuses de la villa de Bilbao. Estos permiten moverse por la ciudad rápidamente. Estos autobuses se caracterizan por su color rojo.
   </p>
@@ -297,7 +311,7 @@ Johnathan Nightingale</a> <a href"https://creativecommons.org/licenses/by-sa/2.0
   <div class="row"><div class="col-md-12"><a class="btn btn-colorb" href="https://www.bilbao.eus/cs/Satellite/bilbobus/es/inicio" style="width:100%;">Más sobre Bilbobus</a></div></div>
   <hr/>
 
-  <h2>Euskotren Tranbia<a class="btn btn-sesion" href="https://www.euskotren.eus/es/tranvia/bilbao">Más sobre E. Tranbia</a></h2>
+  <h2 id="tranbia" >Euskotren Tranbia<a class="btn btn-sesion" href="https://www.euskotren.eus/es/tranvia/bilbao">Más sobre E. Tranbia</a></h2>
   <p>
     <em>Euskotren Tranbia</em> es el tranvía de Bilbao. Esta línea va a lo largo de la ría de Bilbao entre <em>Bolueta</em> y <em>La Casilla</em>. El tranvía de Bilbao opera entre las 6:30 y las 22:30 (aproximadamente) con una frecuencia usual de unos 12-15 minutos.
   </p>
@@ -317,7 +331,7 @@ Johnathan Nightingale</a> <a href"https://creativecommons.org/licenses/by-sa/2.0
   <div class="row"><div class="col-md-12"><a class="btn btn-colorb" href="https://www.euskotren.eus/es/tranvia/bilbao" style="width:100%;">Más sobre Euskotren Tranbia</a></div></div>
   <hr/>
 
-  <h2>Metro Bilbao<a class="btn btn-sesion" href="https://www.metrobilbao.eus/">Más sobre Metro Bilbao</a></h2>
+  <h2 id="metro">Metro Bilbao<a class="btn btn-sesion" href="https://www.metrobilbao.eus/">Más sobre Metro Bilbao</a></h2>
   <p>
     <em>Metro Bilbao</em> es el servicio de metro bilbaíno. Aparte de su arquitectura icónica creada por el arquitecto Norman Foster, Metro Bilbao permite moverse rápidamente a ambos lados de la ría de Bilbao con sus tres líneas de metro siendo uno de los transportes públicos más populares de la villa. El metro opera entre las 6:00 y las 23:00 con una frecuencia media de seis minutos. Además, el metro opera los viernes hasta las 2:00 de la madrugada, y los sábados toda la noche.
   </p>
@@ -345,7 +359,7 @@ Johnathan Nightingale</a> <a href"https://creativecommons.org/licenses/by-sa/2.0
   <hr/>
   <div class="row"><div class="col-md-12"><a class="btn btn-colorb" href="https://www.metrobilbao.eus/" style="width:100%;">Más sobre Metro Bilbao</a></div></div>
   <hr/>
-  <h2>Taxi</h2>
+  <h2 id="taxi" >Taxi</h2>
   <p>
     Bilbao posee un servicio de taxis que pueden tomarse desde puntos distribuidos por toda la ciudad. Para quienes lo deseen, es posible reservar un trayecto en taxi o pedir un taxi en un lugar concreto mediante <a href="https://teletaxibilbao.com/">TeleTaxi Bilbao</a> y <a href="https://www.taxibilbao.com/">RadioTaxi Bilbao</a>.
   </p>

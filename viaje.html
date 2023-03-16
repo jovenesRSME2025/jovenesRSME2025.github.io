@@ -38,11 +38,13 @@
     }}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/barranavegacion.css" rel="stylesheet"/>
 
 </head>
 
-  <body>
-   <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-custom">
+<body data-spy="scroll" data-target="#barranavegacion" data-offset="330">
+ <div class="fixed-top" data-toggle="affix">
+   <nav class="navbar navbar-toggleable-md navbar-inverse navbar-custom">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background-color: var(--colorbarA);color: var(--colorbarB);">
         Menu <span class="navbar-toggler-icon" style="background-color: var(--colorbarA);color: var(--colorbarB);"></span>
       </button>
@@ -121,6 +123,16 @@
         </ul>
       </div>
     </nav>
+    <nav id="barranavegacion" class="navbar-toggleable-md navbar-inverse navbar-navegacion">
+      <ul class="nav nav-pills">
+ 	        <li class="nav-item"><a class="nav-link" href="#avion">Avión</a></li>
+          <li class="nav-item"><a class="nav-link" href="#autobus">Autobús</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tren">Tren</a></li>
+          <li class="nav-item"><a class="nav-link" href="#coche">Coche</a></li>
+          <li class="nav-item"><a class="nav-link" href="#apie">A pie</a></li>
+      </ul>
+     </nav>
+   </div>
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
@@ -136,7 +148,7 @@
   <p>
     Para viajar a Bilbao, hay cinco posibilidades: avión, autobús, tren, coche y a pie. Recomendamos a quienes planeen asistir, realizar sus reservaciones para viajar tan pronto como sea posible.
   </p>
-  <h2>Avión</h2>
+  <h2 id="avion">Avión</h2>
   <p>
     El <a href="https://www.aena.es/es/bilbao.html">aeropuerto de Bilbao (código IATA: <em>BIO</em>)</a> tiene conexiones regulares con los grandes aeropuertos de España y de Europa.
   </p>
@@ -155,7 +167,7 @@
   <p>
     En concreto, tiene conexión aérea diaria directa con ciudades de toda la geografía española como Barcelona, Málaga, Madrid, Valencia, Palma de Mallorca, Santa Cruz de Tenerife, Santiago de Compostela y Sevilla. Adicionalmente, cuenta con conexiones diarias a algunos de los principales aeropuerto internacionales de Europa como Amsterdam, Londres, Frankfurt, Munich y París.
   </p>
-  <h2>Autobús</h2>
+  <h2  id="autobus">Autobús</h2>
   <p>
     La <a href="https://www.bilbaointermodal.eus/">estación de autobuses de Bilbao, <em>Bilbao Intermodal</em></a>, ofrece conexiones en autobús a múltiples ciudades de la geografía peninsular.
     En particular, ofrece conexión diaria tanto a ciudades cercanas como Logroño, Satander, Oviedo, Pamplona, San Sebastian y Vitoria; como a otras más lejanas como Barcelona, Burdeos, Burgos, Lisboa, Madrid, Santiago de Compostela y Zaragoza.
@@ -172,7 +184,7 @@
     <p style="text-align:center;font-size:x-small;"><a href="https://commons.wikimedia.org/wiki/File:Bilbao_-_Intermodal_08.jpg">Picture by Zarateman</a> <a href="https://creativecommons.org/publicdomain/zero/1.0/">(CC0 1.0)</a></p>
   </div>
   </div>
-  <h2>Tren</h2>
+  <h2  id="tren">Tren</h2>
   <p>
     Bilbao cuenta con <a href="https://www.adif.es/-/13200-bilbao-abando-">una estación de trenes, la estación de Abando,</a> que posee conexiones de largo recorrido con varias ciudades de la geografía española como A Coruña, Barcelona, Burgos, León, Logroño, Madrid, Barcelona, Málaga, Salamanca, Segovia, Valladolid, Vigo y Zaragoza. Debido a esto, viajar a Bilbao en tren es una alternativa viable para aquellas personas que prefieran este medio de viaje.
   </p>
@@ -188,7 +200,7 @@
   <p>
     Adicionalmente, Bilbao está conectado con la red ferroviaria francesa. Mediante la <a href="https://www.euskotren.eus/">red de ferrocarriles vascos <em>Euskotren</em></a>, se puede llegar a Hendaya y de ahí acceder a la red ferroviaria francesa y europea.
   </p>
-  <h2>Coche</h2>
+  <h2 id="coche">Coche</h2>
   <p>
     Como otras ciudades, Bilbao es accesible en coche para quienes así lo deseen. Dado que Bilbao cuenta con múltiples opciones de parking, esta opción es completamente viable. Entre ellas, <a href="https://www.bilbaointermodal.eus/es/parking.html">destacamos que <em>Bilbao Intermodal</em>, situada justo a la entrada de Bilbao, ofrece más de 500 plazas de aparcamiento a unos 15€ por noche</a> y está <a href="transporte.html">conectada con el resto de la ciudad vía autobús y metro</a>.
   </p>
@@ -204,10 +216,19 @@
     <p style="text-align:center;font-size:x-small;"><a href="https://www.bilbaoturismo.net/BilbaoTurismo/es/donde-aparcar/parking-intermodal">&copy; Bilbao Turismo</a></p>
   </div>
   </div>
-  <h2>A pie</h2>
+  <h2  id="apie">A pie</h2>
   <p>
-    Si se es bilbaíne, se puede venir a Bilbao a pie<a href="https://www.elcorreo.com/sociedad/hong-kong-bilbao-autostop-20180207185126-nt.html">—incluso desde Hong Kong—</a>, pero no recomendamos esa opción para quienes no lo sean.
+    Si se es bilbaíne, se puede venir a Bilbao a pie—ya sea <a href="https://www.youtube.com/watch?v=2PcjaDe1SJ8">desde Santurce</a> o <a href="https://www.elcorreo.com/sociedad/hong-kong-bilbao-autostop-20180207185126-nt.html">desde Hong Kong</a>—, pero no recomendamos esa opción para quienes no lo sean al no conocer las rutas a pie indicadas en <a href="imgs/mapamundibilbao.jpg">el mapamundi de Bilbao</a>.
   </p>
+  <div class="row" style="display:flex;align-items: center;">
+  <div class="col-lg-3" style="text-align:center;"></div>
+  <div class="col-lg-6" style="text-align:center;">
+    <a href="imgs/mapamundibilbao.jpg"><img src="imgs/mapamundibilbaosmall.jpg" alt="Mapamundi de Bilbao"></a>
+    <p style="text-align:center;margin:0;"><a href="https://www.elcorreo.com/bizkaia/201601/26/quien-dibujo-mapamundi-bilbao-20160119104605.html"><em>Mamamundi de Bilbao</em></a></p>
+    <p style="text-align:center;font-size:x-small;"><a href="https://www.elcorreo.com/bizkaia/201601/26/quien-dibujo-mapamundi-bilbao-20160119104605.html"><em>Map of the World</em> es una obra original de <em>Juan Echegoien Krug</em>,<br/>quien la firmó como <em>JEK Larson</em> del <em>Wissenschaftler Art Group</em>, New York.</a></p>
+  </div>
+  <div class="col-lg-3" style="text-align:center;"></div>
+  </div>
   <hr/>
   <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="sedeinflocal.html" style="width:100%;">Más Información Local</a></div></div>
   <hr/>
