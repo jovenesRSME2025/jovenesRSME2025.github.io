@@ -195,7 +195,6 @@ h4 {
   #menuphoneSede{display:none;}
 }
 
-
 /*Buttons Phone*/
 @media only screen and (max-width:990px){
   .btn-colora, .btn-colora:active{
@@ -242,6 +241,54 @@ h4 {
     margin-bottom:0.3em;
   }
 
+  .btn-bilbao, .btn-bilbao:active{
+    background-color: #ee2523;
+    border-color : white;
+    color: white;
+    width:100%;
+    font-size:0.6em;
+    font-variant:inherit;
+    font-style:inherit;
+    float:right;
+    margin-bottom:0.3em;
+  }
+
+  .btn-bilbao:hover, .btn-bilbao:focus{
+    background-color: #FFFFFF;
+    border-color: #ee2523;
+    color: black;
+    font-size:0.6em;
+    font-variant:inherit;
+    font-style:inherit;
+    width:100%;
+    float:right;
+    margin-bottom:0.3em;
+  }
+
+  .btn-bilbaowide, .btn-bilbaowide:active{
+    background-color: #ee2523;
+    border-color : white;
+    color: white;
+    width:100%;
+    font-size:0.9em;
+    font-variant:inherit;
+    font-style:inherit;
+    display:block;
+    margin-bottom:3em;
+  }
+
+  .btn-bilbaowide:hover, .btn-bilbaowide:focus{
+    background-color: #FFFFFF;
+    border-color: #ee2523;
+    color: black;
+    font-size:0.9em;
+    font-variant:inherit;
+    font-style:inherit;
+    width:100%;
+    display:block;
+    margin-bottom:3em;
+  }
+
   .btn-colorb, .btn-colorb:active{
   	background-color: #ee2523;
   	border-color : white;
@@ -262,16 +309,6 @@ h4 {
     width:100%;
   }
 
-  #comprow1{display:none;}
-  #comprow2{display:none;}
-  #comprow3{display:none;}
-  #comprow4{display:none;}
-  #mobilebtn1{display:block;}
-  #mobilebtn2{display:block;}
-  #mobilebtn3{display:block;}
-  #mobilebtn4{display:block;}
-  #mobilebtn5{display:block;}
-  #mobilebtn6{display:block;}
   #sepcomp1{display:none;}
   #sepcomp2{display:none;}
 }
@@ -298,25 +335,83 @@ h4 {
   }
 
   .btn-sesion, .btn-sesion:active{
-  	background-color: var(--colorbarB);
-  	border-color : var(--colorbarA);
-  	color: var(--colorbarA);
+    background-color: var(--colorbarB);
+    border-color : var(--colorbarA);
+    color: var(--colorbarA);
     width:25%;
     font-size:0.6em;
     font-variant:inherit;
     font-style:inherit;
     float:right;
+    display:inline-block;
   }
 
   .btn-sesion:hover, .btn-sesion:focus{
     background-color: var(--colorbarA);
-  	border-color: var(--colorbarB);
-  	color: var(--colorbarB);
+    border-color: var(--colorbarB);
+    color: var(--colorbarB);
     font-size:0.6em;
     font-variant:inherit;
     font-style:inherit;
     width:25%;
     float:right;
+    display:inline-block;
+  }
+
+  .btn-bilbao, .btn-bilbao:active{
+    background-color: #ee2523;
+    border-color : white;
+    color: white;
+    width:25%;
+    font-variant:inherit;
+    font-style:inherit;
+    font-size:.5em;
+    float:right;
+    display:inline;
+  }
+
+  .btn-bilbao:hover, .btn-bilbao:focus{
+    background-color: #FFFFFF;
+    border-color: #ee2523;
+    color: black;
+    font-variant:inherit;
+    font-style:inherit;
+    width:25%;
+    font-size:.5em;
+    float:right;
+    display:inline;
+  }
+
+  .btn-bilbaowide, .btn-bilbaowide:active{
+    background-color: #ee2523;
+    border-color : white;
+    color: white;
+    width:80%;
+    float:center;
+    font-size:0.9em;
+    font-variant:inherit;
+    font-style:inherit;
+    display:inline-block;
+    margin-bottom:3em;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-bilbaowide:hover, .btn-bilbaowide:focus{
+    background-color: #FFFFFF;
+    border-color: #ee2523;
+    color: black;
+    font-size:0.9em;
+    font-variant:inherit;
+    font-style:inherit;
+    width:80%;
+    float:center;
+    display:inline-block;
+    margin-bottom:3em;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .btn-colorb, .btn-colorb:active{
@@ -339,16 +434,6 @@ h4 {
     width:30%;
   }
 
-  #mobilebtn1{display:none;}
-  #mobilebtn2{display:none;}
-  #mobilebtn3{display:none;}
-  #mobilebtn4{display:none;}
-  #mobilebtn5{display:none;}
-  #mobilebtn6{display:none;}
-  #mobileorg{display:none;}
-  #mobilehost{display:none;}
-  #mobilesup{display:none;}
-  #mobilepatrocina{display:none;}
 }
 
 
@@ -410,7 +495,7 @@ p {
 }
 /*images and info Screen*/
 @media only screen and (min-width:991px){
-  img:not(.rsme):not(.bcam){
+  img:not(.rsme):not(.bcam):not(.wide):not(.unwide){
     width: 80%;
   }
   .rsme {
@@ -418,6 +503,12 @@ p {
   }
   .bcam {
     width: 85%;
+  }
+  .wide{
+    width: 95%;
+  }
+  .unwide{
+    width: 40%;
   }
   .redinfo{font-style: italic;text-align:left;color:var(--colorlink);}
 }
@@ -430,12 +521,4 @@ p {
   .bcam{display:none;}
   .rsme{display:none;}
   .upvehu{display:none;}
-  #comprow1{display:none;}
-  #comprow2{display:none;}
-  #comprow3{display:none;}
-  #comprow4{display:none;}
-  #mobilehost{display:none;}
-  #mobileorg{display:none;}
-  #mobilesup{display:none;}
-  #mobilepatrocina{display:none;}
 }
