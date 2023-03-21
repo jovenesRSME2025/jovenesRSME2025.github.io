@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="1PdH-D_yW6NLgk74O7Ik_TZBKRB0qWKo0">
+	<name>Ruta JóvenesRSME2025</name>
+	<description>Llena antes de industrias y raíles, la orilla de la ría de Bilbao es a día de hoy el testigo de la transformación del Bilbao industrial en el Bilbao icónico contemporáneo. De esta forma, dar un paseo a lo largo de la ría—desde la iglesia de San Antón hasta la Catedral—es la mejor forma de conocer el Bilbao actual y apreciar sus hitos arquitectónicos.</description>
+	<StyleMap id="__managed_style_3781EDD5DA2837BB1BD0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_4E8CC2B0D62837BB1BD0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_57D5A7487D2837BB1BD0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<gx:CascadingStyle kml:id="__managed_style_4E8CC2B0D62837BB1BD0">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_21067216C82837BB1BD0">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_131DF4D7E72837BB1BD0">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=fbc02d&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>2</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<gx:displayMode>card</gx:displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_57D5A7487D2837BB1BD0">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>3</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_03F5FB9BDC2837BB1BD0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_131DF4D7E72837BB1BD0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_21067216C82837BB1BD0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="02A6255FFA2837A174FE">
+		<name>Iglesia San Antón</name>
+		<gx:mid>/m/0gh7k01</gx:mid>
+		<gx:fid>0xd4e4fcc9a37cecb:0x6db2c5b06405b5d</gx:fid>
+		<LookAt>
+			<longitude>-2.9233295</longitude>
+			<latitude>43.2551712</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.4262268168001</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9232398,43.255305,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="005A0049AE2837B18703">
+		<name>Del Mercado de la Ribera al Teatro Arriaga</name>
+		<LookAt>
+			<longitude>-2.925141876847298</longitude>
+			<latitude>43.25917654622383</latitude>
+			<altitude>1.358881760350379</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>309.7814326557636</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.924128617291908,43.25561935549268,2.765935170403324 -2.924956573067008,43.25594790705903,1.961821406802713 -2.925453466218433,43.25630628504442,1.025141806136014 -2.926254668062382,43.25705887795824,-3.861039352409905 -2.926624685732856,43.25755844392442,-3.073991051225593 -2.926765246535993,43.25829484700902,-0.8416823519445016 -2.926609405205393,43.25869427993482,-2.152749259552771 -2.926043894327077,43.25912238208897,-1.072793135425805 -2.924881979634057,43.259815660405,1.625907009266967 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="05B362B7632837A1B2C9">
+		<name>Mercado de la Ribera</name>
+		<gx:mid>/m/01295z9y</gx:mid>
+		<gx:fid>0xd4e4fccf16e6fdf:0xed7b2fb4ade2b55f</gx:fid>
+		<LookAt>
+			<longitude>-2.9242611</longitude>
+			<latitude>43.2556078</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.4204078814995</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9242611,43.2556078,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0852EDBB242837A14E21">
+		<name>Teatro Arriaga Antzokia</name>
+		<gx:mid>/m/0942y1</gx:mid>
+		<gx:fid>0xd4e4fceeb2e3bd5:0x6f5bcd799b62ebac</gx:fid>
+		<LookAt>
+			<longitude>-2.925076</longitude>
+			<latitude>43.259436</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.369384518945</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.925076,43.259436,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="03D68E050B2837A11367">
+		<name>Parque del Arenal</name>
+		<gx:mid>/g/11h6vj0780</gx:mid>
+		<gx:fid>0xd4e4fea39974cb5:0x58e954092e2989d8</gx:fid>
+		<LookAt>
+			<longitude>-2.9234258</longitude>
+			<latitude>43.2606704</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.3529314176519</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9234258,43.2606704,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0A2D229DF52837B27DB4">
+		<name>Del Arenal al Ayuntamiento</name>
+		<LookAt>
+			<longitude>-2.922974460941037</longitude>
+			<latitude>43.26294345142241</latitude>
+			<altitude>1.955894847680093</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>454.1370609146543</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.923759700810654,43.26098587777972,0.9939147215829691 -2.923189002491512,43.26179578221068,1.19180296274916 -2.923084314115894,43.2624844177796,1.337688267613928 -2.923307905644406,43.26338545574615,3.174827737948793 -2.923714773588651,43.26376159102183,2.883139882321268 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="073B91F3CC2837A0EAD8">
+		<name>Ayuntamiento de Bilbao - Bilboko Udaletxea</name>
+		<gx:mid>/g/1210xp60</gx:mid>
+		<gx:fid>0xd4e4fc5e5c211dd:0x6a7486dfa11cb52e</gx:fid>
+		<LookAt>
+			<longitude>-2.9230528</longitude>
+			<latitude>43.26436959999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.3036235040412</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9229997,43.2643516,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="009A9C6F802837B3B018">
+		<name>Del Ayuntamiento al ZubiZuri</name>
+		<LookAt>
+			<longitude>-2.926559172542853</longitude>
+			<latitude>43.26561499328507</latitude>
+			<altitude>-3.916473627329631</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>472.1613528327725</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.92397301808356,43.26398144301172,2.542726031455123 -2.924962971996404,43.26472169392775,-2.767781701762572 -2.925533334757166,43.26522035051821,-1.733285691532603 -2.926689151611721,43.26609020552442,-2.504676382728134 -2.927408681168787,43.26666501388354,-2.080755415337831 -2.927788359116239,43.26637341404322,-4.532612219195693 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0268DEDC662837A22591">
+		<name>Zubizuri</name>
+		<gx:mid>/g/1ptxvmc_l</gx:mid>
+		<gx:fid>0xd4e4fdb3085a085:0x816bfc491fd015cb</gx:fid>
+		<LookAt>
+			<longitude>-2.9284597</longitude>
+			<latitude>43.2664015</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2765383793911</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.927772355182581,43.26630946833951,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F20B7F3F32837A2A1C8">
+		<name>TORRES ISOZAKI BILBAO</name>
+		<gx:mid>/m/03y9kcl</gx:mid>
+		<gx:fid>0xd4e4fdb2069a9cb:0xf6f9dde283733a3e</gx:fid>
+		<LookAt>
+			<longitude>-2.928415999999999</longitude>
+			<latitude>43.2655848</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2874250539238</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.928416,43.2655848,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="087E3A8E282837B45D5F">
+		<name>De Isozaki at Guggenheim</name>
+		<LookAt>
+			<longitude>-2.933205012718192</longitude>
+			<latitude>43.26809148153894</latitude>
+			<altitude>15.38808415925805</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>543.9000093983486</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.928498802267777,43.26621814792458,0.7197236221315095 -2.929591974945827,43.2672960321087,0.1102504036606278 -2.93058031103013,43.26814534591487,0.1191328592945662 -2.931720942793381,43.26877708774666,-3.232339730312982 -2.932481010169579,43.26908940619398,-3.931946042867278 -2.933031662975252,43.26913632673562,1.210270617584734 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="044A1506AB2837A2CA12">
+		<name>Museo Guggenheim Bilbao</name>
+		<gx:mid>/m/0m86f</gx:mid>
+		<gx:fid>0xd4e4fdede6031b5:0x508893b7cdaf6dad</gx:fid>
+		<LookAt>
+			<longitude>-2.9340118</longitude>
+			<latitude>43.2686712</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2462823630409</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9340118,43.2686712,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0E9B2001BA2837B5205B">
+		<name>Del Guggenheim al Paseo de la Memoria</name>
+		<LookAt>
+			<longitude>-2.934755642044763</longitude>
+			<latitude>43.26843214675949</latitude>
+			<altitude>11.18292620968239</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>657.0380303883576</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.934901559419436,43.26930170372941,0.6635756330457565 -2.93599666439238,43.26946206051316,-1.798508308456654 -2.936720110623331,43.2694824072905,-4.04971033098373 -2.93705343677592,43.26906857751507,4.663922428489824 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="09743CA5C12837AC6DF0">
+		<name>Memoriaren Ibiltokia</name>
+		<gx:mid>/g/11c61k9bx0</gx:mid>
+		<gx:fid>0xd4e4fdf66341db5:0x5911b1719cf4aeeb</gx:fid>
+		<LookAt>
+			<longitude>-2.9370113</longitude>
+			<latitude>43.26910729999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2404688497238</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9370113,43.26910729999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B45DE17BB2837B5FB00">
+		<name>Del Paseo de la Memoria a la Plaza Euskadi</name>
+		<LookAt>
+			<longitude>-2.937105259022215</longitude>
+			<latitude>43.26817024165459</latitude>
+			<altitude>34.46434936548854</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>633.7565953834564</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.937151055670508,43.2689288747216,4.756456579128887 -2.938044354904062,43.2669046181941,9.904943846852611 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0181CEC6962837A77187">
+		<name>Euskadi Plaza</name>
+		<gx:mid>/g/120z_bpk</gx:mid>
+		<gx:fid>0xd4e50275bb77a75:0xc1270bc03f9b7f13</gx:fid>
+		<LookAt>
+			<longitude>-2.9385259</longitude>
+			<latitude>43.2670407</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2680176955207</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.937993173075607,43.26700485335954,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="049D87D3362837A96F0A">
+		<name>Torre Iberdrola</name>
+		<gx:mid>/m/03y9klh</gx:mid>
+		<gx:fid>0xd31ce9bcfb73899:0xee02d528d71cbeb8</gx:fid>
+		<LookAt>
+			<longitude>-2.938744799999999</longitude>
+			<latitude>43.26806339999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2543846886869</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9387448,43.2680634,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0AB70CA79E2837A612C2">
+		<name>Museo de Bellas Artes de Bilbao</name>
+		<gx:mid>/m/0cjv0_</gx:mid>
+		<gx:fid>0xd4e5027635ab99d:0xe06f68be9beee8f1</gx:fid>
+		<LookAt>
+			<longitude>-2.9381051</longitude>
+			<latitude>43.26576790000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2849843289152</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9381051,43.2657679,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="074F2BA4092837B70310">
+		<name>Del Museo de BBAA al Puente de Deusto</name>
+		<LookAt>
+			<longitude>-2.937938793883847</longitude>
+			<latitude>43.26850792489975</latitude>
+			<altitude>10.93810168882052</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>657.2828785479942</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.938120595789697,43.26629173193035,9.747459421033241 -2.938567570097543,43.2664737075053,9.701725571256501 -2.938673762949076,43.266721856793,9.587716053529007 -2.938674245359797,43.2668816494235,9.153034857342963 -2.939106543262962,43.26700308635349,9.083778502780433 -2.939584273617267,43.26745032532354,9.083444545318368 -2.940233999506777,43.26852768036501,3.202674090100692 -2.940485428398574,43.26899808623303,-0.5366530229551347 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="033C19EED42837A890A2">
+		<name>Puente de Deusto</name>
+		<gx:mid>/g/1z44bqns8</gx:mid>
+		<gx:fid>0xd4e5020e6fc4dcf:0xe812f7195059e117</gx:fid>
+		<LookAt>
+			<longitude>-2.940351</longitude>
+			<latitude>43.26901950000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2416392874115</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.940351,43.2690195,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0831DAB1ED2837B7C4B5">
+		<name>Del Puente de Deusto a los Astilleros Euskalduna</name>
+		<LookAt>
+			<longitude>-2.944239959939441</longitude>
+			<latitude>43.26862271878603</latitude>
+			<altitude>-0.1885114974793045</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>1130.168670426356</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.940668439164326,43.26902256897292,-1.842129114896451 -2.942356586476356,43.26848258212625,0.2831853406018414 -2.942425669653804,43.26832573965928,0.8641615860733665 -2.944249656152183,43.26773380401175,1.990839232122643 -2.944421434092686,43.26777233687719,0.9766240428976958 -2.94567331040424,43.26739599416634,-0.6986468874006224 -2.946398006293218,43.26676254690312,-0.09043334259611679 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="0976134B692837A4741F">
+		<name>Euskalduna Bilbao</name>
+		<gx:mid>/m/027dgnz</gx:mid>
+		<gx:fid>0xd4e502463ab4003:0xdd291c55d656c0a1</gx:fid>
+		<LookAt>
+			<longitude>-2.9443091</longitude>
+			<latitude>43.2670171</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>355.344265146666</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.945062624836385,43.26761413488676,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C2D33759C2837A4E0BA">
+		<name>Grúa Carola</name>
+		<gx:mid>/g/11cjhzszkp</gx:mid>
+		<gx:fid>0xd4e5024b1dadda5:0x898a4b9e145286e9</gx:fid>
+		<LookAt>
+			<longitude>-2.9471449</longitude>
+			<latitude>43.26683329999999</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.2707823949445</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9471449,43.26683329999999,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0D21EEB8572837B90723">
+		<name>Gabarra Athletic Club</name>
+		<gx:mid>/g/11cn69h83w</gx:mid>
+		<gx:fid>0xd4e503b16051371:0xf3bcebd6896a28c2</gx:fid>
+		<LookAt>
+			<longitude>-2.9488032</longitude>
+			<latitude>43.26587620000001</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.283540685399</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9487945,43.2658373,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0C9B89B5F32837B8AD2B">
+		<name>De la Gabarra a la Catedral</name>
+		<LookAt>
+			<longitude>-2.945974981068459</longitude>
+			<latitude>43.26441935078127</latitude>
+			<altitude>24.94609422609512</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>482.3735421762831</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_3781EDD5DA2837BB1BD0</styleUrl>
+		<LineString>
+			<coordinates>
+				-2.947981539125579,43.26585814983937,0.2673200517402807 -2.946335580278401,43.26609962705143,1.748404597045348 -2.9463575624047,43.26578372510053,10.95516040902255 -2.94623714061593,43.26551830484538,11.91455254197339 -2.945712950337946,43.26523226706338,12.15531913966043 -2.94564473772105,43.26505425690436,12.38013865068622 -2.945553807603265,43.26497998930093,12.57014351325943 -2.946048621760323,43.26395116054503,14.91294301306209 -2.946836682314497,43.26413431050243,17.74120644744939 -2.948040587576009,43.26358389565603,22.03046291014148 
+			</coordinates>
+		</LineString>
+	</Placemark>
+	<Placemark id="04EA142D392837A552A6">
+		<name>San Mamés</name>
+		<gx:mid>/m/02qv7m2</gx:mid>
+		<gx:fid>0xd4e503004259e4f:0xdd63774224e34644</gx:fid>
+		<LookAt>
+			<longitude>-2.949341599999999</longitude>
+			<latitude>43.2641706</latitude>
+			<altitude>0</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>744.3062761171946</range>
+			<altitudeMode>relativeToGround</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_03F5FB9BDC2837BB1BD0</styleUrl>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-2.9493416,43.2641706,0</coordinates>
+		</Point>
+	</Placemark>
+</Document>
+</kml>
