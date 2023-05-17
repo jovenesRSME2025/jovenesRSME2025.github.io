@@ -36,7 +36,7 @@
     }}
     @media print, screen and (max-width:990px){
     .jumbotron{
-          background-position:50% 25%;background-image: url(imgs/bg_AIimages.jpg);
+          background-position:25% 25%;background-image: url(imgs/bg_AIimages.jpg);
     }}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
@@ -76,9 +76,9 @@
 
 <div class="jumbotron">
   <div class="container">
-    <h1 class="display-4 english">AI-generated Images</h1>
-    <h1 id="title_es" class="display-4">Imágenes generadas por IA</h1>
-    <h1 class="display-4 basque">IAk sortutako Irudiak</h1>
+    <h1 id="titleEN" class="display-4 english">AI-generated Images</h1>
+    <h1 id="titleES" class="display-4">Imágenes generadas por IA</h1>
+    <h1 id="titleEU" class="display-4 basque">IAk sortutako Irudiak</h1>
   </div>
 </div>
 
@@ -169,17 +169,14 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1101) {
-      document.getElementById("dropdown03").innerHTML="Venue &amp; Local Inf.";
-
+    function varyscreen() { if ( window.innerWidth <= 1101) {
+      document.getElementById("titleEN").innerHTML="AI-gen.<br/> Images";
+      document.getElementById("titleES").innerHTML="Imágenes<br/> gen. por IA";
+      document.getElementById("titleEU").innerHTML="IAk sort.<br/> Irudiak";
     } else {
-      document.getElementById("dropdown03").innerHTML="Venue &amp; Local Information";
-    }
-    if ( screen.width <= 1101) {
-      document.getElementById("title_es").innerHTML="Imágenes gen. por IA";
-
-    } else {
-      document.getElementById("title_es").innerHTML="Imágenes generadas por IA";
+      document.getElementById("titleEN").innerHTML="AI-generated Images";
+      document.getElementById("titleES").innerHTML="Imágenes generadas por IA";
+      document.getElementById("titleEU").innerHTML="IAk sortutako Irudiak";
     }
     };
     varyscreen();
