@@ -10,49 +10,61 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/index_en.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/index_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/actualizaciones.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/actualizaciones_en.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/actualizaciones_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/AIimages.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/alojamiento.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/alojamiento_en.html</loc>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/bilbao.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/bilbao_en.html</loc>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -64,13 +76,13 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/eventos.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/eventos_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
@@ -82,13 +94,13 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/fechasimportantes.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/fechasimportantes_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -106,13 +118,13 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/horario_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/horario_en.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -124,13 +136,13 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/inscripcion_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/inscripcion_en.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -202,19 +214,25 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/programa_en.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/programa_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/sede.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/sede_en.html</loc>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -226,13 +244,13 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/sedeinflocal_en.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/sedeinflocal_eu.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
@@ -257,13 +275,25 @@
 
    <url>
     <loc>https://jovenesrsme2025.xyz/transporte.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/transporte_en.html</loc>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 
    <url>
     <loc>https://jovenesrsme2025.xyz/viaje.html</loc>
-    <lastmod>2023-05-16</lastmod>
+    <lastmod>2023-05-19</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenesrsme2025.xyz/viaje_en.html</loc>
+    <lastmod>2023-05-19</lastmod>
     <priority>0.3</priority>
    </url>
 

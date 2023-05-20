@@ -90,6 +90,41 @@
               hreflang="eu"
               href="https://jovenesrsme2025.xyz/sedeinflocal_eu.html"/>
   </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/alojamiento.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/alojamiento_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/bilbao.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/bilbao_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/sede.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/sede_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/transporte.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/transporte_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/viaje.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenesrsme2025.xyz/viaje_en.html"/>
+  </url>
 
 
 
@@ -272,6 +307,41 @@
               rel="alternate"
               hreflang="eu"
               href="https://jovenesrsme2025.xyz/sedeinflocal_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/alojamiento_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/alojamiento.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/bilbao_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/bilbao.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/sede_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/sede.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/transporte_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/transporte.html"/>
+  </url>
+  <url>
+   <loc>https://jovenesrsme2025.xyz/viaje_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenesrsme2025.xyz/viaje.html"/>
   </url>
 
 </urlset>
