@@ -54,73 +54,38 @@
       <div class="collapse navbar-collapse " id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
+            <a class="nav-link english" href="index_en.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link english" href="sesiones_en.html">Parallel S.</a>
+          </li>
+          <li id="menucompSede" class="nav-item">
+            <a class="nav-link" style="pointer-events: none;">|</a>
+          </li>
+          <hr id="menuphoneSede"/>
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Inicio</a>
           </li>
-
-          <li id="menuphoneProg" class="nav-item active" >
-            <a class="nav-link" href="programa.html">Programa</a>
-          </li>
-
-          <li id="menucompProg" class="nav-item active dropdown">
-            <a class="nav-link dropdown-toggle" href="programa.html" id="dropdown01" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Programa</a>
-              <div id="compmenu1" class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="plenarias.html">Charlas Plenarias</a>
-                  <a class="dropdown-item active" href="sesiones.html">Sesiones Paralelas</a>
-                  <a class="dropdown-item" href="posteres.html">Pósteres</a>
-                  <a class="dropdown-item" href="mesasredondas.html">Mesas Redondas</a>
-                  <a class="dropdown-item" href="divulgacion.html">Actividades de Divulgación</a>
-                  <a class="dropdown-item" href="social.html">Programa Social</a>
-              </div>
-          </li>
-
-          <li id="menuphoneEvent" class="nav-item" >
-            <a class="nav-link" href="eventos.html">Eventos</a>
-          </li>
-
-          <li id="menucompEvent" class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="eventos.html" id="dropdown02" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Eventos</a>
-              <div id="compmenu2" class="dropdown-menu" aria-labelledby="dropdown02">
-                  <a class="dropdown-item" href="mesasredondas.html">Mesas Redondas</a>
-                  <a class="dropdown-item" href="divulgacion.html">Actividades de Divulgación</a>
-                  <a class="dropdown-item" href="social.html">Programa Social</a>
-              </div>
-          </li>
-
           <li class="nav-item">
-            <a class="nav-link" href="horario.html">Horario</a>
+            <a class="nav-link" href="sesiones.html">S. Paralelas</a>
           </li>
-
-          <li id="menuphoneSede" class="nav-item" >
-            <a class="nav-link" href="sedeinflocal.html">Sede &amp; Información Local</a>
+          <li id="menucompEvent" class="nav-item">
+            <a class="nav-link" style="pointer-events: none;">|</a>
           </li>
-
-          <li id="menucompSede" class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="sedeinflocal.html" id="dropdown03" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">Sede &amp; Información Local</a>
-              <div id="compmenu3" class="dropdown-menu" aria-labelledby="dropdown03">
-                  <a class="dropdown-item" href="sede.html">Sede</a>
-                  <a class="dropdown-item" href="transporte.html">Transporte Público</a>
-                  <a class="dropdown-item" href="bilbao.html">Bilbao</a>
-                  <a class="dropdown-item" href="alojamiento.html">Alojamiento</a>
-                  <a class="dropdown-item" href="viaje.html">Viaje</a>
-              </div>
-          </li>
-
+          <hr id="menuphoneEvent"/>
           <li class="nav-item">
-            <a class="nav-link" href="inscripcion.html">Inscripción</a>
+            <a class="nav-link basque" href="index_eu.html">Hasiera</a>
           </li>
-
+          <li class="nav-item">
+            <a class="nav-link basque" href="sesiones_eu.html">S. Paraleloak</a>
+          </li>
+          <hr id="menuphoneProg"/>
         </ul>
 
         <ul class="navbar-nav r-auto">
-          <!--<li class="nav-item">
-            <a class="nav-link" href="paralela02_en.html">en</a>
-          </li>-->
-	        <li class="nav-item active">
-            <a class="nav-link" href="paralela02.html">es</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="paralela01.html"><span class="english">en</span>/es/<span class="basque">eu</span></a>
           </li>
-          <!--<li class="nav-item">
-            <a class="nav-link" href="paralela02_eu.html">eu</a>
-          </li>-->
         </ul>
       </div>
     </nav>
@@ -129,7 +94,9 @@
 
 <div class="jumbotron">
   <div class="container">
-      <h1 class="display-4" style="font-style: italic;">Sesión Paralela 02</h1>
+    <h1 id="englishtitle" class="display-4" style="font-style: italic;font-family: EHUes;display:none;">Parallel Session 02</h1>
+    <h1 id="spanishtitle" class="display-4" style="font-style: italic;font-family: EHUes;display:block;">Sesión Paralela 02</h1>
+    <h1 id="basquetitle" class="display-4" style="font-style: italic;font-family: EHUeu;display:none;">Saio Paraleloa 02</h1>
       <h1 class="display-4">Título de la Sesión Paralela 02</h1>
       <h3 class="display-4" style="font-style: italic;text-align:center;">Organizador 1 (Institución 1)</h3>
       <h3 class="display-4" style="font-style: italic;text-align:center;">Organizador 2 (Institución 2)</h3>
@@ -153,7 +120,14 @@
   <p>Esto es un abstract de la conferencia. En los abstracts podemos incorporar código LaTeX, tanto en línea $\exp(a)-\sin(x)=\frac{1}{2}$, como en display:\[x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\]
   Y así escribir cada abstracts.</p>
   <hr/>
-  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="programa.html" style="width:100%;">Volver a la lista de Sesiones Paralelas</a></div></div>
+  <hr/>
+  <div class="row"><div class="col-md-12 english"><a class="btn btn-colora english" href="sesiones_en.html" style="width:100%;">Return to the List of Parallel Sessions</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="sesiones.html" style="width:100%;">Volver a la lista de Sesiones Paralelas</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora basque" href="sesiones_eu.html" style="width:100%;">Saio Paraleloen Zerrendara Itzuli</a></div></div>
+  <hr/>
+  <div class="row"><div class="col-md-12 english"><a class="btn btn-colora english" href="programa_en.html" style="width:100%;">Return to Congress Program</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="programa.html" style="width:100%;">Volver al Programa del Congreso</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora basque" href="programa_eu.html" style="width:100%;">Kongresuaren Egitarauara Itzuli</a></div></div>
   <hr/>
 </div>
 
@@ -161,7 +135,7 @@
 <div class="row" style="margin:0;padding:0;">
 <div class="col-lg-10">
   <p id="finalpar" style="margin-bottom:0;padding-bottom:0;">&copy; UPV/EHU & RSME<br class="breakfooter"/> (unless otherwise indicated)</p>
-  <p id="finalpar2" style="margin-bottom:0;padding-bottom:0;">Header Image: <br class="breakfooter"/>Picture<br class="breakfooter"/> of <a href="https://sites.google.com/view/beatrizpascualescudero/home">Beatriz Pascual Escudero</a> <br class="breakfooter"/> by Josué Tonelli-Cueto <br class="breakfooter">at <a href="https://2021.bienalrsme.com/">2022 Congreso Bienal de la RSME</a></p>
+  <p id="finalpar2" style="margin-bottom:0;padding-bottom:0;">Header Image: <br class="breakfooter"/>Picture<br class="breakfooter"/> of <a href="https://sites.google.com/view/beatrizpascualescudero/home">Beatriz Pascual Escudero</a> <br class="breakfooter"/> by <a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto</a> <br class="breakfooter">at <a href="https://2021.bienalrsme.com/">2022 Congreso Bienal de la RSME</a></p>
 </div>
 <div class="col-lg-2"><!--
   <p id="finalsentence" style="margin-bottom:0;padding-bottom:0;"> Code of the webpage created through the art of copying, pasting, editing and crossing fingers</p>
@@ -182,14 +156,22 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1101) {
-      document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
-    } else {
-      document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
-    } };
-    varyscreen();
-    window.addEventListener('resize', varyscreen);
-    if (screen.width <= 990) {
+    ten=document.getElementById("englishtitle");
+    tes=document.getElementById("spanishtitle");
+    teu=document.getElementById("basquetitle");
+    rand=Math.floor(Math.random() * 3);
+    if(rand==0){
+      ten.style.display="block";
+      tes.style.display="none";
+      teu.style.display="none";
+    }else if(rand==1){
+      ten.style.display="none";
+      tes.style.display="block";
+      teu.style.display="none";
+    }else{
+      ten.style.display="none";
+      tes.style.display="none";
+      teu.style.display="block";
     }
     //-->
     </script>

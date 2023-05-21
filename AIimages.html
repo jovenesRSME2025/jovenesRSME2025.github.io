@@ -79,20 +79,20 @@
 
 <div class="jumbotron">
   <div class="container">
-    <h1 id="titleEN" class="display-4 english">AI-generated Images</h1>
-    <h1 id="titleES" class="display-4">Imágenes generadas por IA</h1>
-    <h1 id="titleEU" class="display-4 basque">IAk sortutako Irudiak</h1>
+    <h1 id="titleEN" class="display-4 english" lang="en">AI-generated Images</h1>
+    <h1 id="titleES" class="display-4 spanish" lang="es">Imágenes generadas por IA</h1>
+    <h1 id="titleEU" class="display-4 basque" lang="eu">IAk sortutako Irudiak</h1>
   </div>
 </div>
 
 <div class="container">
-  <p class="english">
+  <p class="english" lang="en">
     Some of the header images of this website are AI-generated images. These images where generated using <a href="https://www.midjourney.com/"><em>Midjourney</em></a> by <a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto</a>, Julen Alvarez-Aramberri, Leticia Hernando and Judit Muñoz-Matute. Among the many generated creations, they chose the images below, which are shown together with the prompt used to generate them.
   </p>
-  <p>
+  <p lang="es">
     Algunas de las imágenes de cabecera de esta web fueron generadas con IA. Estas imágenes se generaron usando la herramienta <a href="https://www.midjourney.com/"><em>Midjourney</em></a> por <a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto</a>, Julen Alvarez-Aramberri, Leticia Hernando y Judit Muñoz-Matute. Entre las creaciones generadas, seleccionaron las imágenes que se muestran debajo, junto al <em>prompt</em> usado para generarlas.
   </p>
-  <p class="basque" >
+  <p class="basque" lang="eu">
     Webgune honen goiburuko irudietako batzuk AI-k sortutakoak dira. Irudi hauek Josue Tonelli-Cueto, Julen Alvarez-Aramberri, Leticia Hernando eta Judit Muñoz-Matutek <a href="https://www.midjourney.com/"><em>Midjourney</em></a> erabiliz sortuak izan dira. Sorkuntza  ugariren artean, behean ageri diren irudiak izan dira hautatuak, berauek sortzeko erabilitako <em>prompt</em>-ekin batera erakusten direnak.
   </p>
 
@@ -140,9 +140,9 @@
   </div>
 
   <hr/>
-  <div class="row"><div class="col-md-12"><a class="btn btn-colora english" href="index_en.html" style="width:100%;">Return to Homepage</a></div></div>
-  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="index.html" style="width:100%;">Volver al Inicio</a></div></div>
-  <div class="row"><div class="col-md-12"><a class="btn btn-colora basque" href="index_eu.html" style="width:100%;">Hasierara Itzuli</a></div></div>
+  <div class="row"><div class="col-md-12 english"><a class="btn btn-colora english" href="index_en.html" style="width:100%;" lang="en">Return to Homepage</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="index.html" style="width:100%;" lang="es">Volver al Inicio</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-colora basque" href="index_eu.html" style="width:100%;" lang="eu">Hasierara Itzuli</a></div></div>
   <hr/>
   <hr/>
 </div>
@@ -173,13 +173,7 @@
     <script type="text/javascript">
     <!--
     function varyscreen() { if ( window.innerWidth <= 1101) {
-      document.getElementById("titleEN").innerHTML="AI-gen.<br/> Images";
-      document.getElementById("titleES").innerHTML="Imágenes<br/> gen. por IA";
-      document.getElementById("titleEU").innerHTML="IAk sort.<br/> Irudiak";
     } else {
-      document.getElementById("titleEN").innerHTML="AI-generated Images";
-      document.getElementById("titleES").innerHTML="Imágenes generadas por IA";
-      document.getElementById("titleEU").innerHTML="IAk sortutako Irudiak";
     }
     };
     varyscreen();

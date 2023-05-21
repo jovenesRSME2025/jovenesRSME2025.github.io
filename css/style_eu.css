@@ -37,6 +37,45 @@
   font-style:italic;
 }
 
+/* Fonts EHU ES*/
+@font-face {
+  font-family: EHUes;
+  src: url(../fontES/EHUSans-Regular.otf);
+}
+
+@font-face {
+  font-family: EHUes;
+  src: url(../fontES/EHUSans-Italic.otf);
+  font-style:italic;
+}
+
+@font-face {
+  font-family: EHUes;
+  src: url(../fontES/EHUSans-Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: EHUes;
+  src: url(../fontES/EHUSans-BoldItalic.otf);
+  font-weight: bold;
+  font-style:italic;
+}
+
+
+.basque{
+  font-family: EHUeu;
+}
+
+.spanish{
+  font-family: EHUes;
+}
+
+.english{
+  font-family: EHUes;
+  font-style:italic;
+}
+
 
 @media only screen{
 html body{
@@ -66,7 +105,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     color: var(--colorA);
-    text-shadow: 0px 0px 0.5em black,0px 0px 0.5em black, 0px 0px 0.5em black, 0px 0px 0.5em black,0px 0px 0.5em black, 0px 0px 0.5em black,0px 0px 0.5em black,0px 0px 0.5em black, 0px 0px 0.5em black, 0px 0px 0.5em black,0px 0px 0.5em black;
+    text-shadow: 0px 0px 0.8em black,0px 0px 0.8em black, 0px 0px 0.8em black, 0px 0px 0.8em black,0px 0px 0.8em black, 0px 0px 0.8em black,0px 0px 0.8em black,0px 0px 0.8em black, 0px 0px 0.8em black, 0px 0px 0.8em black,0px 0px 0.8em black;
 }
 
 footer {
@@ -101,6 +140,18 @@ h1 {
 }
 .jumbotron > .container > h1 {
   font-size:2.7em;
+  text-align:center;
+}
+.jumbotron > .container > h1.english  {
+  font-size:2.1em;
+  text-align:center;
+}
+.jumbotron > .container >  h1.spanish{
+  font-size:2.1em;
+  text-align:center;
+}
+.jumbotron > .container > h1.basque {
+  font-size:2.1em;
   text-align:center;
 }
 h2 {
