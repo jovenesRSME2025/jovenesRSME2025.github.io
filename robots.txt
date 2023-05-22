@@ -3,4 +3,4 @@ Allow: /
 
 Sitemap: https://jovenesrsme2025.xyz/sitemap.xml
 Sitemap: https://jovenesrsme2025.xyz/sitemap_languages.xml
-Sitemap: https://jovenesrsme2025.xyz/sitemap_languages.xml
+Sitemap: https://jovenesrsme2025.xyz/sitemap_image.xml
