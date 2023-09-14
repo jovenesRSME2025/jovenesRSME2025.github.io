@@ -10,31 +10,37 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/index_en.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/index_eu.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/apertura.html</loc>
+    <lastmod>2023-09-14</lastmod>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/actualizaciones.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/actualizaciones_en.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/actualizaciones_eu.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -66,6 +72,12 @@
     <loc>https://jovenes2025.rsme.es/bilbao_en.html</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/clausura.html</loc>
+    <lastmod>2023-09-14</lastmod>
+    <priority>0.5</priority>
    </url>
 
    <url>
@@ -195,20 +207,26 @@
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/mesaredonda_trabajo.html</loc>
+    <lastmod>2023-09-14</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/organizacion.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/organizacion_en.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/organizacion_eu.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2023-09-14</lastmod>
     <priority>0.7</priority>
    </url>
 
