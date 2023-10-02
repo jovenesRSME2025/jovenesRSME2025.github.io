@@ -5,7 +5,7 @@
   --bgTIME2: #ffffff;--clTIME2: #000000;
   --bgCH: #45004f;--clCH: #ffffff;
   --bgSP1: #ee2523;--clSP1: #ffffff;
-  --bgSP2: #0067b1;--clSP2: #ffffff;
+  --bgSP2: #ee2523;--clSP2: #ffffff;
   --bgPS: #FFD700;--clPS: #000000;
   --bgMR: #e94196;--clMR: #ffffff;
   --bgDIV: #2c5273;--clDIV: #ffffff;
@@ -17,7 +17,7 @@
   --bgRSME: #2683BE;--clRSME: #ffffff;
   --bgSOCIAL: #000000;--clSOCIAL: #ffffff;
   --bgREC: #505050;--clREC: #ffffff;
-  --bgAC: #e94196;--clAC: #ffffff;
+  --bgAC: #0067b1;--clAC: #ffffff;
 }
 
 
@@ -36,6 +36,9 @@
   }
   .tablescreen{
     display:none;
+  }
+  .tableleyenda{
+    font-size:0.7em;
   }
 
   .DAY{background-color:var(--clDAY);color:var(--bgDAY);text-align: center;width:18.5%;}
@@ -73,6 +76,9 @@
     text-align: center;
     border-collapse: separate;
     empty-cells: hide;
+  }
+  .tableleyenda{
+    display:none;
   }
 
   .DAY{background-color:var(--clDAY);color:var(--bgDAY);text-align: center;width:18.5%;}
