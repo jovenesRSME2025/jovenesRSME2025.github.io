@@ -11,7 +11,7 @@
   --bgDIV: #2c5273;--clDIV: #ffffff;
   --bgCAFE: #FFD700;--clCAFE: #000000;
   --bgCOM: #000000;--clCOM: #ffffff;
-  --bgTRANS: #67b32c;--clTRANS: #ffffff;
+  --bgTRANS: #aee386;--clTRANS: #000000;
   --bgREG: #808080;--clREG: #ffffff;
   --bgGUIA: #009C46;--clGUIA: #ffffff;
   --bgRSME: #2683BE;--clRSME: #ffffff;
@@ -56,7 +56,7 @@
   .REG{background-color:var(--bgREG);color:var(--clREG);}
   .GUIA{background-color:var(--bgGUIA);color:var(--clGUIA);}
   .RSME{background-color:var(--bgRSME);color:var(--clRSME);}
-  .SOCIAL{background-color:var(--bgSOCIAL);color:var(--clSOCIAL);}
+  .SOCIAL{background-color:var(--clSOCIAL);color:var(--bgSOCIAL);}
   .REC{background-color:var(--bgREC);color:var(--clREC);}
   .AC{background-color:var(--bgAC);color:var(--clAC);}
 }
