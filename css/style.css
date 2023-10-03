@@ -280,6 +280,26 @@ h4 {
     width:100%;
   }
 
+  .btn-RSME, .btn-RSME:active{
+    background-color: #2683BE;
+    border-color : #ffffff;
+    color: #ffffff;
+    width:100%;
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+  }
+
+  .btn-RSME:hover, .btn-RSME:focus{
+    background-color: #ffffff;
+    border-color: #2683BE;
+    color: #2683BE;
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+    width:100%;
+  }
+
   .btn-sesion, .btn-sesion:active{
   	background-color: var(--colorbarB);
   	border-color : var(--colorbarA);
@@ -391,6 +411,26 @@ h4 {
     background-color: var(--colorbarA);
   	border-color: var(--colorbarB);
   	color: var(--colorbarB);
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+    width:80%;
+  }
+
+  .btn-RSME, .btn-RSME:active{
+  	background-color: #2683BE;
+  	border-color : #ffffff;
+  	color: #ffffff;
+    width:80%;
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+  }
+
+  .btn-RSME:hover, .btn-RSME:focus{
+    background-color: #ffffff;
+  	border-color: #2683BE;
+  	color: #2683BE;
     font-size:inherit;
     font-variant:inherit;
     font-style:inherit;
