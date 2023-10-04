@@ -22,7 +22,7 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/apertura.html</loc>
-    <lastmod>2023-09-14</lastmod>
+    <lastmod>2023-10-04</lastmod>
     <priority>0.5</priority>
    </url>
 
@@ -76,13 +76,25 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/cafe.html</loc>
-    <lastmod>2023-09-14</lastmod>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/cenasocial.html</loc>
+    <lastmod>2023-10-04</lastmod>
     <priority>0.5</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/clausura.html</loc>
-    <lastmod>2023-09-14</lastmod>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/comidas.html</loc>
+    <lastmod>2023-10-04</lastmod>
     <priority>0.5</priority>
    </url>
 
@@ -141,6 +153,12 @@
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/guiaBilbao.html</loc>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/horario.html</loc>
     <lastmod>2023-10-03</lastmod>
     <priority>0.7</priority>
@@ -174,6 +192,12 @@
     <loc>https://jovenes2025.rsme.es/inscripcion_en.html</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/juntaRSME.html</loc>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.5</priority>
    </url>
 
    <url>
@@ -249,6 +273,12 @@
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/pintxopote.html</loc>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/plenarias.html</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.7</priority>
@@ -306,6 +336,18 @@
     <loc>https://jovenes2025.rsme.es/programa_eu.html</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/recepciones.html</loc>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.5</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/ruta_JovenesRSME2025.kml</loc>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.2</priority>
    </url>
 
    <url>
@@ -403,6 +445,12 @@
     <loc>https://jovenes2025.rsme.es/viaje_en.html</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/visitaturistica.html</loc>
+    <lastmod>2023-10-04</lastmod>
+    <priority>0.5</priority>
    </url>
 
    <url>
