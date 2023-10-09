@@ -111,6 +111,9 @@
 
 /*Formato impresión*/
 @media only print{
+  .dayhead {text-indent: 0%;text-align:right;}
+  .placehead {text-indent:0%;text-align:left;font-style:italic;color:var(--bgSP1);}
+  .footnoteplace{font-size:0.9em;color:gray;font-style:italic;text-align:right;}
   .tablephone{
     display:none;
   }
