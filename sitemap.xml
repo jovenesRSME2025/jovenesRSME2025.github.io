@@ -165,15 +165,51 @@
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/pdf/horario_es_color.pdf</loc>
+    <lastmod>2023-10-08</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/pdf/horario_es_bw.pdf</loc>
+    <lastmod>2023-10-08</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/horario_eu.html</loc>
     <lastmod>2023-10-08</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/pdf/horario_eu_color.pdf</loc>
+    <lastmod>2023-10-08</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/pdf/horario_eu_bw.pdf</loc>
+    <lastmod>2023-10-08</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/horario_en.html</loc>
     <lastmod>2023-10-08</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/pdf/horario_en_color.pdf</loc>
+    <lastmod>2023-10-08</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/pdf/horario_en_bw.pdf</loc>
+    <lastmod>2023-10-08</lastmod>
+    <priority>0.3</priority>
    </url>
 
    <url>
@@ -360,6 +396,12 @@
     <loc>https://jovenes2025.rsme.es/sede_en.html</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/pdf/PlanoCampusLeioa.pdf</loc>
+    <lastmod>2023-09-08</lastmod>
+    <priority>0.3</priority>
    </url>
 
    <url>
