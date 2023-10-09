@@ -23,6 +23,10 @@
 
 /*Formato tabla móvil*/
 @media only screen and (max-width:990px){
+  .dayhead {text-indent: 0%;text-align:left;}
+  .placehead {text-indent:0%;text-align:center;font-style:italic;color:var(--bgSP1);}
+  html {scroll-padding-top: 80px;}
+  .footnoteplace{font-size:0.7em;color:gray;font-style:italic;text-align:center;}
   a.horariolink, a.horariolink:active, a.horariolink:focus{
     display:block; width:100%;
     color:inherit;font-style:inherit;font-variant:inherit;
@@ -63,6 +67,9 @@
 
 /*Formato tabla para pantalla*/
 @media only screen and (min-width:991px){
+  .dayhead {text-indent: 0%;text-align:right;}
+  .placehead {text-indent:0%;text-align:left;font-style:italic;color:var(--bgSP1);}
+  .footnoteplace{font-size:0.9em;color:gray;font-style:italic;text-align:right;}
   a.horariolink, a.horariolink:active, a.horariolink:focus{
     display:block; width:100%;
     color:inherit;font-style:inherit;font-variant:inherit;
@@ -133,3 +140,12 @@
   .REC{background-color:var(--bgREC);color:var(--clREC);}
   .AC{background-color:var(--bgAC);color:var(--clAC);}
 }
+
+/*Brekas*/
+@media only screen and (min-width:398px){#breakes{display:none;}}
+@media only screen and (min-width:424px){#breakenA{display:none;}}
+@media only screen and (min-width:411px){#breakenB{display:none;}}
+@media only screen and (min-width:1200px){#breakeuAA{display:none;} #breakeuAB{display:none;}}
+@media only screen and (min-width:486px) and (max-width:988px){#breakeuAB{display:none;}}
+@media only screen and (max-width:988px){#breakeuAB{display:none;}}
+@media only screen and (min-width:377px){#breakeuB{display:none;}}

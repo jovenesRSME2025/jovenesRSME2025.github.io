@@ -143,14 +143,31 @@
 
 <div class="container">
   <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="fechasimportantes_en.html" style="width:100%;">Important Dates</a></div></div>
+  <!--<hr class="tablescreen"/>
+  <div class="row"><div class="col-md-6" style="text-align:center;"><a class="btn btn-colora tablescreen" href="horario_en_color.html" style="width:100%;">Schedule (PDF in color)</a></div><div class="col-md-6" style="text-align:center;"><a class="btn btn-colora tablescreen" href="horario_en_bw.html" style="width:100%;">Schedule (PDF in B&W)</a></div></div>-->
   <hr/>
-  <p>
-    The schedule of the congress is shown below. This schedule is interactive, allowing to access all the relevant information with just one click. <!--For those who wish to print the schedule, there are two PDFs (one in color, one without it) available for download.-->
+  <div class="row">
+  <div class="col-lg-6">
+    <h3 class="dayhead">Monday Morning:</h3>
+  </div><div class="col-lg-6">
+    <h3 class="placehead"><a href="sede.html#BA">Bizkaia Aretoa</a></h3>
+  </div>
+  <div class="col-lg-6">
+    <h3 class="dayhead">Monday Afternoon <span id="breakenA"><br/>&emsp;</span>& Rest of the Days:</h3>
+  </div><div class="col-lg-6">
+    <h3 class="placehead"><a href="sede.html#mapa">Leioa Campus</a><sup>*</sup></h3>
+  </div>
+  </div>
+  <p class="footnoteplace">
+    <sup>*</sup>except turistic activities, the math poplarization activity<br  id="breakenB"/>and social dinner
   </p>
-  <p>
-    Monday morning the congress will begin at the <a href="sede.html#BA"><em>Bizkaia Aretoa</em></a>, situated in the center of Bilbao. The rest of the congress, except some activities (guided visits, popular science activity and social dinner), will take place in the <a href="sede.html#mapa">campus of Leioa</a>. The schedule below is interative, you can access relevant information by cliking on each activity.
+  <hr/>
+  <p id="infocomp1" style="text-align:justify;">
+    The schedule is interactive, allowing to access all the relevant information with just one click.
   </p>
-  <p class="tableleyenda"><b>Legend:</b> Op.: Opening. Cl.: Closing. POP MATH: Popular Science Activity. P: Posters. POP MATH: Popular Science Activity. PS: Parallel Sessions. REC: Reception. REG: Registration. RMT Work: Round Multi-Table about Work. RT AI: Round Table about AI. RT Young: Round Table about Young Researchers. RSME: General Meeting of the RSME. SD: Social Dinner. TLK: Plenary Talk. TR: Transportation. TUR: Turistic Visit. TUR BIO: Guided Tour of Bilbao. <!--TUR Pote: Pintxo-Pote.--></p>
+  <p id="infophone" style="font-style:italic;text-align:right;">
+    press the cells of the schedule<br/> to access information about the activities
+  </p>
   <table class="tablescreen">
   <tr>
    <th></th>
@@ -162,7 +179,7 @@
   </tr>
   <tr>
    <th class="TIME1">8:00-8:30</th>
-   <td rowspan="2" class="REG"><a href="#REG" class="horariolink">Registration<br/>(8:15-12:00)</a></td>
+   <td rowspan="2" class="REGBA"><a href="#REG" class="horariolink">Registration<br/>(8:15-12:00)</a></td>
    <td rowspan="2" class="TRANS"><a href="sede.html#busLeioa" class="horariolink">Transportation</a></td>
    <td rowspan="2" class="TRANS"><a href="sede.html#busLeioa" class="horariolink">Transportation</a></td>
    <td></td>
@@ -187,7 +204,7 @@
   <tr>
    <th class="TIME1">10:00-10:30</th>
     <td rowspan="2" class="CH"><a href="plenarias_en.html#plenaria1" class="horariolink">Plenary 1</a></td>
-    <td rowspan="2" class="PS"><a href="posteres.html#parte1" class="horariolink">Coffee<br/>+Poster 2</a></td>
+    <td rowspan="2" class="PS"><a href="posteres.html#parte2" class="horariolink">Coffee<br/>+Poster 2</a></td>
   </tr>
   <tr>
    <th class="TIME2">10:30-11:00</th>
@@ -255,7 +272,7 @@
   </tr>
   <tr>
    <th class="TIME1">17:00-17:30</th>
-   <td rowspan="2" class="PS"><a href="posteres.html#parte2" class="horariolink">Reception<br/>+Poster 1</a></td>
+   <td rowspan="2" class="PS"><a href="posteres.html#parte1" class="horariolink">Reception<br/>+Poster 1</a></td>
    <td class="CAFE"><a href="cafe.html" class="horariolink">Coffee</a></td>
   </tr>
   <tr>
@@ -319,7 +336,7 @@
   </tr>
   <tr>
    <th class="TIME1">8:00</th>
-   <td rowspan="2" class="REG"><a href="#REG" class="horariolink">REG</a></td>
+   <td rowspan="2" class="REGBA"><a href="#REG" class="horariolink">REG</a></td>
    <td rowspan="2" class="TRANS"><a href="sede.html#busLeioa" class="horariolink">TR</a></td>
    <td rowspan="2" class="TRANS"><a href="sede.html#busLeioa" class="horariolink">TR</a></td>
    <td></td>
@@ -344,7 +361,7 @@
   <tr>
    <th class="TIME1">10:00</th>
     <td rowspan="2" class="CH"><a href="plenarias_en.html#plenaria1" class="horariolink">TLK1</a></td>
-    <td rowspan="2" class="PS"><a href="posteres.html#parte1" class="horariolink">Tea<br/>+P2</a></td>
+    <td rowspan="2" class="PS"><a href="posteres.html#parte2" class="horariolink">Tea<br/>+P2</a></td>
   </tr>
   <tr>
    <th class="TIME2">10:30</th>
@@ -409,7 +426,7 @@
   </tr>
   <tr>
    <th class="TIME1">17:00</th>
-   <td rowspan="2" class="PS"><a href="posteres.html#parte2" class="horariolink">REC<br/>+P1</a></td>
+   <td rowspan="2" class="PS"><a href="posteres.html#parte1" class="horariolink">REC<br/>+P1</a></td>
    <td class="CAFE"><a href="cafe.html" class="horariolink">Tea</a></td>
   </tr>
   <tr>
@@ -462,10 +479,16 @@
    <th class="TIME1">23:00</th>
   </tr>
   </table>
-  <hr/>
-  <h2 id="REG">Registration Times</h2>
+  <p class="tableleyenda"><br/><b>Legend:</b> Op.: Opening. Cl.: Closing. POP MATH: Popular Science Activity. P: Posters. POP MATH: Popular Science Activity. PS: Parallel Sessions. REC: Reception. REG: Registration. RMT Work: Round Multi-Table about Work. RT AI: Round Table about AI. RT Young: Round Table about Young Researchers. RSME: General Meeting of the RSME. SD: Social Dinner. TLK: Plenary Talk. TR: Transportation. TUR: Turistic Visit. TUR BIO: Guided Tour of Bilbao. <!--TUR Pote: Pintxo-Pote.--></p>
+  <hr id="REGBA"/>
+  <h2>Registration Times <br class="breakfooter"/>at the <em>Bizkaia Aretoa</em></h2>
   <p>
-    Monday morning, from 8:15 to 12:00, the registration will be open at <a href="sede_en.html#BA"><em>Bizkaia Aretoa</em></a>. The rest of the days, registration will be in the campus of Leioa <a href="sede_en.html#ztffctparaninfo">(at the annex room of the Paranainfo of the Facultad de Ciencia y Tecnología)</a>. Registration times in the campus of Leioa are the following:
+    Monday morning, registration will be at the <a href="sede.html#BA"><em>Bizkaia Aretoa</em></a> from 8:15 to 12:00.
+  </p>
+  <hr id="REG"/>
+  <h2>Registration Times <br class="breakfooter"/><br class="breakfooter"/>in the Leioa Campus</h2>
+  <p>
+    Except Monday morning, registration will be in <a href="sede_en.html#ztffctparaninfo">the campus of Leioa: at the Annex Room of the Paranainfo of the Facultad de Ciencia y Tecnología</a>.
   </p>
   <table class="tablescreen" style="width:80%; margin-left: auto;margin-right: auto;">
   <tr>

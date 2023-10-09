@@ -602,6 +602,7 @@ p {
     width: 40%;
   }
   .redinfo{font-style: italic;text-align:left;color:var(--colorlink);}
+  #infophone{display:none;}
 }
 @media only print {
   img {
