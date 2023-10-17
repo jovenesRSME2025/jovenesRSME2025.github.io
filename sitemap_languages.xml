@@ -113,6 +113,17 @@
               href="https://jovenes2025.rsme.es/sesiones_eu.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/sumateRSME.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/sumateRSME_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/sumateRSME_eu.html"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/posteres.html</loc>
    <xhtml:link
               rel="alternate"
@@ -350,6 +361,17 @@
               href="https://jovenes2025.rsme.es/sesiones_en.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/sumateRSME_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/sumateRSME_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/sumateRSME.html"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/posteres_eu.html</loc>
    <xhtml:link
               rel="alternate"
@@ -549,6 +571,17 @@
               rel="alternate"
               hreflang="eu"
               href="https://jovenes2025.rsme.es/sesiones_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/sumateRSME_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/sumateRSME.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/sumateRSME_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/posteres_en.html</loc>

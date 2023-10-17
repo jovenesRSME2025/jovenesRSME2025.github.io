@@ -1,0 +1,49 @@
+:root {
+  --bgDAY: #000000;--clDAY: #ffffff;
+  --bgTIME1: #000000;--clTIME1: #ffffff;
+  --bgTIME2: #ffffff;--clTIME2: #000000;
+  --bgCH: #45004f;--clCH: #ffffff;
+  --bgSP1: #ee2523;--clSP1: #ffffff;
+  --bgSP2: #ee2523;--clSP2: #ffffff;
+  --bgPS: #FFD700;--clPS: #000000;
+  --bgMR: #e94196;--clMR: #ffffff;
+  --bgDIV: #2c5273;--clDIV: #ffffff;
+  --bgCAFE: #FFD700;--clCAFE: #000000;
+  --bgCOM: #000000;--clCOM: #ffffff;
+  --bgTRANS: #aee386;--clTRANS: #000000;
+  --bgREG: #808080;--clREG: #ffffff;
+  --bgGUIA: #009C46;--clGUIA: #ffffff;
+  --bgRSME: #2683BE;--clRSME: #ffffff;
+  --bgSOCIAL: #000000;--clSOCIAL: #ffffff;
+  --bgREC: #505050;--clREC: #ffffff;
+  --bgAC: #0067b1;--clAC: #ffffff;
+}
+
+@media screen and (min-width:768px){
+.eventosheaderphone{display:none;}
+.eventosheaderprint{display:none;}
+}
+@media screen and (max-width:767px){
+.eventosheadercom{display:none;}
+.eventosheaderprint{display:none;}
+}
+@media screen and (min-width:392px){
+.breaktimemonday{display:none;}
+}
+@media screen and (min-width:397px){
+.breaktimetuesday{display:none;}
+}
+@media screen and (min-width:446px){
+.breaktimewednesday{display:none;}
+}
+@media screen and (min-width:408px){
+.breaktimethursday{display:none;}
+}
+@media screen and (min-width:406px){
+.breaktimefriday{display:none;}
+}
+@media print {
+.eventosheadercom{display:none;}
+.eventosheaderphone{display:none;}
+}
+html {scroll-padding-top: 80px;}

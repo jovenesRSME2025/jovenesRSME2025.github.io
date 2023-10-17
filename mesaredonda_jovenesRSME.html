@@ -39,8 +39,10 @@
     .jumbotron{
           background-position: 60% 25%;background-image: url(imgs/bgphone_mesasredondas.jpg);
     }}
+    .coloreventosheader{color: var(--bgMR);}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/eventos.css" rel="stylesheet"/>
 
 </head>
 
@@ -105,10 +107,11 @@
 </div>
 
 <div class="container">
-  <div class="row"><div class="col-md-12 english"><a class="btn btn-colora english" href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-de-jovenes/" style="width:100%;">What is RSME's Youth Comission? (es)</a></div></div>
-  <div class="row"><div class="col-md-12"><a class="btn btn-colora" href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-de-jovenes/" style="width:100%;">¿Qué es la Comisión de Jóvenes de la RSME?</a></div></div>
-  <div class="row"><div class="col-md-12"><a class="btn btn-colora basque" href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-de-jovenes/" style="width:100%;">Zer da RSMEren Gazte Batzordea? (es)</a></div></div>
+  <div class="row"><div class="col-md-12 english"><a class="btn btn-RSME english" href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-de-jovenes/" style="width:100%;">What is RSME's Youth Comission? (es)</a></div></div>
+  <div class="row"><div class="col-md-12"><a id="ESbtn" class="btn btn-RSME" href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-de-jovenes/" style="width:100%;">¿Qué es la Comisión de Jóvenes de la RSME?</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-RSME basque" href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-de-jovenes/" style="width:100%;">Zer da RSMEren Gazte Batzordea? (es)</a></div></div>
   <hr/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Thursday 16,<br class="breaktimethursday"/> 12:00-13:00<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em>]</a></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Jueves 16,<br class="breaktimethursday"/> 12:00-13:00<br/><a href="sede.html#ztffctparaninfo">[Paraninfo]</a></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Osteguna 16,<br class="breaktimethursday"/> 12:00-13:00<br/><a href="sede.html#ztffctparaninfo">[Paraninfoa]</a></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Thursday 16, 12:00-13:00<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Jueves 16, 12:00-13:00<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Osteguna 16, 12:00-13:00<br/><a href="sede.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Thursday 16, 12:00-13:00<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Jueves 16, 12:00-13:00<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Osteguna 16, 12:00-13:00<br/><a href="sede.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a></h4></div></div><hr/>
   <p style="font-style: italic;font-family: EHUes;">
     This round-table is organized by RSME's Youth Commission.
     Once the program of the conference is defined, this webpage will contain the relevant information. This will happen at some moment of 2024.
@@ -196,6 +199,13 @@
       tes.style.display="none";
       teu.style.display="block";
     }
+    function varyscreen() { if ( window.innerWidth <= 390) {
+      document.getElementById("ESbtn").style="width:100%;font-size:0.9em;";
+    } else{
+      document.getElementById("ESbtn").style="width:100%;";
+    }};
+    varyscreen();
+    window.addEventListener('resize', varyscreen);
     //-->
     </script>
     <!-- For math expression-->

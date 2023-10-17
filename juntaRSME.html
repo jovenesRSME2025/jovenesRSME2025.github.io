@@ -39,8 +39,10 @@
     .jumbotron{
           background-position: 50% 70%;background-image: url(imgs/bgphone_juntaRSME.jpg);
     }}
+    .coloreventosheader{color: var(--bgRSME);}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/eventos.css" rel="stylesheet"/>
 
 </head>
 
@@ -96,17 +98,18 @@
 <div class="jumbotron">
   <div class="container">
     <h2 style="text-align:center;font-family: EHUes;display: block;">$\sigma$</h2>
-      <h1 class="display-4" style="font-style: italic;font-family: EHUes;">RSME's General Meeting</h1>
-      <h1 class="display-4" style="font-family: EHUes;">Junta General de la RSME</h1>
-      <h1 class="display-4" style="font-family: EHUeu;">RSMEren Batzar Nagusia</h1>
+      <h1 id="englishtitle" class="display-4" style="font-style: italic;font-family: EHUes;">RSME's <br class="breakfooter"/>General Meeting</h1>
+      <h1 id="spanishtitle" class="display-4" style="font-family: EHUes;">Junta General <br class="breakfooter"/>de la RSME</h1>
+      <h1 id="basquetitle" class="display-4" style="font-family: EHUeu;">RSMEren <br class="breakfooter"/>Batzar Nagusia</h1>
   </div>
 </div>
 
 <div class="container">
-  <div class="row"><div class="col-md-12 english"><a class="btn btn-RSME english" href="https://www.rsme.es/la-sociedad/socios-y-socias/inscripcion/" style="width:100%;">Become a member of the RSME! (es)</a></div></div>
-  <div class="row"><div class="col-md-12"><a class="btn btn-RSME" href="https://www.rsme.es/la-sociedad/socios-y-socias/inscripcion/" style="width:100%;">¡Sé un RSME!</a></div></div>
-  <div class="row"><div class="col-md-12"><a class="btn btn-RSME basque" href="https://www.rsme.es/la-sociedad/socios-y-socias/inscripcion/" style="width:100%;">Egin zaitez RSMEko bazkide! (es)</a></div></div>
+  <div class="row"><div class="col-md-12 english"><a class="btn btn-RSME english" href="sumateRSME_en.html" style="width:100%;">Sum yourself to the RSME!</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-RSME" href="sumateRSME.html" style="width:100%;">¡Súmate a la RSME!</a></div></div>
+  <div class="row"><div class="col-md-12"><a class="btn btn-RSME basque" href="sumateRSME_eu.html" style="width:100%;">Aditu zaitez RSMEra!</a></div></div>
   <hr/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Tuesday 14,<br class="breaktimetuesday"/> 18:30-19:30<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em>]</a></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Martes 14,<br class="breaktimetuesday"/> 18:30-19:30<br/><a href="sede.html#ztffctparaninfo">[Paraninfo]</a></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Asteartea 14,<br class="breaktimetuesday"/> 18:30-19:30<br/><a href="sede.html#ztffctparaninfo">[Paraninfoa]</a></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Tuesday 14, 18:30-19:30<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Martes 14, 18:30-19:30<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Asteartea 14, 18:30-19:30<br/><a href="sede.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Tuesday 14, 18:30-19:30<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Martes 14, 18:30-19:30<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Asteartea 14, 18:30-19:30<br/><a href="sede.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a></h4></div></div><hr/>
   <p style="font-style: italic;font-family: EHUes;">
     Once the program of the conference is defined, this webpage will contain the relevant information. This will happen at some moment of 2024.
   </p>
@@ -174,6 +177,47 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
+    ten=document.getElementById("englishtitle");
+    tes=document.getElementById("spanishtitle");
+    teu=document.getElementById("basquetitle");
+    rand=Math.floor(Math.random() * 3);
+    function varyscreen() { if ( window.innerWidth <= 351) {
+      ten.style="font-size:2.3em;font-style: italic;font-family: EHUes;";
+      tes.style="font-size:2.3em;font-family: EHUes;";
+      teu.style="font-size:2.3em;font-family: EHUeu;";
+    } else if ( window.innerWidth <= 361) {
+      ten.style="font-size:2.3em;font-style: italic;font-family: EHUes;";
+      tes.style="font-size:2.8em;font-family: EHUes;";
+      teu.style="font-size:2.3em;font-family: EHUeu;";
+    } else if ( window.innerWidth <= 389) {
+      ten.style="font-size:2.3em;font-style: italic;font-family: EHUes;";
+      tes.style="font-size:2.8em;font-family: EHUes;";
+      teu.style="font-size:2.5em;font-family: EHUeu;";
+    } else {
+      ten.style="font-style: italic;font-family: EHUes;";
+      tes.style="font-family: EHUes;";
+      teu.style="font-family: EHUeu;";
+    } if ( window.innerWidth <= 990) {
+      if(rand==0){
+        ten.style.display="block";
+        tes.style.display="none";
+        teu.style.display="none";
+      }else if(rand==1){
+        ten.style.display="none";
+        tes.style.display="block";
+        teu.style.display="none";
+      }else{
+        ten.style.display="none";
+        tes.style.display="none";
+        teu.style.display="block";
+      }
+    } else {
+      ten.style.display="block";
+      tes.style.display="block";
+      teu.style.display="block";
+    } };
+    varyscreen();
+    window.addEventListener('resize', varyscreen);
     //-->
     </script>
     <!-- For math expression-->

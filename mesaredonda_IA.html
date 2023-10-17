@@ -39,8 +39,10 @@
     .jumbotron{
           background-position: 50% 25%;background-image: url(imgs/bg_mesaredonda_IA.jpg);
     }}
+    .coloreventosheader{color: var(--bgMR);}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/eventos.css" rel="stylesheet"/>
 
 </head>
 
@@ -98,13 +100,14 @@
       <h2 id="englishtitle" style="text-align:center;font-style: italic;font-family: EHUes;display: none;">Round Table $\,\Omega$</h2>
       <h2 id="spanishtitle" style="text-align:center;font-family: EHUes;display: block;">Mesa Redonda $\Omega$</h2>
       <h2 id="basquetitle" style="text-align:center;font-family: EHUeu;display: none;">Mahai Ingurua $\Omega$</h2>
-      <h1 class="display-4" style="font-style: italic;font-family: EHUes;">Artificial Intelligence</h1>
-      <h1 class="display-4" style="font-family: EHUes;">Inteligencia Artificial</h1>
-      <h1 class="display-4" style="font-family: EHUeu;">Adimen Artifiziala</h1>
+      <h1 id="ENtitle" class="display-4" style="font-style: italic;font-family: EHUes;">Artificial Intelligence</h1>
+      <h1 id="EStitle" class="display-4" style="font-family: EHUes;">Inteligencia Artificial</h1>
+      <h1 id="EUtitle" class="display-4" style="font-family: EHUeu;">Adimen Artifiziala</h1>
   </div>
 </div>
 
 <div class="container">
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Tuesday 14,<br class="breaktimetuesday"/> 17:30-18:30<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em>]</a></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Martes 14,<br class="breaktimetuesday"/> 17:30-18:30<br/><a href="sede.html#ztffctparaninfo">[Paraninfo]</a></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Asteartea 14,<br class="breaktimetuesday"/> 17:30-18:30<br/><a href="sede.html#ztffctparaninfo">[Paraninfoa]</a></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Tuesday 14, 17:30-18:30<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Martes 14, 17:30-18:30<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Asteartea 14, 17:30-18:30<br/><a href="sede.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Tuesday 14, 17:30-18:30<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Martes 14, 17:30-18:30<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Asteartea 14, 17:30-18:30<br/><a href="sede.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a></h4></div></div><hr/>
   <p style="font-style: italic;font-family: EHUes;">
     Once the program of the conference is defined, this webpage will contain the relevant information. This will happen at some moment of 2024.
   </p>
@@ -189,6 +192,21 @@
       tes.style.display="none";
       teu.style.display="block";
     }
+    function varyscreen() { if ( window.innerWidth <= 391) {
+      document.getElementById("EStitle").style="font-family: EHUes;font-size:1.9em;";
+      document.getElementById("EUtitle").style="font-family: EHUeu;font-size:1.9em;";
+      document.getElementById("ENtitle").style="font-style: italic;font-family: EHUes;font-size:1.9em;";
+    } else if ( window.innerWidth <= 483) {
+      document.getElementById("EStitle").style="font-family: EHUes;font-size:2.1em;";
+      document.getElementById("EUtitle").style="font-family: EHUeu;font-size:2.1em;";
+      document.getElementById("ENtitle").style="font-style: italic;font-family: EHUes;font-size:2.1em;";
+    } else{
+      document.getElementById("EStitle").style="font-family: EHUes;";
+      document.getElementById("EUtitle").style="font-family: EHUeu;";
+      document.getElementById("ENtitle").style="font-style: italic;font-family: EHUes;";
+    }};
+    varyscreen();
+    window.addEventListener('resize', varyscreen);
     //-->
     </script>
     <!-- For math expression-->
