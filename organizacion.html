@@ -36,11 +36,34 @@
     @media print, screen and (min-width:991px){
     .jumbotron{
           background-position: 50% 25%;background-image: url(imgs/bg_organizacion.jpg);
-    }}
+    }
+    .picturescomputer{}
+    .picturestablet{display:none;}
+    .picturesphone{display:none;}
+    }
     @media print, screen and (max-width:990px){
     .jumbotron{
           background-position: 50% 25%;background-image: url(imgs/bgphone_organizacion.jpg);
     }}
+    @media print, screen and (min-width:768px) and (max-width:990px){
+      .picturescomputer{display:none;}
+      .picturestablet{}
+      .picturesphone{display:none;}
+    }
+    @media print, screen and (max-width:767px){
+      .picturescomputer{display:none;}
+      .picturestablet{display:none;}
+      .picturesphone{text-align:center;}
+    }
+    @media print, screen and (min-width:466px){
+      .siabrev{display:none;}
+      .noabrev{}
+    }
+    @media print, screen and (max-width:465px){
+      .siabrev{}
+      .noabrev{display:none;}
+    }
+    td{width:20%;}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/barranavegacion.css" rel="stylesheet"/>
@@ -157,7 +180,118 @@
   <h2 id="corganizador">Comité Organizador</h2>
   <p>El comité organizador consta de nueve personas vinculadas a la comunidad matemática del País Vasco. <a href="#tonellicueto">El presidente del comité organizador es Josué Tonelli-Cueto</a> y <a href="#garayaldeocana">la tesorera Oihana Garayalde Ocaña</a>. Además, el comité cuenta con cinco vocales, que son responsables de las actividades del congreso. El comité organizador está formado por las siguientes personas (listadas en orden alfabético).</p>
 
-  <h3 id="alvarezaramberri" style="font-style: italic;">Julen Alvarez-Aramberri <br class="breakfooter"/>(UPV/EHU) <br class="breakfooter"/><a href="divulgacion.html" style="color:#808080;">[Vocal de Divulgación]</a></h3>
+  <!--<div class="row picturescomputer" style="text-align:center;"><div class="col-md-1"></div><div class="col-md-10"><table style="text-align: center;width:100%;table-layout: fixed;">
+    <tr>
+     <td rowspan="2" colspan="2" >
+       <img style="width:85%;" src="imgs_co/garayaldeocana.jpeg" alt="Oihana Garayalde Ocaña, tesorera del comité organizador"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Oihana Garayalde&nbsp;Ocaña,<br/>tesorera del comité organizador</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+     <td>
+       <img style="width:95%;" src="imgs_co/malaina.jpeg" alt="Iker Malaina"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Iker<br/>Malaina</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+     <td>
+       <img style="width:95%;" src="imgs_co/munozmatute.jpeg" alt="Judit Muñoz-Matute"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Judit<br/>Muñoz&#8209;Matute</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+     <td>
+       <img style="width:95%;" src="imgs_co/uriaalbizuri.jpeg" alt="Jone Uria-Albizuri"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Jone<br/>Uria&#8209;Albizuri</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+    </tr>
+    <tr>
+     <td>
+       <img style="width:95%;" src="imgs_co/hernando.jpeg" alt="Leticia Hernando"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Leticia<br/>Hernando</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+     <td rowspan="2" colspan="2">
+       <img style="width:85%;" src="imgs_co/tonellicueto.jpeg" alt="Josué Tonelli-Cueto, presidente del comité organizador"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Josué Tonelli&#8209;Cueto,<br/>presidente del comité organizador</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+    </tr>
+    <tr>
+     <td>
+       <img style="width:95%;" src="imgs_co/alvarezaramberri.jpeg" alt="Julen Alvarez-Aramberri "/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Julen<br/>Alvarez&#8209;Aramberri</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+     <td>
+       <img style="width:95%;" src="imgs_co/barcenapetisco.jpeg" alt="Jon Asier Bárcena-Petisco"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Jon&nbsp;Asier<br/>Bárcena&#8209;Petisco</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+     <td>
+       <img style="width:95%;" src="imgs_co/fernandezbertolin.jpeg" alt="Aingeru Fernández Bertolin"/>
+       <p style="text-align:center;margin:0;font-size:0.8em;">Aingeru<br/>Fernández&nbsp;Bertolin</p>
+       <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+     </td>
+    </tr>
+  </table></div><div class="col-md-1"></div></div>
+
+  <table class="picturestablet" style="text-align: center;width:100%;">
+  <tr>
+   <td rowspan="2" colspan="2" >
+     <img style="width:85%;" src="imgs_co/garayaldeocana.jpeg" alt="Oihana Garayalde Ocaña, tesorera del comité organizador"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Oihana Garayalde&nbsp;Ocaña,<br/>tesorera del comité organizador</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+   <td>
+     <img style="width:95%;" src="imgs_co/malaina.jpeg" alt="Iker Malaina"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Iker<br/>Malaina</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+   <td>
+     <img style="width:95%;" src="imgs_co/munozmatute.jpeg" alt="Judit Muñoz-Matute"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Judit<br/>Muñoz&#8209;Matute</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+   <td>
+     <img style="width:95%;" src="imgs_co/uriaalbizuri.jpeg" alt="Jone Uria-Albizuri"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Jone<br/>Uria&#8209;Albizuri</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+     <img style="width:95%;" src="imgs_co/hernando.jpeg" alt="Leticia Hernando"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Leticia<br/>Hernando</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+   <td rowspan="2" colspan="2">
+     <img style="width:85%;" src="imgs_co/tonellicueto.jpeg" alt="Josué Tonelli-Cueto, presidente del comité organizador"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Josué Tonelli&#8209;Cueto,<br/>presidente del comité organizador</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+     <img style="width:95%;" src="imgs_co/alvarezaramberri.jpeg" alt="Julen Alvarez-Aramberri "/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Julen<br/>Alvarez&#8209;Aramberri</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+   <td>
+     <img style="width:95%;" src="imgs_co/barcenapetisco.jpeg" alt="Jon Asier Bárcena-Petisco"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Jon&nbsp;Asier<br/>Bárcena&#8209;Petisco</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+   <td>
+     <img style="width:95%;" src="imgs_co/fernandezbertolin.jpeg" alt="Aingeru Fernández Bertolin"/>
+     <p style="text-align:center;margin:0;font-size:0.8em;">Aingeru<br/>Fernández&nbsp;Bertolin</p>
+     <p style="text-align:center;font-size:0.4em;">&copy; ????</p>
+   </td>
+  </tr>
+</table>-->
+
+
+
+  <h3 id="alvarezaramberri" style="font-style: italic;text-align:center;">Julen Alvarez-Aramberri <br/>(UPV/EHU)<br/><a href="divulgacion.html" style="color:#808080;">[Vocal de Divulgación]</a></h3>
+
   <p>
     Especialista en matemáticas aplicadas, con especial atención a problemas numéricos asociados a geofísica y electromagnetismo.
   </p>
@@ -171,20 +305,20 @@
     y <em>Licenciatura en Física</em> por la UPV/EHU, 2007.
   </p>
 
-  <h3 id="barcenapetisco" style="font-style: italic;"><a href="https://sites.google.com/view/jonasierbarcenapetisco/">Jon Asier Bárcena-Petisco <br class="breakfooter"/>(UPV/EHU)</a> <br class="breakfooter"/><a href="mesaredonda_trabajo.html" style="color:#808080;">[Vocal de MMR Trabajo]</a></h3>
+  <h3 id="barcenapetisco" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/jonasierbarcenapetisco/">Jon Asier Bárcena-Petisco<br/>(UPV/EHU)</a><br/><a href="mesaredonda_trabajo.html" style="color:#808080;">[Vocal de MMR Trabajo]</a></h3>
   <p>
     Especialista en ecuaciones diferenciales, con especial atención a su controlabilidad y observabilidad.
   </p>
   <p>
     <em>Profesor Ayudante Doctor</em> en la UPV/EHU, desde 2021.
     <em>Premio Vicent Caselles</em> 2021.
-    <em>Postdoc</em> en la <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2020-2021.
+    <em>Postdoc</em> en la Universidad Autónoma de Madrid, 2020-2021.
     <em>Doctor</em> por la Sorbonne Université (Francia), 2020;
     <em>Máster1 Mathématiques</em> y <em>Master2 Mathématiques et applications</em> por la Sorbonne Université (Francia), 2016 y 2017;
     y <em>Grado en Matemáticas</em> por la UPV/EHU, 2016.
   </p>
 
-  <h3 id="fernandezbertolin" style="font-style: italic;"><a href="https://sites.google.com/view/aingeru-fernandez-bertolin/">Aingeru Fernández Bertolin <br class="breakfooter"/>(UPV/EHU)</a></h3>
+  <h3 id="fernandezbertolin" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/aingeru-fernandez-bertolin/">Aingeru Fernández Bertolin <br/>(UPV/EHU)</a></h3>
   <p>
     Especialista en ecuaciones en derivadas parciales, con especial atención a problemas de continuación única.
   </p>
@@ -195,7 +329,7 @@
     y <em>Licenciatura en Matemáticas</em> por la UPV/EHU, 2011.
   </p>
 
-  <h3 id="garayaldeocana" style="font-style: italic;"><a href="https://sites.google.com/site/oihanagaraialde/">Oihana Garayalde Ocaña <br class="breakfooter"/>(UPV/EHU)</a> <br class="breakfooter"/><caps style="font-variant:small-caps;color: var(--colorlink);">[Tesorera]<caps/></h3>
+  <h3 id="garayaldeocana" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/site/oihanagaraialde/">Oihana Garayalde Ocaña <br/>(UPV/EHU)</a> <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Tesorera]<caps/></h3>
   <p>
     Especialista en teoría de grupos y álgebra homológica; más en concreto, en cohomología de grupos (pro)finitos y sucesiones espectrales.
   </p>
@@ -207,7 +341,7 @@
     y <em>Licenciatura en Matemáticas</em> por la UPV/EHU, 2010.
   </p>
 
-  <h3 id="hernando" style="font-style: italic;">Leticia Hernando <br class="breakfooter"/>(UPV/EHU) <br class="breakfooter"/><a href="mesaredonda_jovenesRSME.html" style="color:#808080;">[Vocal de MR Jóvenes]</a></h3>
+  <h3 id="hernando" style="font-style: italic;text-align:center;">Leticia Hernando <br/>(UPV/EHU) <br/><a href="mesaredonda_jovenesRSME.html" style="color:#808080;">[Vocal de MR Jóvenes]</a></h3>
   <p>
     Especialista en optimización combinatoria basada en permutaciones y desarrollo de técnicas (meta)heurísticas.
   </p>
@@ -218,7 +352,7 @@
     y <em>Licenciatura en Matemáticas</em> por la UPV/EHU, 2009.
   </p>
 
-  <h3 id="malaina" style="font-style: italic;">Iker Malaina <br class="breakfooter"/>(UPV/EHU)</h3>
+  <h3 id="malaina" style="font-style: italic;text-align:center;">Iker Malaina <br/>(UPV/EHU)</h3>
   <p>
     Especialista en matemática aplicada a la biología, con especial énfasis en aplicaciones biomédicas como el diseño computacional de vacunas, o el análisis de series temporales biomédicas.
   </p>
@@ -229,20 +363,20 @@
     y <em>Licenciatura en Matemáticas</em> por la UPV/EHU, 2012.
   </p>
 
-  <h3 id="munozmatute" style="font-style: italic;">Judit Muñoz-Matute <br class="breakfooter"/>(BCAM) <br class="breakfooter"/><a href="mesaredonda_IA.html" style="color:#808080;">[Vocal de MR IA]</a></h3>
+  <h3 id="munozmatute" style="font-style: italic;text-align:center;">Judit Muñoz-Matute <br/>(BCAM) <br/><a href="mesaredonda_IA.html" style="color:#808080;">[Vocal de MR IA]</a></h3>
   <p>
     Especialista métodos de discretización para ecuaciones en derivadas parciales transitorias.
   </p>
   <p>
     <em>Marie Skłodowska-Curie Postdoctoral Fellow (MSCA-IF-2020)</em> en el BCAM, desde 2021 [febrero]; <em>investigadora visitante</em> en el Oden Institute for Computational Engineering and Sciences, UT Austin (Texas, Estados Unidos), desde 2021 [febrero].
-    <em>Investigadora Postdoctoral</em> en el BCAM, 2019-2021 [enero].
     <em>Premio Vicent Caselles</em> 2020; y candidata española for el SeMA para el <em>ECCOMAS awards for the best PhD thesis in 2019</em>.
+    <em>Investigadora Postdoctoral</em> en el BCAM, 2019-2021 [enero].
     <em>Doctora</em> por la UPV/EHU, 2019;
     <em>Máster en Modelización e Investigación Matemática, Estadística y Computación</em> por la UPV/EHU, 2015;
     y <em>Licenciatura en Matemáticas</em> por la UPV/EHU, 2014.
   </p>
 
-  <h3 id="tonellicueto" style="font-style: italic;"><a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto <br class="breakfooter"/>(Johns Hopkins University)</a> <br class="breakfooter"/><caps style="font-variant:small-caps;color: var(--colorlink);">[Presidente]<caps/></h3>
+  <h3 id="tonellicueto" style="font-style: italic;text-align:center;"><a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto <br/>(Johns Hopkins University)</a> <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Presidente]<caps/></h3>
   <p>
     Especialista en algoritmos numéricos en geometría algebraica y su complejidad.
   </p>
@@ -255,7 +389,7 @@
     y <em>Licenciatura en Matemáticas</em> por la UPV/EHU, 2014.
   </p>
 
-  <h3 id="uriaalbizuri" style="font-style: italic;">Jone Uria-Albizuri <br class="breakfooter"/>(UPV/EHU)  <br class="breakfooter"/><a href="apertura.html" style="color:#808080;">[Vocal de Apertura</a><a href="clausura.html" style="color:#808080;">/Clausura]</a></h3>
+  <h3 id="uriaalbizuri" style="font-style: italic;text-align:center;">Jone Uria-Albizuri <br/>(UPV/EHU)  <br/><a href="apertura.html" style="color:#808080;">[Vocal de Apertura</a><a href="clausura.html" style="color:#808080;">/Clausura]</a></h3>
   <p>
     Especialista en teoría de grupos y dinámica simbólica.
   </p>
@@ -263,13 +397,219 @@
     <em>Profesora Ayudante Doctora</em> en la UPV/EHU, desde 2021.
     <em>Postdoctoral Fellow</em> del grupo <em>Mathematical, Computational and Experimental Neuroscience</em> en el BCAM, 2018-2020.
     <em>Doctora</em> por la UPV/EHU, 2017;
-    <em>Máster en Matematicas y Aplicaciones</em> por la <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2014;
+    <em>Máster en Matematicas y Aplicaciones</em> por la Universidad Autónoma de Madrid, 2014;
     y <em>Licenciatura en Matemáticas</em> por la UPV/EHU, 2013.
   </p>
 
   <hr/>
   <h2 id="ccientifico">Comité Científico</h2>
-  <p>Una vez el comité científico esté constituido, se actualizará con la información pertinente esta sección.</p>
+  <p>El comité científico consta de siete personas seleccionadas por la <a href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-cientifica/">Comisión Científica</a> y la <a href="https://www.rsme.es/la-sociedad/organizacion-interna/junta-de-gobierno-reglamento-electoral/">Junta de Gobierno de la RSME</a> en base a sus méritos de investigación. <a href="#etayo">La presidenta del comité científico es Ujué Etayo</a>. <span class="picturesphone">El comité científico está formado por las siguientes personas (listadas en orden alfabético).</span></p>
+
+  <div class="row picturescomputer">
+  <div class="col col-md-5 align-self-center" style="text-align:center;">
+    <img style="width:80%;" src="imgs_cc/etayo2.jpeg" alt="Ujué Etayo, presidenta del Comité Científico"/>
+    <p style="text-align:center;margin:0;font-size:0.95em;">Ujué Etayo,<br/>presidenta del comité científico</p>
+    <p style="text-align:center;font-size:0.5em;">&copy;2021 <a href="https://www.fbbva.es/galardonados/ujue-etayo-rodriguez/">FBBVA</a> & <a href="https://www.instagram.com/juanjo_santafoto/">Juanjo Santamaría</a></p>
+  </div><div class="col col-md-7"><div class="row">
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+      <p style="text-align:center;margin:0;font-size:0.9em;">Marta Baldomero&#8209;Naranjo</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;baldomeronaranjo</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+      <p style="text-align:center;margin:0;">Damián Castaño&nbsp;Torrijos</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;castanotorrijos</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+      <p style="text-align:center;margin:0;">Ángel González&#8209;Prieto</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;gonzalezprieto</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+      <p style="text-align:center;margin:0;">Álvaro Méndez&#8209;Civieta</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;mendezcivieta</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+      <p style="text-align:center;margin:0;">Álvaro del&nbsp;Pino&nbsp;Gómez</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;delpinogomez</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+      <p style="text-align:center;margin:0;">Óscar Rivero&nbsp;Salgado</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;riverosalgado</p>
+    </div>
+  </div></div></div>
+  <div class="row picturestablet">
+  <div class="col col-md-4 align-self-center">
+    <img style="width:100%;" src="imgs_cc/etayo2.jpeg" alt="Ujué Etayo, presidenta del Comité Científico"/>
+    <p style="text-align:center;margin:0;font-size:0.8em;">Ujué Etayo,<br/>presidenta del comité científico</p>
+    <p style="text-align:center;font-size:0.4em;">&copy;2021 <a href="https://www.fbbva.es/galardonados/ujue-etayo-rodriguez/">FBBVA</a> & <a href="https://www.instagram.com/juanjo_santafoto/">Juanjo Santamaría</a></p>
+  </div><div class="col col-md-8"><div class="row">
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Marta<br/>Baldomero&#8209;Naranjo</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;baldomeronaranjo</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Damián<br/>Castaño&nbsp;Torrijos</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;castanotorrijos</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Ángel<br/>González&#8209;Prieto</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;gonzalezprieto</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Álvaro<br/>Méndez&#8209;Civieta</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;mendezcivieta</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Álvaro<br/>del&nbsp;Pino&nbsp;Gómez</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;delpinogomez</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Óscar<br/>Rivero&nbsp;Salgado</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;riverosalgado</p>
+    </div>
+  </div></div></div>
+
+  <p class="picturescomputer">El comité científico está formado por las siguientes personas (listadas en orden alfabético).</p>
+  <p class="picturestablet">El comité científico está formado por las siguientes personas (listadas en orden alfabético).</p>
+
+  <h3 id="baldomeronaranjo" style="font-style: italic;text-align:center;"><a href="https://www.linkedin.com/in/marta-baldomero-naranjo-53a013278/">Marta Baldomero-Naranjo <br/>(Universidad de Cádiz)</a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+    <p style="text-align:center;font-size:x-small;">&copy;baldomeronaranjo</p>
+  </div>
+  <p>
+    Especialista en optimización, principalmente en modelos aplicados a la localización y a la ciencia de datos.
+  </p>
+  <p>
+    <em>Profesora Ayudante Doctora</em> en la Universidad de Cádiz (UCA), desde 2023.
+    <em>Profesora Ayudante Doctora</em> en la Universidad Complutenmse de Madrid, 2022 [junio]- 2023.
+    <em>Profesora Sustituta Interina</em> en la <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, 2021-2022 [junio].
+    <!--<em>Personal Investigador en Formación</em> en la <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, 2017-2021.-->
+    <em>Premio Ramiro Melendreras</em> 2022;
+    <em>YoungWomen4OR</em> 2022;
+    y <em>Accésit</em> y <em>Premio Especial CSIC</em> en el <em>Certamen Universitario Arquímedes</em> 2017.
+    <em>Doctora</em> por la <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, la Universidad de Granada (UGR), la Universidad de Málaga (UMA), la Universidad de Almería (UAL) y la Universidad de Jaén (UJA), 2021;
+    <em>Máster en Formación del Profesorado (Matemáticas)</em> por la <a style="font-style:inherit;" title="Universidad Nacional de Educación a Distancia">UNED</a>, 2021;
+    <em>Máster en Matemáticas</em> por la <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, <a style="font-style:inherit;" title="Universidad de Granada">UGR</a>, <a style="font-style:inherit;" title="Universidad de Málaga">UMA</a>, <a style="font-style:inherit;" title="Universidad de Almería">UAL</a> y <a style="font-style:inherit;" title="Universidad de Jaén">UJA</a>, 2017;
+    y <em>Grado en Matemáticas</em> por la <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, 2016.
+  </p>
+
+  <h3 id="castanotorrijos" style="font-style: italic;text-align:center;"><a href="https://www.uclm.es/centros-investigacion/imaci/investigacion/grupos/geonum">Damián Castaño Torrijos <br/><div class="noabrev">(Universidad de Castilla-La Mancha)</div><div class="siabrev">(Univ. Castilla-La Mancha)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+    <p style="text-align:center;font-size:x-small;">&copy;castanotorrijos</p>
+  </div>
+  <p>
+    Especialista en modelización y simulación de numérica de dinámica de fluidos, incluyendo procesos térmicos de convección natural y microondas.
+  </p>
+  <p>
+    <em>Profesor Contratado Doctor Interino</em> en la Universidad de Castilla-La Mancha (UCLM), desde 2020 [diciembre].
+    <em>Doctor</em> <!--en Física y Matemáticas -->por la <a style="font-style:inherit;" title="Universidad de Castilla-La Mancha">UCLM</a> y la Universidad de Granada, 2017;
+    <em>Máster Universitario en Profesor de Educación Secundaria Obligatoria FP e Idiomas</em> por la <a style="font-style:inherit;" title="Universidad de Castilla-La Mancha">UCLM</a>, 2012;
+    y <em>Licenciatura en Matemáticas</em> por la Universitat de Valencia, 2011, con Premio Extraordinario.
+  </p>
+
+  <h3 id="etayo" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/ujuetayo/home">Ujué Etayo <br/>(Universidad de Cantabria)</a> <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Presidenta]<caps/></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/etayo.jpeg" alt="Ujué Etayo, presidenta del Comité Científico"/>
+    <p style="text-align:center;font-size:x-small;">&copy;2021 Pablo Etayo</p>
+  </div>
+  <p>
+    Especialista en teoría del potencial.
+  </p>
+  <p>
+    <em>Profesora Ayudante Doctora</em> en la Universidad de Cantabria (UC), desde 2021 [febrero].
+    <em>Premio José Luis Rubio de Francia</em> 2022;
+    y <em>Premio Vicent Caselles</em> 2020.
+    <em>Postdoctoral Researcher</em> en TUGraz (Austria), 2019 [abril]-2021 [febrero].
+    <em>Doctora</em> por la <a style="font-style:inherit;" title="Universidad de Cantabria">UC</a>, 2019 [marzo], con un <em>Premio Juan María Parés 2022</em>;
+    <em>Máster en Matematicas y Computación</em> por la <a style="font-style:inherit;" title="Universidad de Cantabria">UC</a>, 2015;
+    y <em>Grado en Matemáticas</em> por la Universidad de Valladolid, 2014.
+  </p>
+
+  <h3 id="gonzalezprieto" style="font-style: italic;text-align:center;"><a href="https://blogs.mat.ucm.es/angelgonzalezprieto/">Ángel González-Prieto <br/><div class="noabrev">(Universidad Complutense de Madrid <br/><span style="font-style:normal;">&</span> Instituto de Ciencias Matemáticas)</div><div class="siabrev">(Univ. Complutense de Madrid <br/><span style="font-style:normal;">&</span> Inst. Ciencias Matemáticas)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+    <p style="text-align:center;font-size:x-small;">&copy;gonzalezprieto</p>
+  </div>
+  <p>
+    Especialista en geometría algebraica, topología algebraica y física matemática, con especial atención a teorías topológicas de campos cuánticos y teoría de representaciones; también interesado en el campo de la inteligencia artificial, concretamente en sistemas de recomendación y modelos generativos con técnicas geométricas.
+  </p>
+  <p>
+    <em>Profesor Ayudante Doctor</em> en la Universidad Complutense de Madrid (UCM), desde 2021 [julio].
+    <em>Premio Vicent Caselles</em> 2021.
+    <em>Profesor Ayudante Doctor</em> en la Universidad Autónoma de Madrid (UAM), 2021 [febrero - julio].
+    <em>Investigador Postdoctoral Severo Ochoa asociado al Consejo Superior de Investigaciones Científicas</em> en el Instituto de Ciencias Matemáticas, 2019 [junio - diciembre].
+    <em>Ayudante</em> en la Universidad Politécnica de Madrid, 2018 - 2021 [febrero].
+    <em>Doctor</em> por la <a style="font-style:inherit;" title="Universidad Complutense de Madrid">UCM</a>, 2018, con Premio Extraordinario;
+    <em>Máster en Matemáticas y Aplicaciones</em> por la <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2015;
+    y <em>Doble Grado en Matemáticas e Ingeniería Informática</em> por la <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2014.
+  </p>
+
+  <h3 id="mendezcivieta" style="font-style: italic;text-align:center;"><a href="https://www.linkedin.com/in/alvaro-mc/">Álvaro Méndez-Civieta <br/><div class="noabrev">(uc3m-Santander Big Data Institute)</div><div class="siabrev">(uc3m-Santander&nbsp;Big&nbsp;Data&nbsp;Inst.)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+    <p style="text-align:center;font-size:x-small;">&copy;mendezcivieta</p>
+  </div>
+  <p>
+    Especialista en modelos de selección de variables, de reducción de la dimensión y de datos funcionales para espacios de alta dimensión, con una perspectiva robusta basada en regresión cuantílica.
+  </p>
+  <p>
+    <em>Investigador Postdoctoral</em> en el uc3m-Santander Big Data Institute, desde 2022 [febrero].
+    <em>Doctor</em> por la Universidad Carlos III de Madrid (uc3m), 2022;
+    <em>Máster en Big Data Analytics</em> por la <a style="font-style:inherit;" title="Universidad Carlos III de Madrid">uc3m</a>, 2016;
+    y <em>Grado en Matemáticas</em> por la Universidad de Oviedo, 2015.
+  </p>
+
+  <h3 id="delpinogomez" style="font-style: italic;text-align:center;"><a href="https://alvarodelpino.com/">Álvaro del Pino Gómez <br/>(Universiteit Utrecht)</a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+    <p style="text-align:center;font-size:x-small;">&copy;delpinogomez</p>
+  </div>
+  <p>
+    Especialista en topología diferencial, con énfasis particular en el estudio y clasificación homotópica de estructuras geométricas en variedades diferenciables.
+  </p>
+  <p>
+    <em>Assistant Professor</em> en la Universiteit Utrecht (Países Bajos), desde 2020.
+    <em>Premio André Lichnerowicz Prize para geometría de Poisson</em> 2022;
+    y <em>Premio Vicente Caselles</em> 2018.
+    <em>NWO Veni Postdoctoral Fellow</em> en la Universiteit Utrecht, 2018-2020.
+    <em>Postdoc</em> en la Universiteit Utrecht, 2017-2018.
+    <em>Doctor</em> por la Universidad Autónoma de Madrid (UAM) y el Instituto de Ciencias Matemáticas, 2017;
+    <em>Máster en Matemáticas</em> por la <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2013;
+    y <em>Licenciatura en Matemáticas e Informática</em> por la <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2012.
+  </p>
+
+  <h3 id="riverosalgado" style="font-style: italic;text-align:center;"><a href="https://www.oscarrivero.org/">Óscar Rivero Salgado <br/><div class="noabrev">(Universidade de Santiago de Compostela)</div><div class="siabrev">(Univ. Santiago de Compostela)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+    <p style="text-align:center;font-size:x-small;">&copy;riverosalgado</p>
+  </div>
+  <p>
+    Especialista en teoría algebraica de números, con especial atención a la teoría de Iwasawa, los sistemas de Euler y las funciones $L$ $p$-ádicas
+  </p>
+  <p>
+    <em>Profesor Ayudante Doctor<em> en Universidade de Santiago de Compostela, desde 2023.
+    <em>Premio Vicent Caselles</em> 2023.
+    <em>Investigador postdoctoral</em> en el Simons Laufer Mathematical Sciences Institute (California, Estados Unidos), 2023 [enero - mayo].
+    <em>Newton International Fellow</em> en el Mathematics Institute de la University of Warwick (Reino Unido), 2021 [marzo]-2022 [diciembre].
+    <em>Doctor</em> por la Universitat Politècnica de Catalunya, 2021;
+    <em>Máster en Matemática Avanzada e Ingeniería Matemática</em> por la <a style="font-style:inherit;" title="Universidad Politécnica de Catalunya">UPC</a>, 2017;
+    y <em>Grado en Matemáticas e Ingeniería Física</em> por la <a style="font-style:inherit;" title="Universidad Politécnica de Catalunya">UPC</a>, 2016.
+  </p>
+
+
   <hr/>
   <h2 id="rsme"><em>Sociedad Organizadora</em>:</h2>
   <h3 style="text-align:center;margin-bottom:0;">Real Sociedad <br class="breakfooter"/>Matemática Española<br class="breakfooter"/> (RSME)</h3>
@@ -346,7 +686,7 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1101) {
+    function varyscreen() { if ( screen.widtd>= 991 && window.innerWidth <= 1101) {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
     } else {
       document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";

@@ -36,11 +36,34 @@
     @media print, screen and (min-width:991px){
     .jumbotron{
           background-position: 50% 25%;background-image: url(imgs/bg_organizacion.jpg);
-    }}
+    }
+    .picturescomputer{}
+    .picturestablet{display:none;}
+    .picturesphone{display:none;}
+    }
     @media print, screen and (max-width:990px){
     .jumbotron{
           background-position: 50% 25%;background-image: url(imgs/bgphone_organizacion.jpg);
     }}
+    @media print, screen and (min-width:768px) and (max-width:990px){
+      .picturescomputer{display:none;}
+      .picturestablet{}
+      .picturesphone{display:none;}
+    }
+    @media print, screen and (max-width:767px){
+      .picturescomputer{display:none;}
+      .picturestablet{display:none;}
+      .picturesphone{text-align:center;}
+    }
+    @media print, screen and (min-width:466px){
+      .siabrev{display:none;}
+      .noabrev{}
+    }
+    @media print, screen and (max-width:465px){
+      .siabrev{}
+      .noabrev{display:none;}
+    }
+    td{width:20%;}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
     <link href="css/barranavegacion.css" rel="stylesheet"/>
@@ -161,7 +184,7 @@
   <h2 id="corganizador">Organizing Committee</h2>
   <p>The organizing committee has nine people linked to the Basque mathematical community. <a href="#tonellicueto">The chairperson of the organizing committee is Josué Tonelli-Cueto</a>, and <a href="#garayaldeocana">the treasurer Oihana Garayalde Ocaña</a>. Moreover, the committe has five officers who are responsible of the activities of the congress. The committee is formed by the following people (ordered alphabetically).</p>
 
-  <h3 id="alvarezaramberri" style="font-style: italic;">Julen  Alvarez-Aramberri <br class="breakfooter"/>(UPV/EHU) <br class="breakfooter"/><a href="divulgacion_en.html" style="color:#808080;">[SciPop Officer]</a></h3>
+  <h3 id="alvarezaramberri" style="font-style: italic;text-align:center;">Julen  Alvarez-Aramberri <br/>(UPV/EHU) <br/><a href="divulgacion_en.html" style="color:#808080;">[SciPop Officer]</a></h3>
   <p>
     Specialist in applied mathematics, with special attention to numerical problems associated with geophysics and electromagnetism.
   </p>
@@ -175,20 +198,20 @@
     and <em>Licenciatura en Física</em> from UPV/EHU, 2007.
   </p>
 
-  <h3 id="barcenapetisco" style="font-style: italic;"><a href="https://sites.google.com/view/jonasierbarcenapetisco/">Jon Asier Bárcena-Petisco <br class="breakfooter"/>(UPV/EHU)</a>  <br class="breakfooter"/><a href="mesaredonda_trabajo.html" style="color:#808080;">[Work RMT Officer]</a></h3>
+  <h3 id="barcenapetisco" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/jonasierbarcenapetisco/">Jon Asier Bárcena-Petisco <br/>(UPV/EHU)</a>  <br/><a href="mesaredonda_trabajo.html" style="color:#808080;">[Work RMT Officer]</a></h3>
   <p>
     Specialist in differential equations, with special attention to controllability and observability.
   </p>
   <p>
     <em>Assistant Professor</em> at UPV/EHU, since 2021.
     <em>Vicent Caselles Award</em> 2021.
-    <em>Postdoc</em> at <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2020-2021.
+    <em>Postdoc</em> at Universidad Autónoma de Madrid, 2020-2021.
     <em>PhD</em> from Sorbonne Université (France), 2020;
     <em>Máster1 Mathématiques</em> and <em>Master2 Mathématiques et applications</em> from Sorbonne Université (France), 2016 y 2017;
     and <em>Grado en Matemáticas</em> from UPV/EHU, 2016.
   </p>
 
-  <h3 id="fernandezbertolin" style="font-style: italic;"><a href="https://sites.google.com/view/aingeru-fernandez-bertolin/">Aingeru Fernández Bertolin <br class="breakfooter"/>(UPV/EHU)</a></h3>
+  <h3 id="fernandezbertolin" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/aingeru-fernandez-bertolin/">Aingeru Fernández Bertolin <br/>(UPV/EHU)</a></h3>
   <p>
     Specialist in partial differential equations with special attention to unique continuation problems.
   </p>
@@ -199,30 +222,30 @@
     and <em>Licenciatura en Matemáticas</em> from UPV/EHU, 2011.
   </p>
 
-  <h3 id="garayaldeocana" style="font-style: italic;"><a href="https://sites.google.com/site/oihanagaraialde/">Oihana Garayalde Ocaña <br class="breakfooter"/>(UPV/EHU)</a> <br class="breakfooter"/><caps style="font-variant:small-caps;color: var(--colorlink);">[Treasurer]<caps/></h3>
+  <h3 id="garayaldeocana" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/site/oihanagaraialde/">Oihana Garayalde Ocaña <br/>(UPV/EHU)</a> <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Treasurer]<caps/></h3>
   <p>
     Specialist in group theory and homological algebra, more concretely, (pro)finite group cohomology and spectral sequences.
   </p>
   <p>
-    <em>Assistant Professora</em> at UPV/EHU, since 2019 (February).
+    <em>Assistant Professor</em> at UPV/EHU, since 2019 (February).
     <em>Postdoctoral Fellow</em> of the group <em>Algebra and Number Theory</em> at Universität Düsseldorf (Germany), 2017 [January]-2018 [December].
     <em>PhD</em> from UPV/EHU, 2016 [October];
     <em>Master in Mathematical Sciences</em> from Universiteit Utrecht (The Netherlands), 2011;
     and <em>Licenciatura en Matemáticas</em> from UPV/EHU, 2010.
   </p>
 
-  <h3 id="hernando" style="font-style: italic;">Leticia Hernando <br class="breakfooter"/>(UPV/EHU)  <br class="breakfooter"/><a href="mesaredonda_jovenesRSME.html" style="color:#808080;">[Young RT Officer]</a></h3>
+  <h3 id="hernando" style="font-style: italic;text-align:center;">Leticia Hernando <br/>(UPV/EHU)  <br/><a href="mesaredonda_jovenesRSME.html" style="color:#808080;">[Young RT Officer]</a></h3>
   <p>
     Specialist in permutation-based combinatorial optimization and (meta)heuristic techniques development.
   </p>
   <p>
-    <em>Assistant Professora</em> at UPV/EHU, since 2019.
+    <em>Assistant Professor</em> at UPV/EHU, since 2019.
     <em>PhD</em> from UPV/EHU, 2015;
     <em>Máster en Ingeniería Computacional y Sistemas Inteligentes</em> from UPV/EHU, 2010;
     and <em>Licenciatura en Matemáticas</em> from UPV/EHU, 2009.
   </p>
 
-  <h3 id="malaina" style="font-style: italic;">Iker Malaina <br class="breakfooter"/>(UPV/EHU)</h3>
+  <h3 id="malaina" style="font-style: italic;text-align:center;">Iker Malaina <br/>(UPV/EHU)</h3>
   <p>
     Specialist in mathematics applied to biology, with special emphasis on biomedical applications such as the computational design of vaccines or the analysis of biomedical temporal series.
   </p>
@@ -233,22 +256,22 @@
     and <em>Licenciatura en Matemáticas</em> from UPV/EHU, 2012.
   </p>
 
-  <h3 id="munozmatute" style="font-style: italic;">Judit Muñoz-Matute <br class="breakfooter"/>(BCAM) <br class="breakfooter"/><a href="mesaredonda_IA.html" style="color:#808080;">[AI RT Officer]</a></h3>
+  <h3 id="munozmatute" style="font-style: italic;text-align:center;">Judit Muñoz-Matute <br/>(BCAM) <br/><a href="mesaredonda_IA.html" style="color:#808080;">[AI RT Officer]</a></h3>
   <p>
     Specialist in discretization methods for transitory partial differential equations.
   </p>
   <p>
     <em>Marie Skłodowska-Curie Postdoctoral Fellow (MSCA-IF-2020)</em> at BCAM, since 2021 [February]; <em>Visiting Researcher</em> at Oden Institute for Computational Engineering and Sciences, UT Austin (Texas, United States), since 2021 [February].
-    <em>Investigadora Postdoctoral</em> at BCAM, 2019-2021 [January].
     <em>Vicent Caselles Award</em> 2020; and Spanish candidate from SeMA to <em>ECCOMAS awards for the best PhD thesis in 2019</em>.
+    <em>Investigadora Postdoctoral</em> at BCAM, 2019-2021 [January].
     <em>PhD</em> from UPV/EHU, 2019;
     <em>Máster en Modelización e Investigación Matemática, Estadística y Computación</em> from UPV/EHU, 2015;
     and <em>Licenciatura en Matemáticas</em> from UPV/EHU, 2014.
   </p>
 
-  <h3 id="tonellicueto" style="font-style: italic;"><a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto <br class="breakfooter"/>(Johns Hopkins University)</a>  <br class="breakfooter"/><caps style="font-variant:small-caps;color: var(--colorlink);">[Chairperson]<caps/></h3>
+  <h3 id="tonellicueto" style="font-style: italic;text-align:center;"><a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto <br/>(Johns Hopkins University)</a>  <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Chairperson]<caps/></h3>
   <p>
-    Specialis in numerical algorithms in algebraic geometry and their complexity.
+    Specialist in numerical algorithms in algebraic geometry and their complexity.
   </p>
   <p>
     <em>Rufus Isaacs Postdoctoral Fellow</em> at Johns Hopkins University (Maryland, United States), since 2023.
@@ -259,21 +282,226 @@
     and <em>Licenciatura en Matemáticas</em> from UPV/EHU, 2014.
   </p>
 
-  <h3 id="uriaalbizuri" style="font-style: italic;">Jone Uria-Albizuri <br class="breakfooter"/>(UPV/EHU)   <br class="breakfooter"/><a href="apertura.html" style="color:#808080;">[Opening/</a><a href="clausura.html" style="color:#808080;">Closure Officer]</a></h3>
+  <h3 id="uriaalbizuri" style="font-style: italic;text-align:center;">Jone Uria-Albizuri <br/>(UPV/EHU)   <br/><a href="apertura.html" style="color:#808080;">[Opening/</a><a href="clausura.html" style="color:#808080;">Closure Officer]</a></h3>
   <p>
     Specialist in group theory and symbolic dynamics.
   </p>
   <p>
-    <em>Assistant Professora</em> at UPV/EHU, since 2021.
+    <em>Assistant Professor</em> at UPV/EHU, since 2021.
     <em>Postdoctoral Fellow</em> of the group <em>Mathematical, Computational and Experimental Neuroscience</em> at BCAM, 2018-2020.
     <em>PhD</em> from UPV/EHU, 2017;
-    <em>Máster en Matematicas y Aplicaciones</em> from <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2014;
+    <em>Máster en Matematicas y Aplicaciones</em> from Universidad Autónoma de Madrid, 2014;
     and <em>Licenciatura en Matemáticas</em> from UPV/EHU, 2013.
   </p>
 
   <hr/>
   <h2 id="ccientifico">Scientific Committee</h2>
-  <p>Once the scientific committee is composed, the information will be updated.</p>
+  <p>The scientific committee has seven people selected by <a href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-cientifica/">RSME's Scientific Comission</a> and <a href="https://www.rsme.es/la-sociedad/organizacion-interna/junta-de-gobierno-reglamento-electoral/">RSME's Governing Council</a> for their research merits. <a href="#etayo">The chairperson of the scientific committee is Ujué Etayo</a>. <span class="picturesphone">The committee is formed by the following people (ordered alphabetically).</span></p>
+
+  <div class="row picturescomputer">
+  <div class="col col-md-5 align-self-center" style="text-align:center;">
+    <img style="width:80%;" src="imgs_cc/etayo2.jpeg" alt="Ujué Etayo, chairperson of the scientific committee"/>
+    <p style="text-align:center;margin:0;font-size:0.95em;">Ujué Etayo,<br/>chairperson of the scientific committee</p>
+    <p style="text-align:center;font-size:0.5em;">&copy;2021 <a href="https://www.fbbva.es/galardonados/ujue-etayo-rodriguez/">FBBVA</a> & <a href="https://www.instagram.com/juanjo_santafoto/">Juanjo Santamaría</a></p>
+  </div><div class="col col-md-7"><div class="row">
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+      <p style="text-align:center;margin:0;font-size:0.9em;">Marta Baldomero&#8209;Naranjo</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;baldomeronaranjo</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+      <p style="text-align:center;margin:0;">Damián Castaño&nbsp;Torrijos</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;castanotorrijos</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+      <p style="text-align:center;margin:0;">Ángel González&#8209;Prieto</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;gonzalezprieto</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+      <p style="text-align:center;margin:0;">Álvaro Méndez&#8209;Civieta</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;mendezcivieta</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+      <p style="text-align:center;margin:0;">Álvaro del&nbsp;Pino&nbsp;Gómez</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;delpinogomez</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+      <p style="text-align:center;margin:0;">Óscar Rivero&nbsp;Salgado</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;riverosalgado</p>
+    </div>
+  </div></div></div>
+  <div class="row picturestablet">
+  <div class="col col-md-4 align-self-center">
+    <img style="width:100%;" src="imgs_cc/etayo2.jpeg" alt="Ujué Etayo, chairperson of the scientific committee"/>
+    <p style="text-align:center;margin:0;font-size:0.8em;">Ujué Etayo,<br/>chairperson of the scientific committee</p>
+    <p style="text-align:center;font-size:0.4em;">&copy;2021 <a href="https://www.fbbva.es/galardonados/ujue-etayo-rodriguez/">FBBVA</a> & <a href="https://www.instagram.com/juanjo_santafoto/">Juanjo Santamaría</a></p>
+  </div><div class="col col-md-8"><div class="row">
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Marta<br/>Baldomero&#8209;Naranjo</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;baldomeronaranjo</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Damián<br/>Castaño&nbsp;Torrijos</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;castanotorrijos</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Ángel<br/>González&#8209;Prieto</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;gonzalezprieto</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Álvaro<br/>Méndez&#8209;Civieta</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;mendezcivieta</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Álvaro<br/>del&nbsp;Pino&nbsp;Gómez</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;delpinogomez</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Óscar<br/>Rivero&nbsp;Salgado</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;riverosalgado</p>
+    </div>
+  </div></div></div>
+
+  <p class="picturescomputer">The committee is formed by the following people (ordered alphabetically).</p>
+  <p class="picturestablet">The committee is formed by the following people (ordered alphabetically).</p>
+
+  <h3 id="baldomeronaranjo" style="font-style: italic;text-align:center;"><a href="https://www.linkedin.com/in/marta-baldomero-naranjo-53a013278/">Marta Baldomero-Naranjo <br/>(Universidad de Cádiz)</a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+    <p style="text-align:center;font-size:x-small;">&copy;baldomeronaranjo</p>
+  </div>
+  <p>
+    Specialist in optimization, mainly models applied to localization and data science.
+  </p>
+  <p>
+    <em>Assistant Professor</em> at Universidad de Cádiz (UCA), since 2023.
+    <em>Assistant Professor</em> at Universidad Complutenmse de Madrid, 2022 [June]- 2023.
+    <em>Interim Substitute Professor</em> at <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, 2021-2022 [June].
+    <!--<em>Personal Investigador en Formación</em> at <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, 2017-2021.-->
+    <em>Ramiro Melendreras Prize</em> 2022;
+    <em>YoungWomen4OR</em> 2022;
+    and <em>Accesit</em> and <em>CSIC Special Award </em> in the <em>Certamen Universitario Arquímedes</em> 2017.
+    <em>PhD</em> from <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, Universidad de Granada (UGR), Universidad de Málaga (UMA), Universidad de Almería (UAL) and Universidad de Jaén (UJA), 2021;
+    <em>Máster en Formación del Profesorado (Matemáticas)</em> from <a style="font-style:inherit;" title="Universidad Nacional de Educación a Distancia">UNED</a>, 2021;
+    <em>Máster en Matemáticas</em> from <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, <a style="font-style:inherit;" title="Universidad de Granada">UGR</a>, <a style="font-style:inherit;" title="Universidad de Málaga">UMA</a>, <a style="font-style:inherit;" title="Universidad de Almería">UAL</a> and <a style="font-style:inherit;" title="Universidad de Jaén">UJA</a>, 2017;
+    and <em>Grado en Matemáticas</em> from <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, 2016.
+  </p>
+
+  <h3 id="castanotorrijos" style="font-style: italic;text-align:center;"><a href="https://www.uclm.es/centros-investigacion/imaci/investigacion/grupos/geonum">Damián Castaño Torrijos <br/><div class="noabrev">(Universidad de Castilla-La Mancha)</div><div class="siabrev">(Univ. Castilla-La Mancha)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+    <p style="text-align:center;font-size:x-small;">&copy;castanotorrijos</p>
+  </div>
+  <p>
+    Specialist in numerical modelization and simulation of fluids, including thermical processes of natural convection and microwaves.
+  </p>
+  <p>
+    <em>Interim Associate Professor</em> at Universidad de Castilla-La Mancha (UCLM), since 2020 [December].
+    <em>PhD</em> <!--en Física y Matemáticas -->from <a style="font-style:inherit;" title="Universidad de Castilla-La Mancha">UCLM</a> and Universidad de Granada, 2017;
+    <em>Máster Universitario en Profesor de Educación Secundaria Obligatoria FP e Idiomas</em> from <a style="font-style:inherit;" title="Universidad de Castilla-La Mancha">UCLM</a>, 2012;
+    and <em>Licenciatura en Matemáticas</em> from Universitat de Valencia, 2011, with Extraordinary Award.
+  </p>
+
+  <h3 id="etayo" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/ujuetayo/home">Ujué Etayo <br/>(Universidad de Cantabria)</a> <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Chairperson]<caps/></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/etayo.jpeg" alt="Ujué Etayo, chairperson of the scientific committee"/>
+    <p style="text-align:center;font-size:x-small;">&copy;2021 Pablo Etayo</p>
+  </div>
+  <p>
+    Specialist in potential theory.
+  </p>
+  <p>
+    <em>Assistant Professor</em> at Universidad de Cantabria (UC), since 2021 [February].
+    <em>José Luis Rubio de Francia Prize</em> 2022;
+    and <em>Vicent Caselles Award</em> 2020.
+    <em>Postdoctoral Researcher</em> at TUGraz (Austria), 2019 [April]-2021 [February].
+    <em>PhD</em> from <a style="font-style:inherit;" title="Universidad de Cantabria">UC</a>, 2019 [March], with <em>Juan María Parés Award 2022</em>;
+    <em>Máster en Matematicas y Computación</em> from <a style="font-style:inherit;" title="Universidad de Cantabria">UC</a>, 2015;
+    and <em>Grado en Matemáticas</em> from Universidad de Valladolid, 2014.
+  </p>
+
+  <h3 id="gonzalezprieto" style="font-style: italic;text-align:center;"><a href="https://blogs.mat.ucm.es/angelgonzalezprieto/">Ángel González-Prieto <br/><div class="noabrev">(Universidad Complutense de Madrid <br/><span style="font-style:normal;">&</span> Instituto de Ciencias Matemáticas)</div><div class="siabrev">(Univ. Complutense de Madrid <br/><span style="font-style:normal;">&</span> Inst. Ciencias Matemáticas)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+    <p style="text-align:center;font-size:x-small;">&copy;gonzalezprieto</p>
+  </div>
+  <p>
+    Specialist in algebraic geometry, algebraic topology and mathematical physics, with special attention to topological quamtum field theory and representation theory; also interested in AI, with special focus on recommendation systems and generative models with geometric techniques.
+  </p>
+  <p>
+    <em>Assistant Professor</em> at Universidad Complutense de Madrid (UCM), since 2021 [July].
+    <em>Vicent Caselles Award</em> 2021.
+    <em>Assistant Professor</em> at Universidad Autónoma de Madrid (UAM), 2021 [February - July].
+    <em>Severo Ochoa Postdoctoral Researcher associated to the Spanish National Research Council (CSIC)</em> at Instituto de Ciencias Matemáticas, 2019 [June - December].
+    <em>Ayudante</em> at Universidad Politécnica de Madrid, 2018 - 2021 [February].
+    <em>PhD</em> from <a style="font-style:inherit;" title="Universidad Complutense de Madrid">UCM</a>, 2018, with Extraordinary Award;
+    <em>Máster en Matemáticas y Aplicaciones</em> from <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2015;
+    and <em>Doble Grado en Matemáticas e Ingeniería Informática</em> from <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2014.
+  </p>
+
+  <h3 id="mendezcivieta" style="font-style: italic;text-align:center;"><a href="https://www.linkedin.com/in/alvaro-mc/">Álvaro Méndez-Civieta <br/><div class="noabrev">(uc3m-Santander Big Data Institute)</div><div class="siabrev">(uc3m-Santander&nbsp;Big&nbsp;Data&nbsp;Inst.)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+    <p style="text-align:center;font-size:x-small;">&copy;mendezcivieta</p>
+  </div>
+  <p>
+    Specialist in variable selection models, dimension reduction and functional data for high-dimensional spaces, with a robust perspective based on quantile regression.
+  </p>
+  <p>
+    <em>Postdoctoral Researcher</em> at uc3m-Santander Big Data Institute, since 2022 [February].
+    <em>PhD</em> from Universidad Carlos III de Madrid (uc3m), 2022;
+    <em>Máster en Big Data Analytics</em> from <a style="font-style:inherit;" title="Universidad Carlos III de Madrid">uc3m</a>, 2016;
+    and <em>Grado en Matemáticas</em> from Universidad de Oviedo, 2015.
+  </p>
+
+  <h3 id="delpinogomez" style="font-style: italic;text-align:center;"><a href="https://alvarodelpino.com/">Álvaro del Pino Gómez <br/>(Universiteit Utrecht)</a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+    <p style="text-align:center;font-size:x-small;">&copy;delpinogomez</p>
+  </div>
+  <p>
+    Specialist in differential topology, with special focus on the study and homotopic classification of geometric structures in manifolds.
+  </p>
+  <p>
+    <em>Assistant Professor</em> at Universiteit Utrecht (Países Bajos), since 2020.
+    <em>André Lichnerowicz Prize for Poisson geometry</em> 2022;
+    and <em>Vicente Caselles Award</em> 2018.
+    <em>NWO Veni Postdoctoral Fellow</em> at Universiteit Utrecht, 2018-2020.
+    <em>Postdoc</em> at Universiteit Utrecht, 2017-2018.
+    <em>PhD</em> from Universidad Autónoma de Madrid (UAM) y el Instituto de Ciencias Matemáticas, 2017;
+    <em>Máster en Matemáticas</em> from <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2013;
+    and <em>Licenciatura en Matemáticas e Informática</em> from <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2012.
+  </p>
+
+  <h3 id="riverosalgado" style="font-style: italic;text-align:center;"><a href="https://www.oscarrivero.org/">Óscar Rivero Salgado <br/><div class="noabrev">(Universidade de Santiago de Compostela)</div><div class="siabrev">(Univ. Santiago de Compostela)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+    <p style="text-align:center;font-size:x-small;">&copy;riverosalgado</p>
+  </div>
+  <p>
+    Specialist in algebraic number theory, with special attention to Iwasawa theory, Euler systems and $p$-adic $L$-functions.
+  </p>
+  <p>
+    <em>Assistant Professor<em> at Universidade de Santiago de Compostela, since 2023.
+    <em>Vicent Caselles Award</em> 2023.
+    <em>Postdoctoral Researcher</em> at Simons Laufer Mathematical Sciences Institute (California, Estados Unidos), 2023 [January - May].
+    <em>Newton International Fellow</em> at Mathematics Institute de la University of Warwick (Reino Unido), 2021 [March]-2022 [December].
+    <em>PhD</em> from Universitat Politècnica de Catalunya (UPC), 2021;
+    <em>Máster en Matemática Avanzada e Ingeniería Matemática</em> from <a style="font-style:inherit;" title="Universidad Politécnica de Catalunya">UPC</a>, 2017;
+    and <em>Grado en Matemáticas e Ingeniería Física</em> from <a style="font-style:inherit;" title="Universidad Politécnica de Catalunya">UPC</a>, 2016.
+  </p>
+
   <hr/>
   <h2 id="rsme"><em>Organizing Society</em>:</h2>
   <h3 style="text-align:center;margin-bottom:0;">Real Sociedad <br class="breakfooter"/>Matemática Española<br class="breakfooter"/> (RSME)</h3>

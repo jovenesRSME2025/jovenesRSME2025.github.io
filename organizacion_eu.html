@@ -36,11 +36,34 @@
     @media print, screen and (min-width:991px){
     .jumbotron{
           background-position: 50% 25%;background-image: url(imgs/bg_organizacion.jpg);
-    }}
+    }
+    .picturescomputer{}
+    .picturestablet{display:none;}
+    .picturesphone{display:none;}
+    }
     @media print, screen and (max-width:990px){
     .jumbotron{
           background-position: 50% 25%;background-image: url(imgs/bgphone_organizacion.jpg);
     }}
+    @media print, screen and (min-width:768px) and (max-width:990px){
+      .picturescomputer{display:none;}
+      .picturestablet{}
+      .picturesphone{display:none;}
+    }
+    @media print, screen and (max-width:767px){
+      .picturescomputer{display:none;}
+      .picturestablet{display:none;}
+      .picturesphone{text-align:center;}
+    }
+    @media print, screen and (min-width:466px){
+      .siabrev{display:none;}
+      .noabrev{}
+    }
+    @media print, screen and (max-width:465px){
+      .siabrev{}
+      .noabrev{display:none;}
+    }
+    td{width:20%;}
     </style>
     <link href="css/style_eu.css" rel="stylesheet"/>
     <link href="css/barranavegacion.css" rel="stylesheet"/>
@@ -159,9 +182,9 @@
   </p>
   <hr/>
   <h2 id="corganizador">Batzorde Antolatzailea</h2>
-  <p>Batzorde antolatzaileak euskal matematika-komunitateari lotutako bederatzi pertsona ditu. <a href="#tonellicueto">Batzorde antolatzaileko zuzendaria Josué Tonelli-Cueto da</a>, eta <a href="#garayaldeocana">diruzaina Oihana Garayalde Ocaña</a>. Horrez gain, kongresuko ekintza ezberdinen arduradun diren bost ordezkari daude batzorde antolatzailearen baitan. Batzordea honako pertsona hauek osatzen dute (ordena alfabetikoan zerrendatuta):</p>
+  <p>Batzorde antolatzailea euskal matematika-komunitateari lotutako bederatzi pertsonaz osatuta dago. <a href="#tonellicueto">Batzorde antolatzaileko zuzendaria Josué Tonelli-Cueto da</a>, eta <a href="#garayaldeocana">diruzaina Oihana Garayalde Ocaña</a>. Horrez gain, kongresuko ekintza ezberdinen arduradun diren bost ordezkari daude batzorde antolatzailearen baitan. Batzordea honako pertsona hauek osatzen dute (ordena alfabetikoan zerrendatuta):</p>
 
-  <h3 id="alvarezaramberri" style="font-style: italic;">Julen Alvarez-Aramberri <br class="breakfooter"/>(UPV/EHU) <br class="breakfooter"/><a href="divulgacion_eu.html" style="color:#808080;">[Dibulgazio Ordezkaria]</a></h3>
+  <h3 id="alvarezaramberri" style="font-style: italic;text-align:center;">Julen Alvarez-Aramberri <br/>(UPV/EHU) <br/><a href="divulgacion_eu.html" style="color:#808080;">[Dibulgazio Ordezkaria]</a></h3>
   <p>
     Matematika aplikatuetan aditua, geofisikari eta elektromagnetismoari lotutako zenbakizko problemetan zentratuta bereziki.
   </p>
@@ -175,20 +198,20 @@
     eta <em>Fisikako Lizentziatura</em> UPV/EHUn, 2007.
   </p>
 
-  <h3 id="barcenapetisco" style="font-style: italic;"><a href="https://sites.google.com/view/jonasierbarcenapetisco/">Jon Asier Bárcena-Petisco <br class="breakfooter"/>(UPV/EHU)</a> <br class="breakfooter"/><a href="mesaredonda_trabajo.html" style="color:#808080;">[Lanari buruzko MMI-en Ordezkaria]</a></h3>
+  <h3 id="barcenapetisco" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/jonasierbarcenapetisco/">Jon Asier Bárcena-Petisco <br/>(UPV/EHU)</a> <br/><a href="mesaredonda_trabajo.html" style="color:#808080;">[Lanari buruzko MMI-en Ordezkaria]</a></h3>
   <p>
     Ekuazio diferentzialetan aditua, berauen kontrolagarritasun eta behagarritasunean zentratuta bereziki.
   </p>
   <p>
     <em>Irakasle Laguntzaile Doktorea</em> UPV/EHUn, 2021etik.
     <em>Vicent Caselles Saria</em> 2021.
-    <em>Postdoc</em> <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>en, 2020-2021.
+    <em>Postdoc</em> Universidad Autónoma de Madrid-ean, 2020-2021.
     <em>Doktoregoa</em> Sorbonne Université-n (Frantzia), 2020;
     <em>Máster1 Mathématiques</em> eta <em>Master2 Mathématiques et applications</em> Sorbonne Université-n (Frantzia), 2016 y 2017;
     eta <em>Matematikako Gradua</em> UPV/EHUn, 2016.
   </p>
 
-  <h3 id="fernandezbertolin" style="font-style: italic;"><a href="https://sites.google.com/view/aingeru-fernandez-bertolin/">Aingeru Fernández Bertolin <br class="breakfooter"/>(UPV/EHU)</a></h3>
+  <h3 id="fernandezbertolin" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/aingeru-fernandez-bertolin/">Aingeru Fernández Bertolin <br/>(UPV/EHU)</a></h3>
   <p>
     Deribatu partzialetako ekuazioetan aditua, jarraipen bakarreko problemetan zentratuta bereziki.
   </p>
@@ -199,19 +222,19 @@
     eta <em>Matematikako Lizentziatura</em> UPV/EHUn, 2011.
   </p>
 
-  <h3 id="garayaldeocana" style="font-style: italic;"><a href="https://sites.google.com/site/oihanagaraialde/">Oihana Garayalde Ocaña <br class="breakfooter"/>(UPV/EHU)</a> <br class="breakfooter"/><caps style="font-variant:small-caps;color: var(--colorlink);">[Diruzaina]<caps/></h3>
+  <h3 id="garayaldeocana" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/site/oihanagaraialde/">Oihana Garayalde Ocaña <br/>(UPV/EHU)</a> <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Diruzaina]<caps/></h3>
   <p>
     Taldeen teorian eta aljebra homologikoan aditua; zehazki, talde (pro)finituen kohomologian eta segida espektraletan.
   </p>
   <p>
-    <em>Irakasle Laguntzaile Doktoreaa</em> UPV/EHUn, 2019tik (Otsaila).
+    <em>Irakasle Laguntzaile Doktoreaa</em> UPV/EHUn, 2019tik (otsaila).
     <em>Postdoctoral Fellow</em> <em>Algebra and Number Theory</em> taldean Universität Düsseldorf-en (Alemania), 2017 [Urtarrila]-2018 [Abendua].
     <em>Doktoregoa</em> UPV/EHUn, 2016 [Urria];
     <em>Master in Mathematical Sciences</em> Universiteit Utrecht-en (Herbehereak), 2011;
     eta <em>Matematikako Lizentziatura</em> UPV/EHUn, 2010.
   </p>
 
-  <h3 id="hernando" style="font-style: italic;">Leticia Hernando <br class="breakfooter"/>(UPV/EHU)  <br class="breakfooter"/><a href="mesaredonda_jovenesRSME.html" style="color:#808080;">[Gazteen MI-aren Ordezkaria]</a></h3>
+  <h3 id="hernando" style="font-style: italic;text-align:center;">Leticia Hernando <br/>(UPV/EHU)  <br/><a href="mesaredonda_jovenesRSME.html" style="color:#808080;">[Gazteen MI-aren Ordezkaria]</a></h3>
   <p>
     Permutazioetan oinarritutako konbinazio-optimizazioan eta teknika (meta)heuristikoen garapenean aditua.
   </p>
@@ -222,7 +245,7 @@
     eta <em>Matematikako Lizentziatura</em> UPV/EHUn, 2009.
   </p>
 
-  <h3 id="malaina" style="font-style: italic;">Iker Malaina <br class="breakfooter"/>(UPV/EHU)</h3>
+  <h3 id="malaina" style="font-style: italic;text-align:center;">Iker Malaina <br/>(UPV/EHU)</h3>
   <p>
     Biologiari aplikatutako matematikan aditua, aplikazio biomedikoetan (txertoen diseinu konputazionalean edo denborazko serie biomedikoen analisian) zentratuta bereziki.
   </p>
@@ -233,33 +256,33 @@
     eta <em>Matematikako Lizentziatura</em> UPV/EHUn, 2012.
   </p>
 
-  <h3 id="munozmatute" style="font-style: italic;">Judit Muñoz-Matute <br class="breakfooter"/>(BCAM) <br class="breakfooter"/><a href="mesaredonda_IA.html" style="color:#808080;">[IA-ri buruzko MI-aren Ordezkaria]</a></h3>
+  <h3 id="munozmatute" style="font-style: italic;text-align:center;">Judit Muñoz-Matute <br/>(BCAM) <br/><a href="mesaredonda_IA.html" style="color:#808080;">[IA-ri buruzko MI-aren Ordezkaria]</a></h3>
   <p>
     Deribatu partzial iragankorretako ekuazioetarako diskretizazio-metodoen aditua.
   </p>
   <p>
-    <em>Marie Skłodowska-Curie Postdoctoral Fellow (MSCA-IF-2020)</em> BCAMen, 2021etik [Otsaila]; <em>Visiting Researcher</em> Oden Institute for Computational Engineering and Sciences-en, UT Austin-en (Texas, Estatu Batuak), 2021etik [Otsaila].
-    <em>Doktoratu ondoko Ikertzailea</em> BCAMen, 2019-2021 [Urtarrila].
-    <em>Vicent Caselles Saria</em> 2020; eta <em>ECCOMAS awards for the best PhD thesis in 2019</em>-ri SEMAren hautagai espainiarra.
+    <em>Marie Skłodowska-Curie Postdoctoral Fellow (MSCA-IF-2020)</em> BCAMen, 2021etik [otsaila]; <em>Visiting Researcher</em> Oden Institute for Computational Engineering and Sciences-en, UT Austin-en (Texas, Estatu Batuak), 2021etik [otsaila].
+    <em>Vicent Caselles Saria</em> 2020; eta <em>ECCOMAS awards for the best Doktoregoa thesis in 2019</em>-ri SEMAren hautagai espainiarra.
+    <em>Doktoratu ondoko Ikertzailea</em> BCAMen, 2019-2021 [urtarrila].
     <em>Doktoregoa</em> UPV/EHUn, 2019;
     <em>Modelizazioa eta Ikerkuntza Matematikoa, Estatistika eta Konputazioa Masterra</em> UPV/EHUn, 2015;
     eta <em>Matematikako Lizentziatura</em> UPV/EHUn, 2014.
   </p>
 
-  <h3 id="tonellicueto" style="font-style: italic;"><a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto <br class="breakfooter"/>(Johns Hopkins University)</a>  <br class="breakfooter"/><caps style="font-variant:small-caps;color: var(--colorlink);">[Zuzendaria]<caps/></h3>
+  <h3 id="tonellicueto" style="font-style: italic;text-align:center;"><a href="https://tonellicueto.xyz/">Josué Tonelli-Cueto <br/>(Johns Hopkins University)</a>  <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Zuzendaria]<caps/></h3>
   <p>
     Geometria aljebraikoko zenbakizko algoritmoen diseinuan eta analisian aditua.
   </p>
   <p>
     <em>Rufus Isaacs Postdoctoral Fellow</em> Johns Hopkins University-n (Maryland, Estatu Batuak), 2023tik.
     <em>Lecturer/Research Fellow</em> UT San Antonio-n (Texas, United Stated), 2022-2023.
-    <em>FSMP Postdoctoral Fellow</em> Inria Paris-en eta <a style="font-style:inherit;" title="Institut de mathématiques de Jussieu – Paris Rive Gauche">IMJ-PRG</a>-en (Frantzia), 2020 [January]-2022.
+    <em>FSMP Postdoctoral Fellow</em> Inria Paris-en eta <a style="font-style:inherit;" title="Institut de mathématiques de Jussieu – Paris Rive Gauche">IMJ-PRG</a>-en (Frantzia), 2020 [urtarrila]-2022.
     <em>Doktoregoa</em> Technische Universität Berlin-en eta Berlin Mathematical School-en (Alemania), 2019 [noviembre], doktore-eskolaren <em>MATH+2020 tesi-saria</em>rekin eta Berlingo unibersitateeko <em>Tirburtius-Preis 2020 3. saria</em>rekin;
     <em>M.Sc. Mathematik</em> Technische Universität Berlin-en (Alemania), 2017;
     eta <em>Matematikako Lizentziatura</em> UPV/EHUn, 2014.
   </p>
 
-  <h3 id="uriaalbizuri" style="font-style: italic;">Jone Uria-Albizuri <br class="breakfooter"/>(UPV/EHU) <br class="breakfooter"/><a href="apertura.html" style="color:#808080;">[Irekiera/</a><a href="clausura.html" style="color:#808080;">Itxiera ekitaldien Ordezkaria]</a></h3>
+  <h3 id="uriaalbizuri" style="font-style: italic;text-align:center;">Jone Uria-Albizuri <br/>(UPV/EHU) <br/><a href="apertura.html" style="color:#808080;">[Irekiera/</a><a href="clausura.html" style="color:#808080;">Itxiera ekitaldien Ordezkaria]</a></h3>
   <p>
     Talde-teorian eta dinamika sinbolikoan aditua.
   </p>
@@ -267,15 +290,218 @@
     <em>Irakasle Laguntzaile Doktoreaa</em> UPV/EHUn, 2021etik.
     <em>Postdoctoral Fellow</em> <em>Mathematical, Computational and Experimental Neuroscience</em> taldean BCAMen, 2018-2020.
     <em>Doktoregoa</em> UPV/EHUn, 2017;
-    <em>Máster en Matematicas y Aplicaciones</em> <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>en, 2014;
+    <em>Máster en Matematicas y Aplicaciones</em> Universidad Autónoma de Madrid-ean, 2014;
     eta <em>Matematikako Lizentziatura</em> UPV/EHUn, 2013.
   </p>
 
   <hr/>
   <h2 id="ccientifico">Batzorde Zientifikoa</h2>
+  <p>Batzorde zientifikoa zazpi pertsonaz osatuta dago, zeintzuk <a href="https://www.rsme.es/la-sociedad/organizacion-interna/comisiones-comites-y-grupos/comision-cientifica/">RSMEren Batzorde Zientifikoak</a> eta <a href="https://www.rsme.es/la-sociedad/organizacion-interna/junta-de-gobierno-reglamento-electoral/">Gobernu Batzordeak</a> hautatu dituzten, beren ikerketa-merezimenduetan oinarrituta. <a href="#etayo">Batzorde zientifikoko lehendakaria Ujué Etayo da</a>. <span class="picturesphone">Batzordea honako pertsona hauek osatzen dute (ordena alfabetikoan zerrendatuta):</span></p>
+
+  <div class="row picturescomputer">
+  <div class="col col-md-5 align-self-center" style="text-align:center;">
+    <img style="width:80%;" src="imgs_cc/etayo2.jpeg" alt="Ujué Etayo, batzorde zientifikoko lehendakaria"/>
+    <p style="text-align:center;margin:0;font-size:0.95em;">Ujué Etayo,<br/>batzorde zientifikoko lehendakaria</p>
+    <p style="text-align:center;font-size:0.5em;">&copy;2021 <a href="https://www.fbbva.es/galardonados/ujue-etayo-rodriguez/">FBBVA</a> & <a href="https://www.instagram.com/juanjo_santafoto/">Juanjo Santamaría</a></p>
+  </div><div class="col col-md-7"><div class="row">
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+      <p style="text-align:center;margin:0;font-size:0.9em;">Marta Baldomero&#8209;Naranjo</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;baldomeronaranjo</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+      <p style="text-align:center;margin:0;">Damián Castaño&nbsp;Torrijos</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;castanotorrijos</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+      <p style="text-align:center;margin:0;">Ángel González&#8209;Prieto</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;gonzalezprieto</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+      <p style="text-align:center;margin:0;">Álvaro Méndez&#8209;Civieta</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;mendezcivieta</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+      <p style="text-align:center;margin:0;">Álvaro del&nbsp;Pino&nbsp;Gómez</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;delpinogomez</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+      <p style="text-align:center;margin:0;">Óscar Rivero&nbsp;Salgado</p>
+      <p style="text-align:center;font-size:0.5em;">&copy;riverosalgado</p>
+    </div>
+  </div></div></div>
+  <div class="row picturestablet">
+  <div class="col col-md-4 align-self-center">
+    <img style="width:100%;" src="imgs_cc/etayo2.jpeg" alt="Ujué Etayo, batzorde zientifikoko lehendakaria"/>
+    <p style="text-align:center;margin:0;font-size:0.8em;">Ujué Etayo,<br/>batzorde zientifikoko lehendakaria</p>
+    <p style="text-align:center;font-size:0.4em;">&copy;2021 <a href="https://www.fbbva.es/galardonados/ujue-etayo-rodriguez/">FBBVA</a> & <a href="https://www.instagram.com/juanjo_santafoto/">Juanjo Santamaría</a></p>
+  </div><div class="col col-md-8"><div class="row">
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Marta<br/>Baldomero&#8209;Naranjo</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;baldomeronaranjo</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Damián<br/>Castaño&nbsp;Torrijos</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;castanotorrijos</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Ángel<br/>González&#8209;Prieto</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;gonzalezprieto</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Álvaro<br/>Méndez&#8209;Civieta</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;mendezcivieta</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Álvaro<br/>del&nbsp;Pino&nbsp;Gómez</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;delpinogomez</p>
+    </div>
+    <div class="col col-md-4">
+      <img style="width:100%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+      <p style="text-align:center;margin:0;font-size:0.8em;">Óscar<br/>Rivero&nbsp;Salgado</p>
+      <p style="text-align:center;font-size:0.4em;">&copy;riverosalgado</p>
+    </div>
+  </div></div></div>
+
+  <p class="picturescomputer">Batzordea honako pertsona hauek osatzen dute (ordena alfabetikoan zerrendatuta):</p>
+  <p class="picturestablet">Batzordea honako pertsona hauek osatzen dute (ordena alfabetikoan zerrendatuta):</p>
+
+  <h3 id="baldomeronaranjo" style="font-style: italic;text-align:center;"><a href="https://www.linkedin.com/in/marta-baldomero-naranjo-53a013278/">Marta Baldomero-Naranjo <br/>(Universidad de Cádiz)</a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/baldomeronaranjo.png" alt="Marta Baldomero-Naranjo"/>
+    <p style="text-align:center;font-size:x-small;">&copy;baldomeronaranjo</p>
+  </div>
   <p>
-    Batzorde zientifikoa eratu ondoren, atal hau eguneratu egingo da dagokion informazioarekin.
+    Especialista en optimización, principalmente en modelos aplicados a la localización y a la ciencia de datos.
   </p>
+  <p>
+    <em>Irakasle Laguntzaile Doktorea</em> Universidad de Cádiz-ean (UCA), 2023tik.
+    <em>Irakasle Laguntzaile Doktorea</em> Universidad Complutenmse de Madrid-en, 2022 [ekaina]- 2023.
+    <em>Interim Substitute Professor</em> <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>n, 2021-2022 [ekaina].
+    <!--<em>Personal Investigador en Formación</em> at <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>, 2017-2021.-->
+    <em>Ramiro Melendreras Saria</em> 2022;
+    <em>YoungWomen4OR</em> 2022;
+    eta <em>Certamen Universitario Arquímedes</em>-ko <em>Accesit</em> eta <em>CSIC Sari Berezia</em> 2017.
+    <em>Doktoregoa</em> <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>n, Universidad de Granada (UGR), Universidad de Málaga-n (UMA), Universidad de Almería-n (UAL) eta Universidad de Jaén-an (UJA), 2021;
+    <em>Máster en Formación del Profesorado (Matemáticas)</em> <a style="font-style:inherit;" title="Universidad Nacional de Educación a Distancia">UNED</a>an, 2021;
+    <em>Máster en Matemáticas</em> from <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>n, <a style="font-style:inherit;" title="Universidad de Granada">UGR</a>ean, <a style="font-style:inherit;" title="Universidad de Málaga">UMA</a>n, <a style="font-style:inherit;" title="Universidad de Almería">UAL</a>ean eta <a style="font-style:inherit;" title="Universidad de Jaén">UJA</a>n, 2017;
+    eta <em>Grado en Matemáticas</em> <a style="font-style:inherit;" title="Universidad de Cádiz">UCA</a>n, 2016.
+  </p>
+
+  <h3 id="castanotorrijos" style="font-style: italic;text-align:center;"><a href="https://www.uclm.es/centros-investigacion/imaci/investigacion/grupos/geonum">Damián Castaño Torrijos <br/><div class="noabrev">(Universidad de Castilla-La Mancha)</div><div class="siabrev">(Univ. Castilla-La Mancha)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/castanotorrijos.jpg" alt="Damián Castaño Torrijos"/>
+    <p style="text-align:center;font-size:x-small;">&copy;castanotorrijos</p>
+  </div>
+  <p>
+    Especialista en modelización y simulación de numérica de dinámica de fluidos, incluyendo procesos térmicos de convección natural y microondas.
+  </p>
+  <p>
+    <em>Interim Associate Professor</em> Universidad de Castilla-La Mancha-n (UCLM), 2020tik [abendua].
+    <em>Doktoregoa</em> <!--en Física y Matemáticas -->from <a style="font-style:inherit;" title="Universidad de Castilla-La Mancha">UCLM</a>an eta Universidad de Granada-n, 2017;
+    <em>Máster Universitario en Profesor de Educación Secundaria Obligatoria FP e Idiomas</em> <a style="font-style:inherit;" title="Universidad de Castilla-La Mancha">UCLM</a>an, 2012;
+    eta <em>Licenciatura en Matemáticas</em> Universitat de Valencia-n, 2011, Sari Bereziarekin.
+  </p>
+
+  <h3 id="etayo" style="font-style: italic;text-align:center;"><a href="https://sites.google.com/view/ujuetayo/home">Ujué Etayo <br/>(Universidad de Cantabria)</a> <br/><caps style="font-variant:small-caps;color: var(--colorlink);">[Lehendakaria]<caps/></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/etayo.jpeg" alt="Ujué Etayo, batzorde zientifikoko lehendakaria"/>
+    <p style="text-align:center;font-size:x-small;">&copy;2021 Pablo Etayo</p>
+  </div>
+  <p>
+    Especialista en teoría del potencial.
+  </p>
+  <p>
+    <em>Irakasle Laguntzaile Doktorea</em> Universidad de Cantabria-an (UC), 2021etik [otsaila].
+    <em>José Luis Rubio de Francia Saria</em> 2022;
+    eta <em>Vicent Caselles Saria</em> 2020.
+    <em>Doktoratu ondoko Ikertzailea</em> TUGraz-ean (Austria), 2019 [April]-2021 [otsaila].
+    <em>Doktoregoa</em> <a style="font-style:inherit;" title="Universidad de Cantabria">UC</a>an, 2019 [martxoa], <em>Juan María Parés 2022 Saria</em>rekin;
+    <em>Máster en Matematicas y Computación</em> <a style="font-style:inherit;" title="Universidad de Cantabria">UC</a>an, 2015;
+    eta <em>Grado en Matemáticas</em> Universidad de Valladolid-an, 2014.
+  </p>
+
+  <h3 id="gonzalezprieto" style="font-style: italic;text-align:center;"><a href="https://blogs.mat.ucm.es/angelgonzalezprieto/">Ángel González-Prieto <br/><div class="noabrev">(Universidad Complutense de Madrid <br/><span style="font-style:normal;">&</span> Instituto de Ciencias Matemáticas)</div><div class="siabrev">(Univ. Complutense de Madrid <br/><span style="font-style:normal;">&</span> Inst. Ciencias Matemáticas)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/gonzalezprieto.png" alt="Ángel González-Prieto"/>
+    <p style="text-align:center;font-size:x-small;">&copy;gonzalezprieto</p>
+  </div>
+  <p>
+    Especialista en geometría algebraica, topología algebraica y física matemática, con especial atención a teorías topológicas de campos cuánticos y teoría de representaciones; también investiga en el campo de la inteligencia artificial, concretamente en sistemas de recomendación y modelos generativos con técnicas geométricas.
+  </p>
+  <p>
+    <em>Irakasle Laguntzaile Doktorea</em> Universidad Complutense de Madrid-ean (UCM), 2021etik [July].
+    <em>Vicent Caselles Saria</em> 2021.
+    <em>Irakasle Laguntzaile Doktorea</em> Universidad Autónoma de Madrid-ean (UAM), 2021 [otsaila - July].
+    <em>Zientzia Ikerketen Kontseilu Nagusiarekin lotutako Severo Ochoa Doktoratu ondoko Ikertzailea</em> Instituto de Ciencias Matemáticas-ean, 2019 [ekaina - abendua].
+    <em>Laguntzailea</em> Universidad Politécnica de Madrid-ean, 2018 - 2021 [otsaila].
+    <em>Doktoregoa</em> from <a style="font-style:inherit;" title="Universidad Complutense de Madrid">UCM</a>, 2018, Sari Bereziarekin;
+    <em>Máster en Matemáticas y Aplicaciones</em> <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>en, 2015;
+    eta <em>Doble Grado en Matemáticas e Ingeniería Informática</em> <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>ean, 2014.
+  </p>
+
+  <h3 id="mendezcivieta" style="font-style: italic;text-align:center;"><a href="https://www.linkedin.com/in/alvaro-mc/">Álvaro Méndez-Civieta <br/><div class="noabrev">(uc3m-Santander Big Data Institute)</div><div class="siabrev">(uc3m-Santander&nbsp;Big&nbsp;Data&nbsp;Inst.)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/mendezcivieta.png" alt="Álvaro Méndez-Civieta"/>
+    <p style="text-align:center;font-size:x-small;">&copy;mendezcivieta</p>
+  </div>
+  <p>
+    Especialista en modelos de selección de variables, de reducción de la dimensión y de datos funcionales para espacios de alta dimensión, con una perspectiva robusta basada en regresión cuantílica.
+  </p>
+  <p>
+    <em>Doktoratu ondoko Ikertzailea</em> uc3m-Santander Big Data Institute-ean, 2022tik [otsaila].
+    <em>Doktoregoa</em> Universidad Carlos III de Madrid-ean (uc3m), 2022;
+    <em>Máster en Big Data Analytics</em> <a style="font-style:inherit;" title="Universidad Carlos III de Madrid">uc3m</a>-an, 2016;
+    eta <em>Grado en Matemáticas</em> Universidad de Oviedo-an, 2015.
+  </p>
+
+  <h3 id="delpinogomez" style="font-style: italic;text-align:center;"><a href="https://alvarodelpino.com/">Álvaro del Pino Gómez <br/>(Universiteit Utrecht)</a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/delpinogomez.jpg" alt="Álvaro del Pino Gómez"/>
+    <p style="text-align:center;font-size:x-small;">&copy;delpinogomez</p>
+  </div>
+  <p>
+    Especialista en topología diferencial, con énfasis particular en el estudio y clasificación homotópica de estructuras geométricas en variedades diferenciables.
+  </p>
+  <p>
+    <em>Assistant Professor</em> Universiteit Utrecht-an (Países Bajos), 2020tik.
+    <em>André Lichnerowicz Prize for Poisson geometry</em> 2022;
+    eta <em>Vicente Caselles Saria</em> 2018.
+    <em>NWO Veni Postdoctoral Fellow</em> Universiteit Utrecht-an, 2018-2020.
+    <em>Postdoc</em> Universiteit Utrecht-an, 2017-2018.
+    <em>Doktoregoa</em> Universidad Autónoma de Madrid-an (UAM) eta Instituto de Ciencias Matemáticas-ean, 2017;
+    <em>Máster en Matemáticas</em> from <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2013;
+    eta <em>Licenciatura en Matemáticas e Informática</em> from <a style="font-style:inherit;" title="Universidad Autónoma de Madrid">UAM</a>, 2012.
+  </p>
+
+  <h3 id="riverosalgado" style="font-style: italic;text-align:center;"><a href="https://www.oscarrivero.org/">Óscar Rivero Salgado <br/><div class="noabrev">(Universidade de Santiago de Compostela)</div><div class="siabrev">(Univ. Santiago de Compostela)</div></a></h3>
+  <div class="picturesphone">
+    <img style="width:70%;" src="imgs_cc/riverosalgado.jpg" alt="Óscar Rivero Salgado"/>
+    <p style="text-align:center;font-size:x-small;">&copy;riverosalgado</p>
+  </div>
+  <p>
+    Especialista en teoría algebraica de números, con especial atención a la teoría de Iwasawa, los sistemas de Euler y las funciones $L$ $p$-ádicas
+  </p>
+  <p>
+    <em>Irakasle Laguntzaile Doktorea<em> Universidade de Santiago de Compostela-n, 2023tik.
+    <em>Vicent Caselles Saria</em> 2023.
+    <em>Doktoratu ondoko Ikertzailea</em> Simons Laufer Mathematical Sciences Institute-ean (California, Estados Unidos), 2023 [urtarrila - May].
+    <em>Newton International Fellow</em> Mathematics Institute de la University of Warwick-ean (Reino Unido), 2021 [martxoa]-2022 [abendua].
+    <em>Doktoregoa</em> from Universitat Politècnica de Catalunya-n, 2021;
+    <em>Máster en Matemática Avanzada e Ingeniería Matemática</em> <a style="font-style:inherit;" title="Universidad Politécnica de Catalunya">UPC</a>an, 2017;
+    eta <em>Grado en Matemáticas e Ingeniería Física</em> <a style="font-style:inherit;" title="Universidad Politécnica de Catalunya">UPC</a>an, 2016.
+  </p>
+
   <hr/>
   <h2 id="rsme"><em>Elkarte Antolatzailea</em>:</h2>
   <h3 style="text-align:center;margin-bottom:0;">Real Sociedad <br class="breakfooter"/>Matemática Española<br class="breakfooter"/> (RSME)</h3>
