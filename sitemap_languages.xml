@@ -184,6 +184,10 @@
               rel="alternate"
               hreflang="en"
               href="https://jovenes2025.rsme.es/alojamiento_en.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/alojamiento_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/bilbao.html</loc>
@@ -191,6 +195,10 @@
               rel="alternate"
               hreflang="en"
               href="https://jovenes2025.rsme.es/bilbao_en.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/bilbao_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/sede.html</loc>
@@ -198,6 +206,10 @@
               rel="alternate"
               hreflang="en"
               href="https://jovenes2025.rsme.es/sede_en.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/sede_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/transporte.html</loc>
@@ -205,6 +217,10 @@
               rel="alternate"
               hreflang="en"
               href="https://jovenes2025.rsme.es/transporte_en.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/transporte_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/viaje.html</loc>
@@ -212,6 +228,10 @@
               rel="alternate"
               hreflang="en"
               href="https://jovenes2025.rsme.es/viaje_en.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/viaje_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/AIimages.html</loc>
@@ -425,6 +445,61 @@
               rel="alternate"
               hreflang="es"
               href="https://jovenes2025.rsme.es/sedeinflocal.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/alojamiento_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/alojamiento.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/alojamiento_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/bilbao_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/bilbao.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/bilbao_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/sede_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/sede.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/sede_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/transporte_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/transporte.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/transporte_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/viaje_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/viaje.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/viaje_en.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/AIimages.html</loc>
@@ -644,6 +719,10 @@
               rel="alternate"
               hreflang="es"
               href="https://jovenes2025.rsme.es/alojamiento.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/alojamiento_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/bilbao_en.html</loc>
@@ -651,6 +730,10 @@
               rel="alternate"
               hreflang="es"
               href="https://jovenes2025.rsme.es/bilbao.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/bilbao_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/sede_en.html</loc>
@@ -658,6 +741,10 @@
               rel="alternate"
               hreflang="es"
               href="https://jovenes2025.rsme.es/sede.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/sede_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/transporte_en.html</loc>
@@ -665,6 +752,10 @@
               rel="alternate"
               hreflang="es"
               href="https://jovenes2025.rsme.es/transporte.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/transporte_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/viaje_en.html</loc>
@@ -672,6 +763,10 @@
               rel="alternate"
               hreflang="es"
               href="https://jovenes2025.rsme.es/viaje.html"/>
+   <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/viaje_eu.html"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/AIimages.html</loc>

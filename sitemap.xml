@@ -63,6 +63,12 @@
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/alojamiento_eu.html</loc>
+    <lastmod>2024-02-28</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/bilbao.html</loc>
     <lastmod>2024-01-17</lastmod>
     <priority>0.7</priority>
@@ -71,6 +77,12 @@
    <url>
     <loc>https://jovenes2025.rsme.es/bilbao_en.html</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/bilbao_eu.html</loc>
+    <lastmod>2024-02-28</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -399,6 +411,12 @@
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/sede_eu.html</loc>
+    <lastmod>2024-02-28</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/pdf/PlanoCampusLeioa.pdf</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.3</priority>
@@ -496,6 +514,12 @@
    </url>
 
    <url>
+    <loc>https://jovenes2025.rsme.es/transporte_eu.html</loc>
+    <lastmod>2024-02-28</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
     <loc>https://jovenes2025.rsme.es/viaje.html</loc>
     <lastmod>2023-09-08</lastmod>
     <priority>0.3</priority>
@@ -504,6 +528,12 @@
    <url>
     <loc>https://jovenes2025.rsme.es/viaje_en.html</loc>
     <lastmod>2023-09-08</lastmod>
+    <priority>0.3</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/viaje_eu.html</loc>
+    <lastmod>2024-02-28</lastmod>
     <priority>0.3</priority>
    </url>
 
