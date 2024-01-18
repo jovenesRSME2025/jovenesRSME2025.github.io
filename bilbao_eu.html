@@ -594,12 +594,14 @@
     <!-- For phone -->
     <script type="text/javascript">
     <!--
-    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1101) {
-      document.getElementById("dropdown03").innerHTML="Sede &amp; Inf. Local";
-    } else {
-      document.getElementById("dropdown03").innerHTML="Sede &amp; Información Local";
+    function varyscreen() { if ( screen.width >= 991 && window.innerWidth <= 1180 && window.innerWidth >= 1085 ) {
+      document.getElementById("dropdown03").innerHTML="Egoitza &amp; Tokiko Inf.";
+    } else if ( screen.width >= 991 && window.innerWidth <= 1084 ) {
+      document.getElementById("dropdown03").innerHTML="Eg. &amp; Tok. Inf.";
+    }
+    else {
+      document.getElementById("dropdown03").innerHTML="Egoitza &amp; Tokiko Informazioa";
     } };
-    varyscreen();
     window.addEventListener('resize', varyscreen);
     if (screen.width <= 990) {
     }
