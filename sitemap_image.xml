@@ -49,12 +49,27 @@
 <image:image>
 <image:loc>https://jovenes2025.rsme.es/imgs/bg_sesiones.jpg</image:loc>
 </image:image>
+<image:image>
+<image:loc>https://jovenes2025.rsme.es/imgs/bg_sesiones1.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://jovenes2025.rsme.es/imgs/bg_sesiones2.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://jovenes2025.rsme.es/imgs/bg_sesiones3.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://jovenes2025.rsme.es/imgs/bg_sesiones4.jpg</image:loc>
+</image:image>
 </url>
 
 <url>
 <loc>https://jovenes2025.rsme.es/plenarias.html</loc>
 <image:image>
 <image:loc>https://jovenes2025.rsme.es/imgs/bg_plenarias.jpg</image:loc>
+</image:image>
+<image:image>
+<image:loc>https://jovenes2025.rsme.es/imgs/bg_plenarias2.jpg</image:loc>
 </image:image>
 </url>
 

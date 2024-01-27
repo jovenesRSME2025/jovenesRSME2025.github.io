@@ -33,7 +33,7 @@
     <style>
     @media print, screen and (min-width:991px){
     .jumbotron{
-          background-position: 50% 25%;background-image: url(imgs/bg_sesiones.jpg);
+          background-position: 10% 25%;background-image: url(imgs/bg_sesiones.jpg);
     }}
     @media print, screen and (max-width:990px){
     .jumbotron{
@@ -173,6 +173,25 @@
       ten.style.display="none";
       tes.style.display="none";
       teu.style.display="block";
+    }
+    banner=document.getElementsByClassName("jumbotron")[0];
+    bannerfooter=document.getElementById("finalpar2");
+    rand=Math.floor(Math.random() * 5);
+    if(rand==0){
+      banner.style="background-position:85% 35%;background-image: url(imgs/bg_sesiones.jpg);";
+      bannerfooter.innerHTML='Header Image: <br class="breakfooter"/>Picture<br class="breakfooter"/> of <a href="https://sites.google.com/view/beatrizpascualescudero/home">Beatriz Pascual Escudero</a> <br class="breakfooter"/> by <a href="organizacion.html#tonellicueto">Josué Tonelli-Cueto</a> <br class="breakfooter">at <a href="https://2021.bienalrsme.com/">2022 Congreso Bienal de la RSME</a>';
+    }else if(rand==2){
+      banner.style="background-position:50% 50%;background-image: url(imgs/bg_sesiones2.jpg);";
+      bannerfooter.innerHTML='Header Image:<br class="breakfooter"/>Picture of <br class="breakfooter"/><a href="https://sites.google.com/view/beatrizpascualescudero/home">Beatriz Pascual Escudero</a> <br class="breakfooter"/> by <a href="organizacion.html#tonellicueto">Josué Tonelli-Cueto</a><br class="breakfooter"/> at <a href="https://2024.bienalrsme.com/">2024 Congreso Bienal de la RSME</a>';
+    }else if(rand==3){
+      banner.style="background-position:50% 50%;background-image: url(imgs/bg_sesiones3.jpg);";
+      bannerfooter.innerHTML='Header Image: <br class="breakfooter"/>Picture<br class="breakfooter"/> of <a href="organizacion.html#etayo">Ujué Etayo</a> <br class="breakfooter"/> by <a href="organizacion.html#tonellicueto">Josué Tonelli-Cueto</a> <br class="breakfooter">at <a href="http://www.rsmeuma2022.uma.es/">II Encuentro RSME-UMA</a>';
+    }else if(rand==4){
+      banner.style="background-position:50% 45%;background-image: url(imgs/bg_sesiones4.jpg);";
+      bannerfooter.innerHTML='Header Image:<br class="breakfooter"/>Picture of <br class="breakfooter"/><a href="https://sites.google.com/uji.es/eperca/">Elvira Pérez Callejo</a> <br class="breakfooter"/> by <a href="organizacion.html#tonellicueto">Josué Tonelli-Cueto</a><br class="breakfooter"/> at <a href="https://2024.bienalrsme.com/">2024 Congreso Bienal de la RSME</a>';
+    }else{
+      banner.style="background-position:50% 24%;background-image: url(imgs/bg_sesiones5.jpg);";
+      bannerfooter.innerHTML='Header Image:<br class="breakfooter"/>Picture of <br class="breakfooter"/><a href="https://mat.upc.edu/en/people/marta.casanellas">Marta Casanellas</a> <br class="breakfooter"/> by <a href="organizacion.html#tonellicueto">Josué Tonelli-Cueto</a><br class="breakfooter"/> at <a href="https://2024.bienalrsme.com/">2024 Congreso Bienal de la RSME</a>';
     }
     //-->
     </script>

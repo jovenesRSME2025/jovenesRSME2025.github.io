@@ -46,7 +46,7 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/AIimages.html</loc>
-    <lastmod>2024-01-17</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.3</priority>
    </url>
 
@@ -244,7 +244,7 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/juntaRSME.html</loc>
-    <lastmod>2023-10-17</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.5</priority>
    </url>
 
@@ -310,13 +310,31 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/paralela01.html</loc>
-    <lastmod>2023-10-17</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/paralela02.html</loc>
-    <lastmod>2023-10-17</lastmod>
+    <lastmod>2024-01-27</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/paralela03.html</loc>
+    <lastmod>2024-01-27</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/paralela04.html</loc>
+    <lastmod>2024-01-27</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/paralela05.html</loc>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -328,19 +346,19 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/plenarias.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/plenarias_en.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/plenarias_eu.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -442,25 +460,25 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_en.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_eu.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_propuesta.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-01-27</lastmod>
     <priority>0.7</priority>
    </url>
 
