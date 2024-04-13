@@ -626,3 +626,8 @@ p {
   .rsme{display:none;}
   .upvehu{display:none;}
 }
+
+ol li {
+    margin-bottom: 5px;
+    text-align: justify;
+}

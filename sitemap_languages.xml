@@ -58,6 +58,28 @@
               href="https://jovenes2025.rsme.es/horario_eu.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/pdf/horario_es_color.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/horario_en_color.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/horario_eu_color.pdf"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/horario_es_bw.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/horario_en_bw.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/horario_eu_bw.pdf"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/inscripcion.html</loc>
    <xhtml:link
               rel="alternate"
@@ -113,6 +135,28 @@
               href="https://jovenes2025.rsme.es/sesiones_eu.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/sesiones_propuesta.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/sesiones_propuesta_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/sesiones_propuesta_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/sesiones_propuesta_es.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/sesiones_propuesta_en.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/sesiones_propuesta_eu.pdf"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/sumateRSME.html</loc>
    <xhtml:link
               rel="alternate"
@@ -133,6 +177,28 @@
               rel="alternate"
               hreflang="eu"
               href="https://jovenes2025.rsme.es/posteres_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/posteres_envio.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/posteres_envio_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/posteres_envio_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/posteres_envio_es.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/posteres_envio_en.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/posteres_envio_eu.pdf"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/mesasredondas.html</loc>
@@ -326,6 +392,28 @@
               href="https://jovenes2025.rsme.es/horario.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/pdf/horario_eu_color.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/horario_es_color.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/horario_en_color.pdf"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/horario_eu_bw.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/horario_es_bw.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/horario_en_bw.pdf"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/inscripcion_eu.html</loc>
    <xhtml:link
               rel="alternate"
@@ -381,6 +469,28 @@
               href="https://jovenes2025.rsme.es/sesiones_en.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/sesiones_propuesta_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/sesiones_propuesta.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://jovenes2025.rsme.es/sesiones_propuesta_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/sesiones_propuesta_eu.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/sesiones_propuesta_es.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/sesiones_propuesta_en.pdf"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/sumateRSME_eu.html</loc>
    <xhtml:link
               rel="alternate"
@@ -401,6 +511,28 @@
               rel="alternate"
               hreflang="en"
               href="https://jovenes2025.rsme.es/posteres_en.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/posteres_envio_eu.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/posteres_envio_en.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/posteres_envio_es.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/posteres_envio_eu.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/posteres_envio_en.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/posteres_envio_es.pdf"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/mesasredondas_eu.html</loc>
@@ -593,6 +725,28 @@
               href="https://jovenes2025.rsme.es/horario_eu.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/pdf/horario_en_color.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/horario_es_color.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/horario_eu_color.pdf"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/horario_en_bw.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/horario_es_bw.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/horario_eu_bw.pdf"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/inscripcion_en.html</loc>
    <xhtml:link
               rel="alternate"
@@ -648,6 +802,28 @@
               href="https://jovenes2025.rsme.es/sesiones_eu.html"/>
   </url>
   <url>
+   <loc>https://jovenes2025.rsme.es/sesiones_propuesta_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/sesiones_propuesta.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/sesiones_propuesta_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/sesiones_propuesta_en.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/sesiones_propuesta_es.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/sesiones_propuesta_eu.pdf"/>
+  </url>
+  <url>
    <loc>https://jovenes2025.rsme.es/sumateRSME_en.html</loc>
    <xhtml:link
               rel="alternate"
@@ -668,6 +844,28 @@
               rel="alternate"
               hreflang="eu"
               href="https://jovenes2025.rsme.es/posteres_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/posteres_envio_en.html</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/posteres_envio.html"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/posteres_envio_eu.html"/>
+  </url>
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/posteres_envio_en.pdf</loc>
+   <xhtml:link
+              rel="alternate"
+              hreflang="es"
+              href="https://jovenes2025.rsme.es/pdf/posteres_envio_es.pdf"/>
+    <xhtml:link
+              rel="alternate"
+              hreflang="eu"
+              href="https://jovenes2025.rsme.es/pdf/posteres_envio_eu.pdf"/>
   </url>
   <url>
    <loc>https://jovenes2025.rsme.es/mesasredondas_en.html</loc>

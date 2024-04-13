@@ -4,19 +4,19 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/index_en.html</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/index_eu.html</loc>
-    <lastmod>2024-02-16</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>1</priority>
    </url>
 
@@ -148,19 +148,19 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/fechasimportantes.html</loc>
-    <lastmod>2024-05-08</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/fechasimportantes_eu.html</loc>
-    <lastmod>2024-05-08</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/fechasimportantes_en.html</loc>
-    <lastmod>2024-05-08</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
@@ -364,27 +364,45 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/posteres.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/posteres_en.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/posteres_eu.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/posteres_envio.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/posteres_envio_en.html</loc>
+    <lastmod>2024-04-12</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/posteres_envio_eu.html</loc>
+    <lastmod>2024-04-12</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+   <loc>https://jovenes2025.rsme.es/pdf/posteres_envio_es.pdf</loc>
+   <lastmod>2024-04-12</lastmod>
+   <priority>0.5</priority>
+  </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/programa.html</loc>
@@ -460,28 +478,45 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones.html</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_en.html</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_eu.html</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_propuesta.html</loc>
-    <lastmod>2024-01-27</lastmod>
+    <lastmod>2024-04-12</lastmod>
     <priority>0.7</priority>
    </url>
 
+   <url>
+    <loc>https://jovenes2025.rsme.es/sesiones_propuesta_en.html</loc>
+    <lastmod>2024-04-12</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/sesiones_propuesta_eu.html</loc>
+    <lastmod>2024-04-12</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/pdf/sesiones_propuesta_es.pdf</loc>
+    <lastmod>2024-04-12</lastmod>
+    <priority>0.5</priority>
+   </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/social.html</loc>
