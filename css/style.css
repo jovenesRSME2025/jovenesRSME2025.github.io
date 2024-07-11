@@ -300,29 +300,31 @@ h4 {
     width:100%;
   }
 
-  .btn-sesion, .btn-sesion:active{
+  .btn-sesionphone, .btn-sesionphone:active{
   	background-color: var(--colorbarB);
   	border-color : var(--colorbarA);
   	color: var(--colorbarA);
     width:100%;
-    font-size:0.6em;
+    font-size:inherit;
     font-variant:inherit;
     font-style:inherit;
     float:right;
     margin-bottom:0.3em;
   }
 
-  .btn-sesion:hover, .btn-sesion:focus{
+  .btn-sesionphone:hover, .btn-sesionphone:focus{
     background-color: var(--colorbarA);
   	border-color: var(--colorbarB);
   	color: var(--colorbarB);
-    font-size:0.6em;
+    font-size:inherit;
     font-variant:inherit;
     font-style:inherit;
     width:100%;
     float:right;
     margin-bottom:0.3em;
   }
+
+  .btn-sesioncomp {display:none;}
 
   .btn-bilbao, .btn-bilbao:active{
     background-color: #ee2523;
@@ -437,10 +439,10 @@ h4 {
     width:80%;
   }
 
-  .btn-sesion, .btn-sesion:active{
-  	background-color: var(--colorbarB);
-  	border-color : var(--colorbarA);
-  	color: var(--colorbarA);
+  .btn-sesioncomp, .btn-sesioncomp:active{
+    background-color: var(--colorbarB);
+    border-color : var(--colorbarA);
+    color: var(--colorbarA);
     width:25%;
     font-size:0.6em;
     font-variant:inherit;
@@ -449,10 +451,10 @@ h4 {
     display:inline-block;
   }
 
-  .btn-sesion:hover, .btn-sesion:focus{
+  .btn-sesioncomp:hover, .btn-sesioncomp:focus{
     background-color: var(--colorbarA);
-  	border-color: var(--colorbarB);
-  	color: var(--colorbarB);
+    border-color: var(--colorbarB);
+    color: var(--colorbarB);
     font-size:0.6em;
     font-variant:inherit;
     font-style:inherit;
@@ -460,6 +462,8 @@ h4 {
     float:right;
     display:inline-block;
   }
+
+  .btn-sesionphone, .btn-sesionphone:active, .btn-sesionphone:hover, .btn-sesionphone:focus{display:none;}
 
   .btn-bilbao, .btn-bilbao:active{
     background-color: #ee2523;
