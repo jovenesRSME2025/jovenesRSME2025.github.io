@@ -288,6 +288,30 @@ h4 {
     width:100%;
   }
 
+  .btn-sesion, .btn-sesion:active{
+  background-color: var(--colorbarB);
+  border-color : var(--colorbarA);
+  color: var(--colorbarA);
+  width:100%;
+  font-size:0.6em;
+  font-variant:inherit;
+  font-style:inherit;
+  float:right;
+  margin-bottom:0.3em;
+}
+
+.btn-sesion:hover, .btn-sesion:focus{
+  background-color: var(--colorbarA);
+  border-color: var(--colorbarB);
+  color: var(--colorbarB);
+  font-size:0.6em;
+  font-variant:inherit;
+  font-style:inherit;
+  width:100%;
+  float:right;
+  margin-bottom:0.3em;
+}
+
   .btn-sesionphone, .btn-sesionphone:active{
   	background-color: var(--colorbarB);
   	border-color : var(--colorbarA);
@@ -425,6 +449,30 @@ h4 {
     font-style:inherit;
     width:80%;
   }
+
+  .btn-sesion, .btn-sesion:active{
+    	background-color: var(--colorbarB);
+    	border-color : var(--colorbarA);
+    	color: var(--colorbarA);
+      width:25%;
+      font-size:0.6em;
+      font-variant:inherit;
+      font-style:inherit;
+      float:right;
+      display:inline-block;
+    }
+
+    .btn-sesion:hover, .btn-sesion:focus{
+      background-color: var(--colorbarA);
+    	border-color: var(--colorbarB);
+    	color: var(--colorbarB);
+      font-size:0.6em;
+      font-variant:inherit;
+      font-style:inherit;
+      width:25%;
+      float:right;
+      display:inline-block;
+    }
 
   .btn-sesioncomp, .btn-sesioncomp:active{
     background-color: var(--colorbarB);
