@@ -145,10 +145,13 @@
 }
 
 /*Brekas*/
-@media only screen and (min-width:398px){#breakes{display:none;}}
-@media only screen and (min-width:424px){#breakenA{display:none;}}
+@media only screen and (min-width:1200px){#breakes{display:none;}}
+@media only screen and (min-width:462px) and (max-width:990px) {#breakes{display:none;}}
+@media only screen and (min-width:1200px){#breakenA{display:none;}}
+@media only screen and (min-width:520px) and (max-width:990px) {#breakenA{display:none;}}
 @media only screen and (min-width:411px){#breakenB{display:none;}}
-@media only screen and (min-width:1200px){#breakeuAA{display:none;} #breakeuAB{display:none;}}
-@media only screen and (min-width:486px) and (max-width:988px){#breakeuAB{display:none;}}
-@media only screen and (max-width:988px){#breakeuAB{display:none;}}
+@media only screen and (max-width:990px){#breakeuAB{display:none;}}
 @media only screen and (min-width:377px){#breakeuB{display:none;}}
+@media only screen and (min-width:377px){#breakeuG{display:none;}}
+@media only screen and (min-width:432px){#breakeuCA{display:none;}}
+@media only screen and (min-width:432px){#breakeuCB{display:none;}}
