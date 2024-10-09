@@ -646,6 +646,8 @@ p {
   }
   #infocomp1{display:none;}
   #infocomp2{display:none;}
+  #infocomp3{display:none;}
+  #infocomp4{display:none;}
   .redinfo{font-style: italic;text-align:right;float:right;color:var(--colorlink);}
 }
 /*images and info Screen*/
