@@ -608,6 +608,8 @@ p {
     #finalsentence{display:none;}
     #finalsentence2{text-align:center;}
     .antibreakfooter{display:none;}
+    .logoscreen{display: none;}
+    .logophone{display: block;  margin-left: auto;margin-right: auto;}
 }
 /*Footer Screen*/
 @media only screen and (min-width:991px){
@@ -616,6 +618,8 @@ p {
   #finalpar2{text-align:left;margin-left:2em;}
   #finalsentence2{text-align:right;margin-right:2em;}
   .breakfooter{display:none;}
+  .logophone{display: none;}
+  .logoscreen{display: block;  margin-left: auto;margin-right: auto;}
 }
 
 /*images and info phone*/
