@@ -4,19 +4,19 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/</loc>
-    <lastmod>2024-10-07</lastmod>
+    <lastmod>2024-10-20</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/index_en.html</loc>
-    <lastmod>2024-10-07</lastmod>
+    <lastmod>2024-10-20</lastmod>
     <priority>1</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/index_eu.html</loc>
-    <lastmod>2024-10-07</lastmod>
+    <lastmod>2024-10-20</lastmod>
     <priority>1</priority>
    </url>
 
@@ -244,7 +244,7 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/logoyposter.html</loc>
-    <lastmod>2023-09-08</lastmod>
+    <lastmod>2024-10-20</lastmod>
     <priority>0.4</priority>
    </url>
 
@@ -604,6 +604,12 @@
     <lastmod>2023-09-08</lastmod>
     <priority>0.3</priority>
    </url>
+
+   <url>
+     <loc>https://jovenes2025.rsme.es/imgs/logo_gazteakRSME2025.png</loc>
+     <lastmod>2024-10-20</lastmod>
+     <priority>0.3</priority>
+    </url>
 
 
 
