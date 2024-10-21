@@ -624,16 +624,31 @@ p {
 
 /*images and info phone*/
 @media only screen and (max-width:990px){
-  img:not(.rsme):not(.bcam){
+  img:not(.upvehu):not(.rsme):not(.bcam):not(.eustat):not(.diputacion):not(.BILBOMATH):not(.laboralkutxa):not(.wide):not(.unwide){
     max-height:500px;
     max-width:100%;
     width:auto;
+  }
+  .upvehu{
+    width:100%;
   }
   .rsme{
     width:40%;
   }
   .bcam {
     width: 80%;
+  }
+  .eustat{
+    width:70%;
+  }
+  .diputacion{
+    width:100%;
+  }
+  .BILBOMATH{
+    width:100%;
+  }
+  .laboralkutxa{
+    width:85%;
   }
   #infocomp1{display:none;}
   #infocomp2{display:none;}
@@ -643,14 +658,29 @@ p {
 }
 /*images and info Screen*/
 @media only screen and (min-width:991px){
-  img:not(.rsme):not(.bcam):not(.wide):not(.unwide){
-    width: 80%;
+  .upvehu{
+    width:100%;
   }
   .rsme {
-    width: 90%;
+    width: 80%;
   }
   .bcam {
     width: 85%;
+  }
+  .eustat{
+    width:100%;
+  }
+  .diputacion{
+    width:100%;
+  }
+  .BILBOMATH{
+    width:90%;
+  }
+  .laboralkutxa{
+    width:80%;
+  }
+  img:not(.upvehu):not(.rsme):not(.bcam):not(.eustat):not(.diputacion):not(.BILBOMATH):not(.laboralkutxa):not(.wide):not(.unwide){
+    width: 80%;
   }
   .wide{
     width: 95%;
@@ -662,14 +692,11 @@ p {
   #infophone{display:none;}
 }
 @media only print {
-  img {
+  img{
     max-height:6cm;
     max-width:80%;
     width:auto;
   }
-  .bcam{display:none;}
-  .rsme{display:none;}
-  .upvehu{display:none;}
 }
 
 ol li {
