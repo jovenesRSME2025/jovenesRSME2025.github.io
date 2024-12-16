@@ -622,9 +622,8 @@ p {
   .logoscreen{display: block;  margin-left: auto;margin-right: auto;}
 }
 
-/*images and info phone*/
 @media only screen and (max-width:990px){
-  img:not(.upvehu):not(.rsme):not(.bcam):not(.eustat):not(.diputacion):not(.BILBOMATH):not(.laboralkutxa):not(.wide):not(.unwide){
+  img:not(.plenarypic):not(.upvehu):not(.rsme):not(.bcam):not(.eustat):not(.diputacion):not(.BILBOMATH):not(.laboralkutxa):not(.wide):not(.unwide){
     max-height:500px;
     max-width:100%;
     width:auto;
@@ -649,6 +648,9 @@ p {
   }
   .laboralkutxa{
     width:85%;
+  }
+  .plenarypic{
+    width:65%;
   }
   #infocomp1{display:none;}
   #infocomp2{display:none;}
@@ -679,7 +681,10 @@ p {
   .laboralkutxa{
     width:80%;
   }
-  img:not(.upvehu):not(.rsme):not(.bcam):not(.eustat):not(.diputacion):not(.BILBOMATH):not(.laboralkutxa):not(.wide):not(.unwide){
+  .plenarypic{
+    width:95%;
+  }
+  img:not(.plenarypic):not(.upvehu):not(.rsme):not(.bcam):not(.eustat):not(.diputacion):not(.BILBOMATH):not(.laboralkutxa):not(.wide):not(.unwide){
     width: 80%;
   }
   .wide{
