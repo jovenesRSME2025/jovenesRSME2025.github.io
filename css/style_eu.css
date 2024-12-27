@@ -268,6 +268,26 @@ h4 {
     width:100%;
   }
 
+  .btn-colorinv, .btn-colorinv:active{
+    background-color: var(--colorbarA);
+    border-color : var(--colorbarB);
+    color: var(--colorbarB);
+    width:100%;
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+  }
+
+  .btn-colorinv:hover, .btn-colorinv:focus{
+    background-color: var(--colorbarB);
+    border-color: var(--colorbarA);
+    color: var(--colorbarA);
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+    width:100%;
+  }
+
   .btn-RSME, .btn-RSME:active{
   	background-color: #2683BE;
   	border-color : #ffffff;
@@ -424,6 +444,26 @@ h4 {
     background-color: var(--colorbarA);
   	border-color: var(--colorbarB);
   	color: var(--colorbarB);
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+    width:80%;
+  }
+
+  .btn-colorinv, .btn-colorinv:active{
+    background-color: var(--colorbarA);
+    border-color : var(--colorbarB);
+    color: var(--colorbarB);
+    width:80%;
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+  }
+
+  .btn-colorinv:hover, .btn-colorinv:focus{
+    background-color: var(--colorbarB);
+    border-color: var(--colorbarA);
+    color: var(--colorbarA);
     font-size:inherit;
     font-variant:inherit;
     font-style:inherit;
@@ -719,4 +759,11 @@ ol li {
 
 @media only print {
   .pdephone{display:none;}
+}
+
+.presenter{
+  color:#e94196;
+}
+.institution{
+  color:#808080;
 }

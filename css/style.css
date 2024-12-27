@@ -280,6 +280,26 @@ h4 {
     width:100%;
   }
 
+  .btn-colorinv, .btn-colorinv:active{
+    background-color: var(--colorbarA);
+    border-color : var(--colorbarB);
+    color: var(--colorbarB);
+    width:100%;
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+  }
+
+  .btn-colorinv:hover, .btn-colorinv:focus{
+    background-color: var(--colorbarB);
+    border-color: var(--colorbarA);
+    color: var(--colorbarA);
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+    width:100%;
+  }
+
   .btn-RSME, .btn-RSME:active{
     background-color: #2683BE;
     border-color : #ffffff;
@@ -437,6 +457,26 @@ h4 {
     background-color: var(--colorbarA);
   	border-color: var(--colorbarB);
   	color: var(--colorbarB);
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+    width:80%;
+  }
+
+  .btn-colorinv, .btn-colorinv:active{
+    background-color: var(--colorbarA);
+    border-color : var(--colorbarB);
+    color: var(--colorbarB);
+    width:80%;
+    font-size:inherit;
+    font-variant:inherit;
+    font-style:inherit;
+  }
+
+  .btn-colorinv:hover, .btn-colorinv:focus{
+    background-color: var(--colorbarB);
+    border-color: var(--colorbarA);
+    color: var(--colorbarA);
     font-size:inherit;
     font-variant:inherit;
     font-style:inherit;
@@ -734,4 +774,19 @@ ol li {
 
 @media only print {
   .pdephone{display:none;}
+}
+
+
+.arXiv .arXiv:active {color:#f7b61a!important;}
+.arXiv:hover .arXiv:focus{color:#03fe01!important;}
+.doi a:hover{color:#ffffff;}
+.doi a{color:#e94196;}
+.oturl a:hover{color:#f7b61a;}
+.oturl a{color:#03fe01;}
+
+.presenter{
+  color:#e94196;
+}
+.institution{
+  color:#808080;
 }

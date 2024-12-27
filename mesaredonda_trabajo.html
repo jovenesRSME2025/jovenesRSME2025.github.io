@@ -42,12 +42,20 @@
     .coloreventosheader{color: var(--bgMR);}
     </style>
     <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/barranavegacion.css" rel="stylesheet"/>
     <link href="css/eventos.css" rel="stylesheet"/>
+    <style>
+    html {
+        scroll-padding-top: 110px; /* height of sticky header */
+    }
+    </style>
+
 
 </head>
 
-  <body>
-   <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top navbar-custom">
+  <body data-spy="scroll" data-target="#barranavegacion" data-offset="330">
+   <div class="fixed-top" data-toggle="affix">
+   <nav class="navbar navbar-toggleable-md navbar-inverse navbar-custom">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background-color: var(--colorbarA);color: var(--colorbarB);">
         Menu <span class="navbar-toggler-icon" style="background-color: var(--colorbarA);color: var(--colorbarB);"></span>
       </button>
@@ -92,6 +100,29 @@
         </ul>
       </div>
     </nav>
+    <nav id="barranavegacion" class="navbar-toggleable-md navbar-inverse navbar-navegacion">
+      <ul class="nav nav-pills">
+ 	        <li id="menues1" class="nav-item"><a class="nav-link" href="#stands">Estands</a></li>
+          <li id="menuen1" class="nav-item" style="font-style: italic;font-family: EHUes;"><a class="nav-link" href="#stands">Stands</a></li>
+          <li id="menueu1" class="nav-item" style="font-family: EHUeu;"><a class="nav-link" href="#stands">Tokiak</a></li>
+          <li id="menues2" class="nav-item"><a class="nav-link" href="#trabajobizkaia">Trabajo en Bizkaia</a></li>
+          <li id="menuen2" class="nav-item" style="font-style: italic;font-family: EHUes;"><a class="nav-link" href="#trabajobizkaia">Work in Biscay</a></li>
+          <li id="menueu2" class="nav-item" style="font-family: EHUeu;"><a class="nav-link" href="#trabajobizkaia">Lana Bizkaian</a></li>
+          <li id="menues3" class="nav-item"><a class="nav-link" href="#acreditaciones">Acreditaciones</a></li>
+          <li id="menuen3" class="nav-item" style="font-style: italic;font-family: EHUes;"><a class="nav-link" href="#acreditaciones">Accreditations</a></li>
+          <li id="menueu3" class="nav-item" style="font-family: EHUeu;"><a class="nav-link" href="#acreditaciones">Akreditazioak</a></li>
+          <li id="menues4" class="nav-item"><a class="nav-link" href="#postdocs">Postdocs</a></li>
+          <li id="menuen4" class="nav-item" style="font-style: italic;font-family: EHUes;"><a class="nav-link" href="#postdocs">Postdocs</a></li>
+          <li id="menueu4" class="nav-item" style="font-family: EHUeu;"><a class="nav-link" href="#postdocs">Postdokak</a></li>
+          <li id="menues5" class="nav-item"><a class="nav-link" href="#estabilizacion">Estabilización</a></li>
+          <li id="menuen5" class="nav-item" style="font-style: italic;font-family: EHUes;"><a class="nav-link" href="#estabilizacion">Stabilization</a></li>
+          <li id="menueu5" class="nav-item" style="font-family: EHUeu;"><a class="nav-link" href="#estabilizacion">Egonkortzea</a></li>
+          <li id="menues6" class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li id="menuen6" class="nav-item" style="font-style: italic;font-family: EHUes;"><a class="nav-link" href="#proyectos">Projects</a></li>
+          <li id="menueu6" class="nav-item" style="font-family: EHUeu;"><a class="nav-link" href="#proyectos">Proiektuak</a></li>
+      </ul>
+     </nav>
+     </div>
 
 <!--  Main jumbotron for a primary marketing message or call to action  -->
 
@@ -107,37 +138,207 @@
 </div>
 
 <div class="container">
-  
   <p style="font-style: italic;font-family: EHUes;">
-    Once the program of the conference is defined, this webpage will contain the relevant information. This will happen at some moment of 2024.
+    Whether inside Acamia or in Industry, making mathematics in today's world is far from simple. Nowadays, a single round table with generic advice is not enough to handle the current complexities of work within mathematics. Because of this, the round multi-table doesn't try to face all the challenges in a single big round table, but in parallel round tables that handle detailedly the different ways to work (and financing) in today's mathematical careers: <a href="#stands">employment possibilities</a>, <a href="#acreditaciones">accreditations</a>, <a href="#postdocs">postdoctoral stays</a>, <a href="#estabilizacion">laboral stabilization</a> and <a href="#proyectos">project petition</a>.
   </p>
   <p>
-    Cuando el programa de la conferencia esté definido está página contendrá la información relevante. Esto sucederá en algún momento del 2024.
+    Ya sea dentro de la academia o la industria, hacer matemáticas en el mundo actual ha dejado de ser una actividad sencilla. A día de hoy, una sola mesa redonda con consejos genéricos no es suficiente para abordar la complejidad actual del trabajo en matemáticas. Por ello, la multi-mesa redonda de trabajo no busca abordar los desafíos en una gran mesa redonda común, sino en mesas redondas paralelas que traten en detalle las diversas vías laborales (y de financiación) de la carrera matemática actual: <a href="#stands">posibilidades de empleo</a>, <a href="#acreditaciones">acreditaciones</a>, <a href="#postdocs">estancias postdoctorales</a>, <a href="#estabilizacion">estabilización laboral</a> y <a href="#proyectos">petición de proyectos</a>.
   </p>
   <p style="font-family: EHUeu;">
-    Kongresuaren programa zehaztuta dagoenean, informazio garrantzitsua orri honetan jasoko da. Hori 2024ko uneren batean gertatuko da.
+    Akademiaren edo industriaren barruan, gaur egungo munduan matematika egitea ez da jarduera erraza. Gaur egun, aholku generikoak dituen mahai-inguru bakar bat ez da nahikoa matematikako lanaren egungo konplexutasunari heltzeko. Horregatik, lanari buruzko multi-mahai inguruak ez du erronkei aurre egin nahi mahai-inguru komun handi batean, egungo matematika-karreraren lan-bideak (eta finantzaketa-bideak) zehatz-mehatz jorratuko dituzten mahai-inguru paraleloetan baizik: <a href="#stands">enplegu-aukerak</a>, <a href="#acreditaciones">egiaztapenak</a>, <a href="#postdocs">doktoratu ondoko egonaldiak</a>, <a href="#estabilizacion">lan-egonkortzea</a> eta <a href="#proyectos">proiektuak eskatzea</a>.
   </p>
-  <!--<hr/>
-  <h2>Mesa Redonda 1</h2>
-  <h3 style="font-style: italic;">Orador 1 (Institución 1)</h3>
-  <h3 style="font-style: italic;">Orador 2 (Institución 2)</h3>
-  <h3 style="font-style: italic;">Orador 3 (Institución 3)</h3>
-  <h4>Fecha, Hora [Lugar]<h4>
-  <p>Esto sería un abstract.</p>
   <hr/>
-  <h2>Mesa Redonda 2</h2>
-  <h3 style="font-style: italic;">Orador 1 (Institución 1)</h3>
-  <h3 style="font-style: italic;">Orador 2 (Institución 2)</h3>
-  <h3 style="font-style: italic;">Orador 3 (Institución 3)</h3>
-  <h4>Fecha, Hora [Lugar]<h4>
-  <p>Esto sería un abstract.</p>
   <hr/>
-  <h2>Mesa Redonda 3</h2>
-  <h3 style="font-style: italic;">Orador 1 (Institución 1)</h3>
-  <h3 style="font-style: italic;">Orador 2 (Institución 2)</h3>
-  <h3 style="font-style: italic;">Orador 3 (Institución 3)</h3>
-  <h4>Fecha, Hora [Lugar]<h4>
-  <p>Esto sería un abstract.</p>-->
+
+
+  <!-- STANDS TRABAJO-->
+  <hr id="stands"/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13,<br class="breaktimetuesday"/> 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede_en.html#aulamagna">[Great&nbsp;Hall's <em>Foyer</em>]</a></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Lunes 13,<br class="breaktimetuesday"/> 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede.html#aulamagna">[<em>Hall</em>&nbsp;del Aula&nbsp;Magna]</a></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Astelehena 13,<br class="breaktimetuesday"/> 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede_eu.html#aulamagna">[Areto&nbsp;Nagusiaren <em>Atondoa</em>]</a></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede_en.html#aulamagna">[UPV/EHU's Great&nbsp;Hall's <em>Foyer</em>]</a></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Lunes 13, 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede.html#aulamagna">[<em>Hall</em>&nbsp;del Aula&nbsp;Magna de la UPV/EHU]</a></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Astelehena 13, 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede_eu.html#aulamagna">[UPV/EHUren Areto&nbsp;Nagusiaren <em>Atondoa</em>]</a></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede_en.html#aulamagna">[UPV/EHU's Great&nbsp;Hall's <em>Foyer</em>]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Lunes 13, 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede.html#aulamagna">[<em>Hall</em>&nbsp;del Aula&nbsp;Magna de la UPV/EHU]</a></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Astelehena 13, 13:30-15:00&nbsp;&&nbsp;16:00-17:00<br/><a href="sede_eu.html#aulamagna">[UPV/EHUren Areto&nbsp;Nagusiaren <em>Atondoa</em>]</a></h4></div></div>
+  <div class="row">
+    <div class="col-4">
+      <h3 style="text-align:left;font-style: italic;font-family: EHUes;">Stands</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:center;font-family: EHUes;">Estands</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:right;font-family: EHUeu;">Tokiak</h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">are</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">están</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">daudete</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">are</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">están</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">daudete</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">are</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">están</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">daudete</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Laboral Kutxa</h3>
+
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+
+  <hr>
+  <p></p>
+  <hr/>
+  <hr/>
+
+  <!-- SESIÓN TRABAJO-->
+  <hr id="trabajobizkaia"/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13,<br class="breaktimetuesday"/> 15:00-15:50<br/><a href="sede_en.html#aulamagna">[<em>Great&nbsp;Hall</em>]</a><br/><em>(in Spanish)</em></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Lunes 13,<br class="breaktimetuesday"/> 15:00-15:50<br/><a href="sede.html#aulamagna">[<em>Aula&nbsp;Magna</em>]</a><br/><em>(en castellano)</em></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Astelehena 13,<br class="breaktimetuesday"/> 15:00-15:50<br/><a href="sede_eu.html#aulamagna">[<em>Areto&nbsp;Nagusia</em>]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 15:00-15:50<br/><a href="sede_en.html#aulamagna">[<em>Great&nbsp;Hall</em> of the UPV/EHU]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Lunes 13, 15:00-15:50<br/><a href="sede.html#aulamagna">[<em>Aula&nbsp;Magna</em> de la UPV/EHU]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Astelehena 13, 15:00-15:50<br/><a href="sede_eu.html#aulamagna">[UPV/EHUren <em>Areto&nbsp;Nagusia</em>]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 15:00-15:50<br/><a href="sede_en.html#aulamagna">[<em>Great&nbsp;Hall</em> of the UPV/EHU]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Lunes 13, 15:00-15:50<br/><a href="sede.html#aulamagna">[<em>Aula&nbsp;Magna</em> de la UPV/EHU]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Astelehena 13, 15:00-15:50<br/><a href="sede_eu.html#aulamagna">[UPV/EHUren <em>Areto&nbsp;Nagusia</em>]</a><br/><em>(gaztelaniaz)</em></h4></div></div>
+  <div class="row">
+    <div class="col-4">
+      <h3 style="text-align:left;font-style: italic;font-family: EHUes;">Work<br>in Biscay</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:center;font-family: EHUes;">Trabajo<br/>en Bizkaia</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:right;font-family: EHUeu;">Lana<br/>Bizkaian</h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">hablan</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+  <h4 class="institution"  style="text-align:center;">()</h4>
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+  <h4 class="institution"  style="text-align:center;">()</h4>
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+  <h4 class="institution"  style="text-align:center;">()</h4>
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+  <h4 class="institution"  style="text-align:center;">()</h4>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">modera</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">TBD</h3>
+  <h4 class="institution" style="text-align:center;">()</h4>
+  <hr/>
+  <p></p>
+  <hr/>
+  <hr/>
+
+
+  <!--ACREDITACIONES-->
+  <!---->
+  <hr id="acreditaciones"/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room Grados]</a><br/><em>(in Spanish)</em></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Lunes 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula Grados]</a><br/><em>(en castellano)</em></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Astelehena 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[Gela Grados]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room Grados of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula Grados de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[ZFT-FCTren Gela Grados]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room Grados of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula Grados de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[ZFT-FCTren Gela Grados]</a><br/><em>(gaztelaniaz)</em></h4></div></div><hr/>
+  <div class="row">
+    <div class="col-4">
+      <h3 style="text-align:left;font-style: italic;font-family: EHUes;">Accreditations</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:center;font-family: EHUes;">Acreditaciones</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:right;font-family: EHUeu;">Akreditazioak</h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">hablan</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Esteve Arboix Codina</h3>
+  <h4 class="institution"  style="text-align:center;">(AQU)</h4>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">presents</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">presenta</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">aurkezten du</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">presents</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">presenta</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">aurkezten du</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">presents</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">presenta</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">aurkezten du</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;"></h3>
+  <h4 class="institution"  style="text-align:center;">()</h4>
+  <hr/>
+  <p></p>
+  <hr/>
+  <hr/>
+
+  <!--POSTDOCS-->
+  <!---->
+  <hr id="postdocs"/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em>]</a><br/><em>(in Spanish)</em></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Lunes 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em>]</a><br/><em>(en castellano)</em></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Astelehena 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_eu.html#ztffctparaninfo">[<em>Paraninfoa</em>]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctparaninfo">[<em>Paraninfo</em> of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctparaninfo">[<em>Paraninfo</em> de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctparaninfo">[ZTF-FCTren <em>Paraninfoa</em>]</a><br/><em>(gaztelaniaz)</em></h4></div></div><hr/>
+  <div class="row">
+    <div class="col-4">
+      <h3 style="text-align:left;font-style: italic;font-family: EHUes;">Postdocs</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:center;font-family: EHUes;">Postdocs</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:right;font-family: EHUeu;">Postdokak</h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">hablan</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Alberto Cobos Rábano</h3>
+  <h4 class="institution"  style="text-align:center;">(KU Leuven)</h4>
+  <h3 style="font-style: italic;text-align:center;">Daniel Eceizabarrena</h3>
+  <h4 class="institution"  style="text-align:center;">(BCAM)</h4>
+  <h3 style="font-style: italic;text-align:center;">Cristina Molero-Río</h3>
+  <h4 class="institution"  style="text-align:center;">(École Polytechnique)</h4>
+  <h3 style="font-style: italic;text-align:center;">María Soria Carro</h3>
+  <h4 class="institution"  style="text-align:center;">(Rutgers University)</h4>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">modera</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Joel Castillo</h3>
+  <h4 class="institution" style="text-align:center;">(BCAM)</h4>
+  <hr/>
+  <p></p>
+  <hr/>
+  <hr/>
+
+  <!--ESTABILIZACIÓN-->
+  <!---->
+  <hr id="estabilizacion"/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room 0.23]</a><br/><em>(in Spanish)</em></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Lunes 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula 0.23]</a><br/><em>(en castellano)</em></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Astelehena 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[Gela 0.23]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room 0.23 of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula 0.23 de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[ZFT-FCTren Gela 0.23]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room 0.23 of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula 0.23 de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[ZFT-FCTren Gela 0.23]</a><br/><em>(gaztelaniaz)</em></h4></div></div><hr/>
+  <div class="row">
+    <div class="col-4">
+      <h3 style="text-align:left;font-style: italic;font-family: EHUes;">Stabilization</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:center;font-family: EHUes;">Estabilización</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:right;font-family: EHUeu;">Egonkortzea</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <h3 style="text-align:center;font-family: EHUes;">(Ramón y Cajal & <span style="font-family: EHUeu;">Ikerbasque</span>)</h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">hablan</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Lucrezia Cossetti</h3>
+  <h4 class="institution"  style="text-align:center;">(Ikerbasque & UPV/EHU)</h4>
+  <h3 style="font-style: italic;text-align:center;">Mateus Costa</h3>
+  <h4 class="institution"  style="text-align:center;">(BCAM)</h4>
+  <h3 style="font-style: italic;text-align:center;">Matteo Croci</h3>
+  <h4 class="institution"  style="text-align:center;">(Ikerbasque & BCAM)</h4>
+  <h3 style="font-style: italic;text-align:center;">Luz Roncal</h3>
+  <h4 class="institution"  style="text-align:center;">(Ikerbasque & BCAM)</h4>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">modera</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Josué Tonelli-Cueto</h3>
+  <h4 class="institution" style="text-align:center;">(Johns Hopkins University)</h4>
+  <hr/>
+  <p></p>
+  <hr/>
+  <hr/>
+  <hr/>
+
+  <!--PROYECTOS-->
+  <!---->
+  <hr id="proyectos"/>
+  <div class="row coloreventosheader eventosheaderphone"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room 0.25]</a><br/><em>(in Spanish)</em></h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">Lunes 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula 0.25]</a><br/><em>(en castellano)</em></h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">Astelehena 13,<br class="breaktimetuesday"/> 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[Gela 0.25]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheadercom"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room 0.25 of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula 0.25 de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[ZFT-FCTren Gela 0.25]</a><br/><em>(gaztelaniaz)</em></h4></div></div><div class="row coloreventosheader eventosheaderprint"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">Monday 13, 16:00-17:00<br/><a href="sede_en.html#ztffctaulas">[Room 0.25 of the ZTF-FCT]</a><br/><em>(in Spanish)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">Lunes 13, 16:00-17:00<br/><a href="sede.html#ztffctaulas">[Aula 0.25 de la ZTF-FCT]</a><br/><em>(en castellano)</em></h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">Astelehena 13, 16:00-17:00<br/><a href="sede_eu.html#ztffctaulas">[ZFT-FCTren Gela 0.25]</a><br/><em>(gaztelaniaz)</em></h4></div></div><hr/>
+  <div class="row">
+    <div class="col-4">
+      <h3 style="text-align:left;font-style: italic;font-family: EHUes;">Projects</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:center;font-family: EHUes;">Proyectos</h3>
+    </div><div class="col-4">
+      <h3 style="text-align:right;font-family: EHUeu;">Proiektuak</h3>
+    </div>
+  </div>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">hablan</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">talk</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">hablan</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">hitz egiten dute</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Inmaculada Arostegui</h3>
+  <h4 class="institution"  style="text-align:center;">(UPV/EHU)</h4>
+  <h3 style="font-style: italic;text-align:center;">Luca Fanelli</h3>
+  <h4 class="institution"  style="text-align:center;">(Ikerbasque, BCAM & UPV/EHU)</h4>
+  <h3 style="font-style: italic;text-align:center;">Ángel Gonzalez Prieto</h3>
+  <h4 class="institution"  style="text-align:center;">(UCM & ICMAT)</h4>
+  <h3 style="font-style: italic;text-align:center;">Leticia Hernando</h3>
+  <h4 class="institution"  style="text-align:center;">(UPV/EHU)</h4>
+  <h3 style="font-style: italic;text-align:center;">Ilya Kazachkov</h3>
+  <h4 class="institution"  style="text-align:center;">(Ikerbasque & UPV/EHU)</h4>
+  <hr/>
+  <div class="row eventosheaderphone" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-6"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-6"><h4 style="text-align:right;font-family: EHUes;">modera</h4></div><div class="col-12"><h4 style="text-align:center;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheadercom" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div><div class="row eventosheaderprint" style="color:var(--colorlink);font-variant:small-caps;"><div class="col-4"><h4 style="font-size:0.8em;text-align:left;font-style: italic;font-family: EHUes;">moderates</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:center;font-family: EHUes;">modera</h4></div><div class="col-4"><h4 style="font-size:0.8em;text-align:right;font-family: EHUeu;">moderatzen du</h4></div></div>
+  <h3 style="font-style: italic;text-align:center;">Jon Asier Bárcena</h3>
+  <h4 class="institution" style="text-align:center;">(UPV/EHU)</h4>
+  <hr/>
+  <p></p>
+  <hr/>
+  <hr/>
   <hr/>
   <hr/>
   <div class="row breakfooter"><div class="col-md-12 english"><a class="btn btn-colora english" href="horario_en.html" style="width:100%;">Return to Congress Schedule</a></div></div>
@@ -191,6 +392,22 @@
       ten.style.display="none";
       tes.style.display="none";
       teu.style.display="block";
+    }
+    for(let i = 1; i < 7; i++){
+    ten=document.getElementById("menuen"+i.toString());
+    tes=document.getElementById("menues"+i.toString());
+    teu=document.getElementById("menueu"+i.toString());
+    rand=Math.floor(Math.random() * 3);
+    if(rand==0){
+      tes.style.display="none";
+      teu.style.display="none";
+    }else if(rand==1){
+      ten.style.display="none";
+      teu.style.display="none";
+    }else{
+      ten.style.display="none";
+      tes.style.display="none";
+    }
     }
     //-->
     </script>
