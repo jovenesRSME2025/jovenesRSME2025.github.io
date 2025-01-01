@@ -248,7 +248,7 @@ h4 {
 
 /*Buttons Phone*/
 @media only screen and (max-width:990px){
-  .btn-colora, .btn-colora:active{
+  .btn-colora, .btn-colora:active, .btn-colora:visited{
   	background-color: var(--colorbarB);
   	border-color : var(--colorbarA);
   	color: var(--colorbarA);
@@ -268,7 +268,7 @@ h4 {
     width:100%;
   }
 
-  .btn-colorinv, .btn-colorinv:active{
+  .btn-colorinv, .btn-colorinv:active, .btn-colorinv:visited{
     background-color: var(--colorbarA);
     border-color : var(--colorbarB);
     color: var(--colorbarB);
@@ -288,10 +288,10 @@ h4 {
     width:100%;
   }
 
-  .btn-RSME, .btn-RSME:active{
-  	background-color: #2683BE;
-  	border-color : #ffffff;
-  	color: #ffffff;
+  .btn-RSME, .btn-RSME:active, .btn-RSME:visited{
+    background-color: #2683BE;
+    border-color : #ffffff;
+    color: #ffffff;
     width:100%;
     font-size:inherit;
     font-variant:inherit;
@@ -300,15 +300,15 @@ h4 {
 
   .btn-RSME:hover, .btn-RSME:focus{
     background-color: #ffffff;
-  	border-color: #2683BE;
-  	color: #2683BE;
+    border-color: #2683BE;
+    color: #2683BE;
     font-size:inherit;
     font-variant:inherit;
     font-style:inherit;
     width:100%;
   }
 
-  .btn-sesion, .btn-sesion:active{
+  .btn-sesion, .btn-sesion:active, .btn-sesion:visited{
   background-color: var(--colorbarB);
   border-color : var(--colorbarA);
   color: var(--colorbarA);
@@ -332,7 +332,7 @@ h4 {
   margin-bottom:0.3em;
 }
 
-  .btn-sesionphone, .btn-sesionphone:active{
+  .btn-sesionphone, .btn-sesionphone:active, .btn-sesionphone:visited{
   	background-color: var(--colorbarB);
   	border-color : var(--colorbarA);
   	color: var(--colorbarA);
@@ -353,14 +353,15 @@ h4 {
     font-style:inherit;
     width:100%;
     float:right;
+    margin-bottom:0.3em;
   }
 
   .btn-sesioncomp {display:none;}
 
-  .btn-bilbao, .btn-bilbao:active{
+  .btn-bilbao, .btn-bilbao:active, .btn-bilbao:visited{
     background-color: #ee2523;
-    border-color : white;
-    color: white;
+  	border-color : white;
+  	color: white;
     width:100%;
     font-size:0.6em;
     font-variant:inherit;
@@ -371,8 +372,8 @@ h4 {
 
   .btn-bilbao:hover, .btn-bilbao:focus{
     background-color: #FFFFFF;
-    border-color: #ee2523;
-    color: black;
+  	border-color: #ee2523;
+  	color: black;
     font-size:0.6em;
     font-variant:inherit;
     font-style:inherit;
@@ -381,7 +382,7 @@ h4 {
     margin-bottom:0.3em;
   }
 
-  .btn-bilbaowide, .btn-bilbaowide:active{
+  .btn-bilbaowide, .btn-bilbaowide:active, .btn-bilbaowide:visited{
     background-color: #ee2523;
     border-color : white;
     color: white;
@@ -405,12 +406,12 @@ h4 {
     margin-bottom:3em;
   }
 
-  .btn-colorb, .btn-colorb:active{
+  .btn-colorb, .btn-colorb:active, .btn-colorb:visited{
   	background-color: #ee2523;
   	border-color : white;
   	color: white;
     width:100%;
-    font-size:inherit;
+    font-size:normal;
     font-variant:inherit;
     font-style:inherit;
   }
@@ -430,7 +431,7 @@ h4 {
 }
 /*Buttons Screen*/
 @media only screen and (min-width:991px){
-  .btn-colora, .btn-colora:active{
+  .btn-colora, .btn-colora:active, .btn-colora:visited{
   	background-color: var(--colorbarB);
   	border-color : var(--colorbarA);
   	color: var(--colorbarA);
@@ -450,7 +451,7 @@ h4 {
     width:80%;
   }
 
-  .btn-colorinv, .btn-colorinv:active{
+  .btn-colorinv, .btn-colorinv:active, .btn-colorinv:visited{
     background-color: var(--colorbarA);
     border-color : var(--colorbarB);
     color: var(--colorbarB);
@@ -470,7 +471,7 @@ h4 {
     width:80%;
   }
 
-  .btn-RSME, .btn-RSME:active{
+  .btn-RSME, .btn-RSME:active, .btn-RSME:visited{
   	background-color: #2683BE;
   	border-color : #ffffff;
   	color: #ffffff;
@@ -490,31 +491,31 @@ h4 {
     width:80%;
   }
 
-  .btn-sesion, .btn-sesion:active{
-    	background-color: var(--colorbarB);
-    	border-color : var(--colorbarA);
-    	color: var(--colorbarA);
-      width:25%;
-      font-size:0.6em;
-      font-variant:inherit;
-      font-style:inherit;
-      float:right;
-      display:inline-block;
-    }
+  .btn-sesion, .btn-sesion:active, .btn-sesion:visited{
+  	background-color: var(--colorbarB);
+  	border-color : var(--colorbarA);
+  	color: var(--colorbarA);
+    width:25%;
+    font-size:0.6em;
+    font-variant:inherit;
+    font-style:inherit;
+    float:right;
+    display:inline-block;
+  }
 
-    .btn-sesion:hover, .btn-sesion:focus{
-      background-color: var(--colorbarA);
-    	border-color: var(--colorbarB);
-    	color: var(--colorbarB);
-      font-size:0.6em;
-      font-variant:inherit;
-      font-style:inherit;
-      width:25%;
-      float:right;
-      display:inline-block;
-    }
+  .btn-sesion:hover, .btn-sesion:focus{
+    background-color: var(--colorbarA);
+  	border-color: var(--colorbarB);
+  	color: var(--colorbarB);
+    font-size:0.6em;
+    font-variant:inherit;
+    font-style:inherit;
+    width:25%;
+    float:right;
+    display:inline-block;
+  }
 
-  .btn-sesioncomp, .btn-sesioncomp:active{
+  .btn-sesioncomp, .btn-sesioncomp:active, .btn-sesioncomp:visited{
     background-color: var(--colorbarB);
     border-color : var(--colorbarA);
     color: var(--colorbarA);
@@ -538,9 +539,9 @@ h4 {
     display:inline-block;
   }
 
-  .btn-sesionphone{display:none;}
+  .btn-sesionphone {display:none;}
 
-  .btn-bilbao, .btn-bilbao:active{
+  .btn-bilbao, .btn-bilbao:active, .btn-bilbao:visited{
     background-color: #ee2523;
     border-color : white;
     color: white;
@@ -564,7 +565,7 @@ h4 {
     display:inline;
   }
 
-  .btn-bilbaowide, .btn-bilbaowide:active{
+  .btn-bilbaowide, .btn-bilbaowide:active, .btn-bilbaowide:visited{
     background-color: #ee2523;
     border-color : white;
     color: white;
@@ -596,7 +597,7 @@ h4 {
     margin-right: auto;
   }
 
-  .btn-colorb, .btn-colorb:active{
+  .btn-colorb, .btn-colorb:active, .btn-colorb:visited{
   	background-color: #ee2523;
   	border-color : white;
   	color: white;
@@ -619,16 +620,16 @@ h4 {
 }
 
 
-span a, span a:active, span a:hover{
+span a, span a:active, span a:hover, span a:visited{
     color: var(--colorlink);
     font-style:italic;
     font-variant: small-caps;
     font-size: medium;
 }
 
-a, a:visited {
-  color: inherit;
-}
+ a, a:visited {
+   color: inherit;
+ }
 
  a:active, a:hover{
     color: var(--colorlink);
