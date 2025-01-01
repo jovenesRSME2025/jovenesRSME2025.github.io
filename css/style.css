@@ -639,11 +639,11 @@ span a, span a:active, span a:hover{
     font-size: medium;
 }
 
- a {
+ a, a:visited {
    color: inherit;
  }
 
- a:active, a:hover{
+ a:active, a:hover {
     color: var(--colorlink);
     font-style:italic;
     font-variant: small-caps;

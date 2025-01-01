@@ -626,9 +626,9 @@ span a, span a:active, span a:hover{
     font-size: medium;
 }
 
- a {
-   color: inherit;
- }
+a, a:visited {
+  color: inherit;
+}
 
  a:active, a:hover{
     color: var(--colorlink);
