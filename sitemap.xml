@@ -302,12 +302,6 @@
     <priority>0.7</priority>
    </url>
 
-   <url>
-    <loc>https://jovenes2025.rsme.es/pdf/gazteakRSME2025_sesiones.pdf</loc>
-    <lastmod>2024-12-27</lastmod>
-    <priority>0.7</priority>
-   </url>
-
    <url><loc>https://jovenes2025.rsme.es/paralelaAM01.html</loc><lastmod>2025-01-05</lastmod><priority>0.7</priority></url><url><loc>https://jovenes2025.rsme.es/pdf/gazteakRSME2025_paralelaAM01.pdf</loc><lastmod>2025-01-05</lastmod><priority>0.7</priority></url>
    <url><loc>https://jovenes2025.rsme.es/paralelaAM02.html</loc><lastmod>2025-01-05</lastmod><priority>0.7</priority></url><url><loc>https://jovenes2025.rsme.es/pdf/gazteakRSME2025_paralelaAM02.pdf</loc><lastmod>2025-01-05</lastmod><priority>0.7</priority></url>
    <url><loc>https://jovenes2025.rsme.es/paralelaAM03.html</loc><lastmod>2025-01-05</lastmod><priority>0.7</priority></url><url><loc>https://jovenes2025.rsme.es/pdf/gazteakRSME2025_paralelaAM03.pdf</loc><lastmod>2025-01-05</lastmod><priority>0.7</priority></url>
@@ -477,20 +471,32 @@
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones.html</loc>
-    <lastmod>2024-10-09</lastmod>
+    <lastmod>2025-01-05</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_en.html</loc>
-    <lastmod>2024-10-09</lastmod>
+    <lastmod>2025-01-05</lastmod>
     <priority>0.7</priority>
    </url>
 
    <url>
     <loc>https://jovenes2025.rsme.es/sesiones_eu.html</loc>
-    <lastmod>2024-10-09</lastmod>
+    <lastmod>2025-01-05</lastmod>
     <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/pdf/gazteakRSME2025_sesiones.pdf</loc>
+    <lastmod>2025-01-05</lastmod>
+    <priority>0.7</priority>
+   </url>
+
+   <url>
+    <loc>https://jovenes2025.rsme.es/sesiones_espaciotiempo.html</loc>
+    <lastmod>2025-01-05</lastmod>
+    <priority>0.5</priority>
    </url>
 
    <url>
